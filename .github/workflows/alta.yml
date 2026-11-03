@@ -1,0 +1,119 @@
+name: Alta de una web
+
+on:
+  # Desde la página, con un token: lanza el workflow indicando la URL.
+  workflow_dispatch:
+    inputs:
+      url:
+        description: URL de la web que se quiere dar de alta (vacía si se pide un combinado)
+        required: false
+        default: ""
+        type: string
+      combina:
+        description: Identificadores de los feeds de un combinado, separados por comas (de 2 a 5)
+        required: false
+        default: ""
+        type: string
+      nombre_combinado:
+        description: Nombre del combinado (opcional)
+        required: false
+        default: ""
+        type: string
+      filtro_combinado:
+        description: Palabras del filtro del combinado, separadas por comas (opcional)
+        required: false
+        default: ""
+        type: string
+      texto_completo:
+        description: «false» para que el feed lleve solo título, enlace y extracto (por defecto, texto completo)
+        required: false
+        default: "true"
+        type: string
+  # Alternativa sin token: una incidencia con el título «alta: <url>» o «combinar: id1, id2».
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Comparte grupo con «Actualizar feeds»: los dos escriben feeds.json y docs/.
+concurrency:
+  group: actualizar-feeds
+  cancel-in-progress: false
+
+jobs:
+  alta:
+    # Lanzar el workflow a mano exige permisos de escritura en el repositorio, así que ya está restringido.
+    # Con incidencias, cualquiera puede abrirlas en un repositorio público: solo cuentan las del propietario,
+    # porque cada alta consume llamadas a la API de pago.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.issue.user.login == github.repository_owner &&
+       (startsWith(github.event.issue.title, 'alta:') || startsWith(github.event.issue.title, 'combinar:')))
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      URL_ALTA: ${{ inputs.url }}
+      COMBINA: ${{ inputs.combina }}
+      NOMBRE_COMBINADO: ${{ inputs.nombre_combinado }}
+      FILTRO_COMBINADO: ${{ inputs.filtro_combinado }}
+      TEXTO_COMPLETO: ${{ inputs.texto_completo }}
+      ISSUE_BODY: ${{ github.event.issue.body }}
+      ISSUE_TITLE: ${{ github.event.issue.title }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+    steps:
+      # Siempre la última versión de main: con la cola de «concurrency», una ejecución que espera su turno
+      # empezaría si no desde la versión del momento en que se lanzó y chocaría al publicar.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Registrar la web
+        id: registro
+        run: python alta.py registrar feeds.json
+
+      - name: Fallar si la URL no es válida
+        if: steps.registro.outputs.valida != 'true' && github.event_name == 'workflow_dispatch'
+        env:
+          MOTIVO: ${{ steps.registro.outputs.motivo }}
+        run: |
+          echo "No se ha dado de alta: $MOTIVO"
+          exit 1
+
+      - name: Generar feeds
+        if: steps.registro.outputs.valida == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FEEDMAKER_MAX_LLAMADAS: "60"
+        run: python generar.py feeds.json
+
+      - name: Publicar cambios
+        if: steps.registro.outputs.valida == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feeds.json docs datos
+          git commit -m "Alta de una web" || echo "Sin cambios"
+          git pull --rebase origin main
+          git push
+
+      - name: Responder en la incidencia
+        if: github.event_name == 'issues'
+        env:
+          WEB_ID: ${{ steps.registro.outputs.id }}
+          MOTIVO: ${{ steps.registro.outputs.motivo }}
+        run: |
+          if [ "${{ steps.registro.outputs.valida }}" = "true" ]; then
+            python alta.py comentario "$WEB_ID" docs/estado.json > comentario.md
+          else
+            printf 'No se ha dado de alta: %s\n' "$MOTIVO" > comentario.md
+          fi
+          gh issue comment "$ISSUE_NUMBER" --body-file comentario.md
+          gh issue close "$ISSUE_NUMBER"

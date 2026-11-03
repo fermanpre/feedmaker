@@ -1,0 +1,15 @@
+name = "feedmaker"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+REPO = "fermanpre/feedmaker"
+ORIGEN_PERMITIDO = "https://fermanpre.github.io"
+MAX_ALTAS_DIA = "30"
+MAX_FALLOS_HORA = "5"
+
+# Espacio KV para limitar intentos fallidos y altas por día. Creado con:
+#   npx wrangler kv namespace create LIMITES
+[[kv_namespaces]]
+binding = "LIMITES"
+id = "2cdf5812e63e4be2ab11fb752c6b3569"

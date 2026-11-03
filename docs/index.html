@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feedmaker</title>
+<style>
+  :root {
+    --fondo: #f7f7f5; --tarjeta: #ffffff; --texto: #1c1c1a; --suave: #6b6b66; --borde: #dcdcd6;
+    --acento: #1f6feb; --acento-texto: #ffffff; --ok: #1a7f37; --aviso: #9a6700; --error: #cf222e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fondo: #161614; --tarjeta: #1f1f1c; --texto: #ecece8; --suave: #a1a19a; --borde: #3a3a35;
+      --acento: #4c8dff; --acento-texto: #0b0b0a; --ok: #3fb950; --aviso: #d29922; --error: #ff7b72;
+    }
+  }
+  :root[data-theme="dark"] {
+    --fondo: #161614; --tarjeta: #1f1f1c; --texto: #ecece8; --suave: #a1a19a; --borde: #3a3a35;
+    --acento: #4c8dff; --acento-texto: #0b0b0a; --ok: #3fb950; --aviso: #d29922; --error: #ff7b72;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fondo); color: var(--texto);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  p.sub { margin: 0 0 24px; color: var(--suave); }
+  form { display: flex; gap: 8px; flex-wrap: wrap; }
+  input#url, #formulario-combinar input[type=text] { flex: 1 1 280px; min-width: 0; padding: 12px; font: inherit; color: var(--texto);
+                    background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 8px; }
+  button, a.boton { padding: 12px 16px; font: inherit; font-weight: 600; cursor: pointer; text-decoration: none;
+                    background: var(--acento); color: var(--acento-texto); border: 0; border-radius: 8px;
+                    display: inline-block; }
+  button.secundario { background: transparent; color: var(--texto); border: 1px solid var(--borde); font-weight: 500; }
+  .tarjeta { background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 12px;
+             padding: 16px; margin-top: 16px; }
+  .tarjeta h2 { font-size: 1rem; margin: 0 0 8px; }
+  .estado-ok { color: var(--ok); } .estado-aviso { color: var(--aviso); } .estado-error { color: var(--error); }
+  code { word-break: break-all; font-size: .9rem; }
+  .acciones { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; }
+  ul.lista { list-style: none; padding: 0; margin: 0; }
+  ul.lista li { padding: 12px 0; border-top: 1px solid var(--borde); }
+  ul.lista li:first-child { border-top: 0; }
+  .meta { color: var(--suave); font-size: .85rem; }
+  details.tarjeta summary { cursor: pointer; font-weight: 600; }
+  #formulario-token { margin-top: 8px; }
+  #formulario-combinar { flex-direction: column; align-items: stretch; }
+  .lista-combinar { display: flex; flex-direction: column; gap: 6px; max-height: 260px; overflow: auto;
+                    padding: 8px 0; }
+  .lista-combinar label { cursor: pointer; }
+  .lista-combinar .meta { margin-left: 6px; }
+  label.opcion { display: block; margin-top: 12px; cursor: pointer; }
+  .opcion-nota { margin: 4px 0 0; }
+  #mensaje { min-height: 1.5em; margin-top: 12px; color: var(--suave); }
+  footer { margin-top: 32px; color: var(--suave); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Feedmaker</h1>
+  <p class="sub">Pega la URL de una web y consigue el enlace para añadirla a Feedly.</p>
+
+  <form id="formulario">
+    <input id="url" type="text" inputmode="url" required placeholder="https://ejemplo.com/blog/" autocomplete="off" autocapitalize="off" spellcheck="false">
+    <button type="submit">Obtener enlace</button>
+  </form>
+  <label class="opcion">
+    <input id="texto-completo" type="checkbox" checked>
+    Incluir el texto completo de los artículos
+  </label>
+  <p class="meta opcion-nota">Marcada, el feed lleva el texto de cada artículo, y el repositorio público guarda una
+    copia del texto de esa web. Sin marcar, solo título, enlace y extracto.</p>
+  <div id="mensaje" role="status" aria-live="polite"></div>
+  <div id="resultado"></div>
+
+  <details class="tarjeta" id="conexion">
+    <summary id="titulo-conexion">Conexión con GitHub (opcional)</summary>
+    <div id="bloque-token">
+      <p class="meta">Con un token, el botón lanza el workflow directamente. Sin token, se abre una incidencia en GitHub
+        y hay que enviarla. El token se guarda solo en este navegador. Crea uno de acceso limitado a este repositorio,
+        con permiso de Actions: lectura y escritura.</p>
+      <form id="formulario-token">
+        <input id="token" type="password" autocomplete="off" placeholder="github_pat_…">
+        <button type="submit" class="secundario">Guardar token</button>
+        <button type="button" id="quitar-token" class="secundario">Quitar token</button>
+      </form>
+      <div id="estado-token" class="meta"></div>
+    </div>
+    <p class="meta" id="bloque-clave-texto" hidden>Si el propietario te ha dado una contraseña del servicio,
+      pégala aquí: no necesitas token ni cuenta de GitHub.</p>
+    <form id="formulario-clave" hidden>
+      <input id="clave" type="password" autocomplete="off" placeholder="Contraseña del servicio">
+      <button type="submit" class="secundario">Guardar contraseña</button>
+      <button type="button" id="quitar-clave" class="secundario">Quitar contraseña</button>
+    </form>
+    <div id="estado-clave" class="meta"></div>
+  </details>
+
+  <details class="tarjeta" id="combinar">
+    <summary>Combinar varios feeds en uno</summary>
+    <p class="meta">Marca de 2 a 5 feeds de «Mis feeds» y se creará un feed único con las entradas de todos, de la más
+      reciente a la más antigua. Con filtro, solo pasan las entradas cuyo título, extracto o dirección contienen alguna
+      de las palabras (completas: «caja» no coincide con «Cajasol»).</p>
+    <form id="formulario-combinar">
+      <div id="lista-combinar" class="lista-combinar"><span class="meta">Cargando…</span></div>
+      <input id="nombre-combinado" type="text" maxlength="80" autocomplete="off" placeholder="Nombre del combinado (opcional)">
+      <input id="filtro-combinado" type="text" maxlength="400" autocomplete="off" autocapitalize="off" spellcheck="false"
+             placeholder="Palabras del filtro, separadas por comas (opcional, hasta 5)">
+      <label class="opcion"><input id="texto-completo-combinado" type="checkbox" checked>
+        Incluir el texto completo de los artículos</label>
+      <div><button type="submit">Crear feed combinado</button></div>
+    </form>
+    <div id="mensaje-combinar" class="meta" role="status" aria-live="polite"></div>
+    <div id="resultado-combinar"></div>
+  </details>
+
+  <div class="tarjeta">
+    <h2>Mis feeds</h2>
+    <ul class="lista" id="lista"><li class="meta">Cargando…</li></ul>
+  </div>
+
+  <footer>
+    Feed no oficial, solo para uso personal. Los contenidos son de sus autores.
+    El enlace de Feedly usa el formato habitual de suscripción por URL; si Feedly no lo reconoce,
+    copia la URL del feed y pégala en «Add content».
+  </footer>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var propietario = location.hostname.split(".")[0];
+  var repositorio = location.pathname.split("/")[1] || "feedmaker";
+  var base = location.origin + "/" + repositorio + "/";
+  var reintentos = null;
+  // Dirección del servicio intermedio (Cloudflare Worker), p. ej. "https://feedmaker.usuario.workers.dev/".
+  // Vacía = no hay servicio: la página usa el token o, si no, la incidencia de GitHub.
+  var URL_SERVICIO = "https://feedmaker.yellowsubdomain.workers.dev/";
+
+  var campoUrl = document.getElementById("url");
+  var mensaje = document.getElementById("mensaje");
+  var resultado = document.getElementById("resultado");
+  var lista = document.getElementById("lista");
+
+  function enlaceFeedly(urlDelFeed) {
+    return "https://feedly.com/i/subscription/feed/" + encodeURIComponent(urlDelFeed);
+  }
+
+  function crearElemento(etiqueta, texto, clase) {
+    var elemento = document.createElement(etiqueta);
+    if (texto) { elemento.textContent = texto; }
+    if (clase) { elemento.className = clase; }
+    return elemento;
+  }
+
+  function urlDelFeedDe(sitio) {
+    // «version_url» (feeds.json) hace que Feedly lea el feed como una dirección nueva, sin la copia vacía que guardó antes.
+    // Con error pero con un feed ya publicado («feed_anterior»), el enlace sigue valiendo: se actualizará cuando la web responda.
+    if (sitio.estado === "ok" || (sitio.estado === "error" && sitio.feed_anterior)) {
+      return base + "feeds/" + sitio.id + ".xml" + (sitio.version_url ? "?v=" + encodeURIComponent(sitio.version_url) : "");
+    }
+    if (sitio.estado === "feed_propio") { return sitio.feed_propio; }
+    return "";
+  }
+
+  function botonCopiar(texto) {
+    var boton = crearElemento("button", "Copiar URL del feed", "secundario");
+    boton.type = "button";
+    boton.addEventListener("click", function () {
+      navigator.clipboard.writeText(texto).then(function () { boton.textContent = "Copiada"; },
+                                                function () { boton.textContent = "No se pudo copiar"; });
+    });
+    return boton;
+  }
+
+  function fechaLegible(iso) {
+    var fecha = new Date(iso);
+    if (isNaN(fecha.getTime())) { return "de fecha desconocida"; }
+    return fecha.toLocaleString("es-ES", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" });
+  }
+
+  function pintarSitio(sitio, contenedor) {
+    var urlFeed = urlDelFeedDe(sitio);
+    var titulo = crearElemento("div", sitio.nombre);
+    titulo.style.fontWeight = "600";
+    contenedor.appendChild(titulo);
+    var conFeedAnterior = sitio.estado === "error" && Boolean(sitio.feed_anterior);
+    var texto = { ok: "Feed generado (" + sitio.entradas + " entradas)",
+                  feed_propio: "La web ya tiene feed propio" }[sitio.estado] || ("No se ha podido: " + sitio.detalle);
+    if (conFeedAnterior) {
+      texto = "La web no responde ahora (" + sitio.detalle + "). Se mantiene el feed de la última lectura correcta, " +
+              fechaLegible(sitio.feed_anterior) + ", con " + sitio.entradas + " entradas.";
+    }
+    var clase = sitio.estado === "ok" ? "estado-ok" : ((sitio.estado === "feed_propio" || conFeedAnterior) ? "estado-aviso" : "estado-error");
+    contenedor.appendChild(crearElemento("div", texto, "meta " + clase));
+    if (urlFeed) {
+      contenedor.appendChild(crearElemento("code", urlFeed));
+      var acciones = crearElemento("div", "", "acciones");
+      var enlace = crearElemento("a", "Añadir a Feedly", "boton");
+      enlace.href = enlaceFeedly(urlFeed);
+      enlace.target = "_blank";
+      enlace.rel = "noopener";
+      acciones.appendChild(enlace);
+      acciones.appendChild(botonCopiar(urlFeed));
+      contenedor.appendChild(acciones);
+    }
+  }
+
+  function cargarEstado() {
+    return fetch("estado.json?t=" + Date.now(), { cache: "no-store" })
+      .then(function (respuesta) { return respuesta.ok ? respuesta.json() : { sitios: [] }; })
+      .catch(function () { return { sitios: [] }; });
+  }
+
+  function pintarLista(estado) {
+    lista.textContent = "";
+    // Las webs «ocultas» solo son ingredientes de un feed combinado: no se enseñan en la lista.
+    var visibles = estado.sitios.filter(function (sitio) { return !sitio.oculto; });
+    if (!visibles.length) {
+      lista.appendChild(crearElemento("li", "Todavía no hay ninguna web.", "meta"));
+      return;
+    }
+    // estado.json va en el orden de feeds.json (las webs nuevas, al final): se enseñan las más recientes primero.
+    pintarOpcionesDeCombinar(estado);
+    visibles.slice().reverse().forEach(function (sitio) {
+      var fila = document.createElement("li");
+      pintarSitio(sitio, fila);
+      lista.appendChild(fila);
+    });
+  }
+
+  function mostrarResultado(sitio, destino) {
+    destino = destino || resultado;
+    destino.textContent = "";
+    var tarjeta = crearElemento("div", "", "tarjeta");
+    pintarSitio(sitio, tarjeta);
+    destino.appendChild(tarjeta);
+  }
+
+  // Misma normalización que alta.py: sin «www.», sin barra final, sin fragmento ni parámetros de seguimiento.
+  function normalizarUrl(texto) {
+    var direccion;
+    try { direccion = new URL(texto); } catch (error) { return texto; }
+    var host = direccion.hostname.toLowerCase().replace(/^www\./, "");
+    var ruta = direccion.pathname.replace(/\/+$/, "");
+    var parametros = [];
+    direccion.searchParams.forEach(function (valor, clave) {
+      var minuscula = clave.toLowerCase();
+      if (minuscula.indexOf("utm_") !== 0 && ["fbclid", "gclid", "mc_cid", "mc_eid"].indexOf(minuscula) < 0) {
+        parametros.push([clave, valor]);
+      }
+    });
+    parametros.sort();
+    var consulta = parametros.map(function (par) { return encodeURIComponent(par[0]) + "=" + encodeURIComponent(par[1]); }).join("&");
+    return host + ruta + (consulta ? "?" + consulta : "");
+  }
+
+  function buscarPorUrl(estado, url) {
+    var buscada = normalizarUrl(url);
+    return estado.sitios.filter(function (sitio) { return normalizarUrl(sitio.url) === buscada; })[0];
+  }
+
+  // `buscar(estado)` devuelve la entrada de estado.json que se espera (o undefined). Los mensajes y el resultado van
+  // a los elementos indicados (por defecto, los del formulario de una web).
+  function esperarResultado(buscar, elementoMensaje, elementoResultado) {
+    elementoMensaje = elementoMensaje || mensaje;
+    var intentos = 0;
+    clearInterval(reintentos);
+    reintentos = setInterval(function () {
+      intentos += 1;
+      cargarEstado().then(function (estado) {
+        var sitio = buscar(estado);
+        if (sitio) {
+          clearInterval(reintentos);
+          elementoMensaje.textContent = "";
+          mostrarResultado(sitio, elementoResultado);
+          pintarLista(estado);
+        } else if (intentos >= 30) {
+          clearInterval(reintentos);
+          elementoMensaje.textContent = "No ha aparecido en 5 minutos. Comprueba que enviaste la incidencia en GitHub " +
+                                        "y mira la pestaña Actions del repositorio.";
+        }
+      });
+    }, 10000);
+  }
+
+  // Un combinado se reconoce por sus feeds y su filtro (sin distinguir orden ni mayúsculas), como hace alta.py.
+  function claveDeCombinado(identificadores, filtro) {
+    var ordenados = identificadores.slice().sort().join(",");
+    var palabras = filtro.map(function (palabra) { return palabra.toLowerCase(); }).sort().join(",");
+    return ordenados + "|" + palabras;
+  }
+
+  function buscarCombinado(estado, identificadores, filtro) {
+    var buscada = claveDeCombinado(identificadores, filtro);
+    return estado.sitios.filter(function (sitio) {
+      return sitio.combina && claveDeCombinado(sitio.combina, sitio.filtro || []) === buscada;
+    })[0];
+  }
+
+  // --- Token de GitHub: solo en el almacenamiento local de este navegador.
+  var CLAVE_TOKEN = "feedmaker_token";
+  var campoToken = document.getElementById("token");
+  var estadoToken = document.getElementById("estado-token");
+
+  function leerToken() {
+    try { return localStorage.getItem(CLAVE_TOKEN) || ""; } catch (error) { return ""; }
+  }
+
+  function pintarEstadoToken() {
+    estadoToken.textContent = leerToken() ? "Token guardado en este navegador." : "Sin token: se usará la incidencia.";
+  }
+
+  document.getElementById("formulario-token").addEventListener("submit", function (evento) {
+    evento.preventDefault();
+    var token = campoToken.value.trim();
+    if (!token) { return; }
+    try { localStorage.setItem(CLAVE_TOKEN, token); } catch (error) {
+      estadoToken.textContent = "Este navegador no permite guardar el token.";
+      return;
+    }
+    campoToken.value = "";
+    pintarEstadoToken();
+  });
+
+  document.getElementById("quitar-token").addEventListener("click", function () {
+    try { localStorage.removeItem(CLAVE_TOKEN); } catch (error) { /* sin almacenamiento: nada que quitar */ }
+    pintarEstadoToken();
+  });
+
+  // --- Lanzamiento del alta: una sola función, para poder cambiar el mecanismo sin tocar el resto.
+  // Devuelve una promesa con { ok: boolean, mensaje: string }.
+  // Orden de preferencia: servicio intermedio con contraseña, token de GitHub, incidencia.
+  // `peticion` es { tipo: "web", url, textoCompleto } o { tipo: "combinado", combina, nombre, filtro, textoCompleto }.
+  function lanzarAlta(url, textoCompleto) {
+    return enviarPeticion({ tipo: "web", url: url, textoCompleto: textoCompleto });
+  }
+
+  function parametrosDelWorkflow(peticion) {
+    var texto = peticion.textoCompleto ? "true" : "false";
+    if (peticion.tipo === "combinado") {
+      return { url: "", combina: peticion.combina.join(","), nombre_combinado: peticion.nombre,
+               filtro_combinado: peticion.filtro.join(","), texto_completo: texto };
+    }
+    return { url: peticion.url, texto_completo: texto };
+  }
+
+  function enviarPeticion(peticion) {
+    if (URL_SERVICIO && leerClave()) { return lanzarAltaPorServicio(peticion); }
+    var token = leerToken();
+    if (!token) { return lanzarAltaPorIncidencia(peticion); }
+    return fetch("https://api.github.com/repos/" + propietario + "/" + repositorio +
+                 "/actions/workflows/alta.yml/dispatches", {
+      method: "POST",
+      headers: {
+        "Authorization": "Bearer " + token,
+        "Accept": "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ ref: "main", inputs: parametrosDelWorkflow(peticion) })
+    }).then(function (respuesta) {
+      if (respuesta.status === 204) {
+        return { ok: true, mensaje: "Workflow lanzado. El enlace de Feedly aparecerá aquí en uno o dos minutos." };
+      }
+      var causas = {
+        401: "GitHub no acepta el token (¿caducado o mal copiado?).",
+        403: "El token no tiene permiso para lanzar workflows (necesita Actions: lectura y escritura).",
+        404: "GitHub no encuentra el repositorio o el workflow (¿el token es de este repositorio?).",
+        422: "GitHub rechaza la petición (¿existe alta.yml en la rama main?)."
+      };
+      return { ok: false, mensaje: causas[respuesta.status] || ("GitHub respondió con el código " + respuesta.status + ".") };
+    }).catch(function () {
+      return { ok: false, mensaje: "No se ha podido contactar con GitHub." };
+    });
+  }
+
+  function lanzarAltaPorIncidencia(peticion) {
+    var titulo = peticion.tipo === "combinado" ? "combinar: " + peticion.combina.join(", ") : "alta: " + peticion.url;
+    var cuerpo = "Alta automática. Pulsa «Submit new issue» y no cambies el título.";
+    if (peticion.tipo === "combinado") {
+      if (peticion.nombre) { cuerpo += "\n\nnombre: " + peticion.nombre; }
+      if (peticion.filtro.length) { cuerpo += "\nfiltro: " + peticion.filtro.join(", "); }
+    }
+    cuerpo += "\n\ntexto_completo: " + (peticion.textoCompleto ? "true" : "false");
+    var enlaceIncidencia = "https://github.com/" + propietario + "/" + repositorio + "/issues/new" +
+      "?title=" + encodeURIComponent(titulo) + "&body=" + encodeURIComponent(cuerpo);
+    window.open(enlaceIncidencia, "_blank", "noopener");
+    return Promise.resolve({
+      ok: true,
+      mensaje: "Se ha abierto GitHub en otra pestaña: pulsa «Submit new issue». " +
+               "El enlace de Feedly aparecerá aquí en uno o dos minutos."
+    });
+  }
+
+  // Misma comprobación básica que el servidor: https, nombre de host con punto, sin IP ni puerto.
+  function urlValida(texto) {
+    var direccion;
+    try { direccion = new URL(texto); } catch (error) { return false; }
+    return direccion.protocol === "https:" && direccion.hostname.indexOf(".") > 0 &&
+           !/^[\d.]+$/.test(direccion.hostname) && direccion.hostname.indexOf(":") < 0 &&
+           direccion.port === "" && !direccion.username && !direccion.password;
+  }
+
+  // Quien pega «www.ejemplo.com/blog» no escribe el esquema: se le añade https://. Una dirección con otro esquema
+  // (http://, ftp://…) se deja tal cual y urlValida la rechaza con su mensaje.
+  function completarEsquema(texto) {
+    if (!texto || /^[a-z][a-z0-9+.-]*:\/\//i.test(texto)) { return texto; }
+    return "https://" + texto.replace(/^\/+/, "");
+  }
+
+  document.getElementById("formulario").addEventListener("submit", function (evento) {
+    evento.preventDefault();
+    var url = completarEsquema(campoUrl.value.trim());
+    if (!urlValida(url)) {
+      mensaje.textContent = "La URL debe empezar por https:// y ser una dirección web normal (sin IP ni puerto).";
+      return;
+    }
+    resultado.textContent = "";
+    cargarEstado().then(function (estado) {
+      var existente = buscarPorUrl(estado, url);
+      if (existente) {
+        mensaje.textContent = "Esta web ya estaba dada de alta.";
+        mostrarResultado(existente);
+        return;
+      }
+      lanzarAlta(url, document.getElementById("texto-completo").checked).then(function (resultadoDelAlta) {
+        mensaje.textContent = resultadoDelAlta.mensaje;
+        if (resultadoDelAlta.ok) { esperarResultado(function (estadoActual) { return buscarPorUrl(estadoActual, url); }); }
+      });
+    });
+  });
+
+  // --- Contraseña del servicio intermedio: también solo en el almacenamiento local de este navegador.
+  var CLAVE_CONTRASENA = "feedmaker_clave";
+  var campoClave = document.getElementById("clave");
+  var estadoClave = document.getElementById("estado-clave");
+
+  function leerClave() {
+    try { return localStorage.getItem(CLAVE_CONTRASENA) || ""; } catch (error) { return ""; }
+  }
+
+  function pintarEstadoClave() {
+    var hayServicio = Boolean(URL_SERVICIO);
+    document.getElementById("formulario-clave").hidden = !hayServicio;
+    document.getElementById("bloque-clave-texto").hidden = !hayServicio;
+    // Con servicio, la contraseña basta: el bloque del token sería ruido.
+    document.getElementById("bloque-token").hidden = hayServicio;
+    document.getElementById("conexion").open = hayServicio;
+    document.getElementById("titulo-conexion").textContent = hayServicio ? "Contraseña del servicio" : "Conexión con GitHub (opcional)";
+    estadoClave.textContent = hayServicio ? (leerClave() ? "Contraseña guardada en este navegador." : "") : "";
+  }
+
+  document.getElementById("formulario-clave").addEventListener("submit", function (evento) {
+    evento.preventDefault();
+    var clave = campoClave.value;
+    if (!clave) { return; }
+    try { localStorage.setItem(CLAVE_CONTRASENA, clave); } catch (error) {
+      estadoClave.textContent = "Este navegador no permite guardar la contraseña.";
+      return;
+    }
+    campoClave.value = "";
+    pintarEstadoClave();
+  });
+
+  document.getElementById("quitar-clave").addEventListener("click", function () {
+    try { localStorage.removeItem(CLAVE_CONTRASENA); } catch (error) { /* nada que quitar */ }
+    pintarEstadoClave();
+  });
+
+  function lanzarAltaPorServicio(peticion) {
+    var cuerpo = peticion.tipo === "combinado"
+      ? { combina: peticion.combina, nombre: peticion.nombre, filtro: peticion.filtro, clave: leerClave(), texto_completo: peticion.textoCompleto }
+      : { url: peticion.url, clave: leerClave(), texto_completo: peticion.textoCompleto };
+    return fetch(URL_SERVICIO, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(cuerpo)
+    }).then(function (respuesta) {
+      return respuesta.json().then(function (datos) {
+        if (respuesta.ok && datos.ok) {
+          return { ok: true, mensaje: "Alta enviada. El enlace de Feedly aparecerá aquí en uno o dos minutos." };
+        }
+        return { ok: false, mensaje: datos.mensaje || ("El servicio respondió con el código " + respuesta.status + ".") };
+      });
+    }).catch(function () {
+      return { ok: false, mensaje: "No se ha podido contactar con el servicio." };
+    });
+  }
+
+  // --- Combinar varios feeds en uno.
+  var MINIMO_COMBINADO = 2;
+  var MAXIMO_COMBINADO = 5;
+  var MAXIMO_PALABRAS = 5;
+  var MAXIMA_LONGITUD_PALABRA = 40;
+  var PATRON_DE_CONTROL = /[\u0000-\u001f\u007f]/;
+  var listaCombinar = document.getElementById("lista-combinar");
+  var mensajeCombinar = document.getElementById("mensaje-combinar");
+  var resultadoCombinar = document.getElementById("resultado-combinar");
+
+  // Se pueden combinar los feeds que ya existen: generados, de la propia web, o con error pero con un feed publicado.
+  function sePuedeCombinar(sitio) {
+    return !sitio.oculto && !sitio.combina &&
+      (sitio.estado === "ok" || sitio.estado === "feed_propio" || (sitio.estado === "error" && Boolean(sitio.feed_anterior)));
+  }
+
+  function marcadosParaCombinar() {
+    return Array.prototype.slice.call(listaCombinar.querySelectorAll("input[type=checkbox]:checked"))
+      .map(function (casilla) { return casilla.value; });
+  }
+
+  function pintarOpcionesDeCombinar(estado) {
+    var marcados = marcadosParaCombinar();
+    listaCombinar.textContent = "";
+    var posibles = estado.sitios.filter(sePuedeCombinar).reverse();
+    if (posibles.length < MINIMO_COMBINADO) {
+      listaCombinar.appendChild(crearElemento("span", "Hacen falta al menos " + MINIMO_COMBINADO + " feeds en «Mis feeds».", "meta"));
+      return;
+    }
+    posibles.forEach(function (sitio) {
+      var etiqueta = document.createElement("label");
+      var casilla = document.createElement("input");
+      casilla.type = "checkbox";
+      casilla.value = sitio.id;
+      casilla.checked = marcados.indexOf(sitio.id) >= 0;
+      etiqueta.appendChild(casilla);
+      etiqueta.appendChild(document.createTextNode(" " + sitio.nombre));
+      if (sitio.estado === "feed_propio") { etiqueta.appendChild(crearElemento("span", "(feed propio de la web)", "meta")); }
+      listaCombinar.appendChild(etiqueta);
+    });
+  }
+
+  function textoDeUnaLinea(texto, maximo) {
+    return texto.replace(PATRON_DE_CONTROL, " ").replace(/\s+/g, " ").trim().slice(0, maximo);
+  }
+
+  // Palabras del filtro: separadas por comas, sin vacías ni repetidas. Devuelve { palabras } o { error }.
+  function palabrasDelFiltro(texto) {
+    var vistas = {};
+    var palabras = [];
+    texto.split(",").forEach(function (trozo) {
+      var palabra = textoDeUnaLinea(trozo, 1000);
+      if (palabra && !vistas[palabra.toLowerCase()]) {
+        vistas[palabra.toLowerCase()] = true;
+        palabras.push(palabra);
+      }
+    });
+    if (palabras.length > MAXIMO_PALABRAS) { return { error: "El filtro admite hasta " + MAXIMO_PALABRAS + " palabras." }; }
+    for (var i = 0; i < palabras.length; i += 1) {
+      if (palabras[i].length > MAXIMA_LONGITUD_PALABRA) {
+        return { error: "Cada palabra del filtro admite hasta " + MAXIMA_LONGITUD_PALABRA + " caracteres." };
+      }
+    }
+    return { palabras: palabras };
+  }
+
+  document.getElementById("formulario-combinar").addEventListener("submit", function (evento) {
+    evento.preventDefault();
+    resultadoCombinar.textContent = "";
+    var identificadores = marcadosParaCombinar();
+    if (identificadores.length < MINIMO_COMBINADO || identificadores.length > MAXIMO_COMBINADO) {
+      mensajeCombinar.textContent = "Marca de " + MINIMO_COMBINADO + " a " + MAXIMO_COMBINADO + " feeds (has marcado " + identificadores.length + ").";
+      return;
+    }
+    var filtro = palabrasDelFiltro(document.getElementById("filtro-combinado").value);
+    if (filtro.error) { mensajeCombinar.textContent = filtro.error; return; }
+    var nombre = textoDeUnaLinea(document.getElementById("nombre-combinado").value, 80);
+    var textoCompleto = document.getElementById("texto-completo-combinado").checked;
+    cargarEstado().then(function (estado) {
+      var existente = buscarCombinado(estado, identificadores, filtro.palabras);
+      if (existente) {
+        mensajeCombinar.textContent = "Ya existe un combinado con esos feeds y ese filtro.";
+        mostrarResultado(existente, resultadoCombinar);
+        return;
+      }
+      enviarPeticion({ tipo: "combinado", combina: identificadores, nombre: nombre, filtro: filtro.palabras,
+                       textoCompleto: textoCompleto }).then(function (resultadoDelAlta) {
+        mensajeCombinar.textContent = resultadoDelAlta.mensaje.replace("El enlace de Feedly", "El combinado");
+        if (resultadoDelAlta.ok) {
+          esperarResultado(function (estadoActual) { return buscarCombinado(estadoActual, identificadores, filtro.palabras); },
+                           mensajeCombinar, resultadoCombinar);
+        }
+      });
+    });
+  });
+
+  pintarEstadoToken();
+  pintarEstadoClave();
+
+  cargarEstado().then(pintarLista);
+})();
+</script>
+</body>
+</html>
