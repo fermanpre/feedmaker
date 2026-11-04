@@ -756,6 +756,94 @@ def entradas_por_enlaces(html, url_base, zona_horaria_de_las_urls=None):
     return entradas
 
 
+# Medido con 83 webs legibles (02/11/2026): con que las direcciones lleven fecha en el 70 % de los enlaces y haya el doble
+# de enlaces que de tarjetas, salta en 2 webs (ABC, Europa Press) y en ninguna que no deba. Con solo «más enlaces que
+# tarjetas» fallaba (PcComponentes, Kubernetes): sin fecha en la dirección, los enlaces largos son menús o fichas.
+MINIMO_DE_ENLACES_PARA_PREFERIRLOS = 10
+FRACCION_MINIMA_DE_ENLACES_CON_FECHA = 0.7
+FACTOR_DE_ENLACES_SOBRE_TARJETAS = 2
+
+
+def enlaces_superan_a_las_tarjetas(entradas_por_enlaces, cantidad_de_tarjetas):
+    """True si el listado por enlaces es claramente mejor que el de tarjetas y se puede fiar de él.
+
+    Exige que casi todos los enlaces lleven la fecha en la dirección (es lo que distingue artículos de menús)."""
+    cantidad = len(entradas_por_enlaces)
+    if cantidad < MINIMO_DE_ENLACES_PARA_PREFERIRLOS:
+        return False
+    con_fecha = sum(1 for entrada in entradas_por_enlaces if entrada["fecha"])
+    if con_fecha < FRACCION_MINIMA_DE_ENLACES_CON_FECHA * cantidad:
+        return False
+    return cantidad >= FACTOR_DE_ENLACES_SOBRE_TARJETAS * max(cantidad_de_tarjetas, 1)
+
+
+def zona_horaria_probable(url):
+    """«Europe/Madrid» para las webs .es (las marcas de tiempo de sus direcciones suelen estar en hora local); si no, None."""
+    anfitrion = (urllib.parse.urlsplit(url).hostname or "").lower()
+    return "Europe/Madrid" if anfitrion.endswith(".es") else None
+
+
+# --------------------------------------------------------------------------- paginación
+
+PATRONES_DE_NUMERO_DE_PAGINA = (
+    re.compile(r"/page/(\d+)(?=/|$)", re.IGNORECASE),
+    re.compile(r"/pagina[-_/](\d+)(?:\.html?)?(?=/|$)", re.IGNORECASE),
+    re.compile(r"(?<=[?&])(?:page|pagina|pag|paged|p)=(\d+)(?=&|$)", re.IGNORECASE),
+)
+
+
+def _ruta_y_consulta(url):
+    partes = urllib.parse.urlsplit(url)
+    return partes.path + ("?" + partes.query if partes.query else "")
+
+
+def _numero_de_pagina(url):
+    """Número de página que indica la dirección (/page/2/, /pagina-2.html, ?page=2), o None si no lleva ninguno."""
+    texto = _ruta_y_consulta(url)
+    for patron in PATRONES_DE_NUMERO_DE_PAGINA:
+        coincidencia = patron.search(texto)
+        if coincidencia:
+            return int(coincidencia.group(1))
+    return None
+
+
+def _sin_numero_de_pagina(url):
+    """La dirección sin su marca de página: sirve para comprobar que dos páginas son del mismo listado."""
+    texto = _ruta_y_consulta(url)
+    for patron in PATRONES_DE_NUMERO_DE_PAGINA:
+        texto = patron.sub("", texto)
+    texto = texto.replace("?&", "?").rstrip("?&/")
+    return _host_sin_www(url) + texto
+
+
+def enlace_de_pagina_siguiente(html, url_actual):
+    """Dirección de la página siguiente del listado, o '' si la página no la anuncia.
+
+    Primero lo que declara la propia página (rel="next"). Si no, el enlace de paginación del mismo listado con el menor
+    número mayor que el de la página actual. No se construyen direcciones por plantilla: hay webs que empiezan en 0."""
+    anfitrion = _host_sin_www(url_actual)
+    for etiqueta in re.findall(r"<(?:link|a)\b[^>]*>", html, flags=re.IGNORECASE):
+        if re.search(r"rel=[\"'][^\"']*\bnext\b", etiqueta, flags=re.IGNORECASE):
+            coincidencia = re.search(r"href=[\"']([^\"']+)[\"']", etiqueta, flags=re.IGNORECASE)
+            if coincidencia:
+                enlace = urllib.parse.urljoin(url_actual, coincidencia.group(1).replace("&amp;", "&")).split("#")[0]
+                if enlace.startswith(("http://", "https://")) and _host_sin_www(enlace) == anfitrion and enlace != url_actual:
+                    return enlace
+    numero_actual = _numero_de_pagina(url_actual) or 0
+    listado_actual = _sin_numero_de_pagina(url_actual)
+    mejor_numero, mejor_enlace = None, ""
+    for coincidencia in re.finditer(r"<a\b[^>]*href=[\"']([^\"']+)[\"']", html, flags=re.IGNORECASE):
+        enlace = urllib.parse.urljoin(url_actual, coincidencia.group(1).replace("&amp;", "&")).split("#")[0]
+        if not enlace.startswith(("http://", "https://")) or _host_sin_www(enlace) != anfitrion:
+            continue
+        numero = _numero_de_pagina(enlace)
+        if numero is None or numero <= numero_actual or _sin_numero_de_pagina(enlace) != listado_actual:
+            continue
+        if mejor_numero is None or numero < mejor_numero:
+            mejor_numero, mejor_enlace = numero, enlace
+    return mejor_enlace
+
+
 PATRONES_DE_PAGINA_DE_ARTICULO = (
     r'<meta[^>]+property=["\']og:type["\'][^>]*content=["\']article["\']',
     r'<meta[^>]+content=["\']article["\'][^>]*property=["\']og:type["\']',

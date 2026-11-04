@@ -63,6 +63,7 @@ parámetros de seguimiento (`utm_…`).
 | `oculto: true` | La página no enseña la web en «Mis feeds». Para webs que solo son ingredientes de un combinado. |
 | `modo_enlaces: true` | En vez de buscar un bloque de tarjetas, recoge todos los enlaces de la página que parecen artículos (de la misma web y con una dirección larga de 5 palabras o más). Saca la fecha de la propia dirección si lleva marca de tiempo. Para páginas con el listado repartido en bloques distintos, como la sección de ABC. Sin IA. Con `zona_horaria_de_las_urls` (p. ej. `Europe/Madrid`) esa marca se interpreta en la hora local de la web, no en UTC. |
 | `filtro_en_combinado` | Lista de palabras que sustituye, solo para esta web, al filtro del combinado. |
+| `paginas: N` | Lee hasta N páginas (tope 5) siguiendo el enlace «página siguiente» que anuncia la propia web (`rel="next"` o un enlace `/page/2/`, `pagina-2.html`, `?page=2` del mismo listado). Solo con el listado por enlaces. Sin este campo, las webs que alimentan un combinado con filtro leen hasta 4 páginas y el resto, una. Una página que aporta menos de 5 entradas nuevas corta la cadena. |
 
 **Aviso:** como el texto completo es lo normal, el repositorio y los feeds, que son públicos, contienen copias del
 texto de webs ajenas durante `conservar_dias` días. Para una web concreta, `texto_completo: false` lo evita.
@@ -109,6 +110,14 @@ Si las tarjetas no dan nada utilizable (no hay bloque reconocible o el modelo re
 enlaces de la página que parecen artículos, como con `modo_enlaces`. Para no publicar menús ni fichas de producto, el respaldo
 solo se acepta si tiene 5 entradas o más y, tras completar las fechas entrando en cada artículo, al menos la mitad llevan fecha.
 `estado.json` lo anota en el detalle («listado por enlaces»).
+
+## Listado por enlaces automático
+
+Sin necesidad de `modo_enlaces`, si los enlaces de la página que parecen artículos son al menos 10, **casi todos (70 %) llevan la fecha en la propia dirección** y hay **el doble o más** que tarjetas, se usa el listado por enlaces. La fecha en la dirección es lo que distingue un artículo de un menú o una ficha de producto: solo con «más enlaces que tarjetas» fallaban PcComponentes y Kubernetes. En una muestra de 83 webs legibles salta en 2 (ABC y Europa Press, ambas con feed propio) y en ninguna por error. Las webs `.es` leen esa fecha en la hora de Madrid salvo que `zona_horaria_de_las_urls` diga otra. `forzar_tarjetas: true` desactiva la elección automática. `estado.json` lo anota en el detalle («listado por enlaces (automático…)»).
+
+## Varias páginas
+
+Un listado por enlaces puede leer más de una página (`paginas`, ver la tabla). La cadena sigue lo que anuncia la web, no construye direcciones por plantilla (Bruegel numera desde 0: `?page=1` es la segunda página). En una muestra de 83 webs, 13 anuncian su página siguiente y en 11 la segunda trae entradas nuevas. Cada página extra es una descarga más por ejecución y por web, y respeta `robots.txt` y la pausa entre peticiones.
 
 ## Direcciones de artículos
 

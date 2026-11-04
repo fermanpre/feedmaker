@@ -31,6 +31,11 @@ MAXIMO_ENTRADAS = 50
 CONSERVAR_DIAS_POR_DEFECTO = 180  # campo «conservar_dias» de cada web; 0 = solo lo que enseña hoy la web
 MAXIMO_ENTRADAS_EN_FEED = 300
 MAXIMO_ENTRADAS_POR_ENLACES = 100
+# Paginación (solo en los listados por enlaces): campo «paginas» de cada web, con tope; sin él, solo se paginan las webs
+# que alimentan un combinado con filtro (el filtro descarta casi todo, y una sola página apenas lo alimenta).
+MAXIMO_DE_PAGINAS = 5
+PAGINAS_EN_COMBINADO_CON_FILTRO = 4
+MINIMO_DE_ENTRADAS_NUEVAS_POR_PAGINA = 5
 MAXIMO_CANDIDATOS = 5
 TOPE_LLAMADAS_IA = int(os.environ.get("FEEDMAKER_MAX_LLAMADAS", "60"))
 
@@ -471,7 +476,58 @@ def decidir_si_el_feed_es_generico(decisiones_del_sitio, respuesta, feed_propio)
     return decisiones_del_sitio["feed_generico"]
 
 
-def procesar_sitio(sitio, raiz, decisiones, cliente, presupuesto, articulos, descargas, historial):
+def identificadores_que_alimentan_un_filtro(sitios):
+    """Ids de las webs que forman parte de un combinado con filtro (general o propio de esa web)."""
+    por_identificador = {sitio["id"]: sitio for sitio in sitios}
+    identificadores = set()
+    for combinado in sitios:
+        for identificador in combinado.get("combina", []):
+            miembro = por_identificador.get(identificador, {})
+            if combinado.get("filtro") or miembro.get("filtro_en_combinado"):
+                identificadores.add(identificador)
+    return identificadores
+
+
+def paginas_a_leer(sitio, alimenta_un_filtro):
+    """Cuántas páginas del listado se leen (1 = solo la primera): `paginas` de la web, con tope, o el valor por defecto."""
+    if "paginas" in sitio:
+        try:
+            return max(1, min(int(sitio["paginas"]), MAXIMO_DE_PAGINAS))
+        except (TypeError, ValueError):
+            return 1
+    return PAGINAS_EN_COMBINADO_CON_FILTRO if alimenta_un_filtro else 1
+
+
+def anadir_paginas_siguientes(entradas, respuesta, paginas_totales, zona_horaria):
+    """Sigue la cadena de «página siguiente» que anuncia la propia web y suma las entradas nuevas de cada página.
+
+    Se detiene si no hay enlace, si la página no se puede leer o si aporta menos de MINIMO_DE_ENTRADAS_NUEVAS_POR_PAGINA
+    entradas que no estuvieran ya (una página repetida o de relleno). Devuelve (entradas, páginas leídas)."""
+    enlaces_vistos = {entrada["enlace"] for entrada in entradas}
+    direcciones_visitadas = {respuesta.url_final}
+    html_actual, direccion_actual = respuesta.texto, respuesta.url_final
+    paginas_leidas = 1
+    while paginas_leidas < paginas_totales:
+        siguiente = extractor.enlace_de_pagina_siguiente(html_actual, direccion_actual)
+        if not siguiente or siguiente in direcciones_visitadas:
+            break
+        direcciones_visitadas.add(siguiente)
+        pagina, bloqueo = extractor.descargar_respetuosamente(siguiente)
+        if bloqueo or not (200 <= pagina.estado < 300):
+            break
+        entradas_de_la_pagina = extractor.entradas_por_enlaces(pagina.texto, pagina.url_final, zona_horaria)
+        nuevas = [entrada for entrada in entradas_de_la_pagina if entrada["enlace"] not in enlaces_vistos]
+        if len(nuevas) < MINIMO_DE_ENTRADAS_NUEVAS_POR_PAGINA:
+            break
+        entradas.extend(nuevas)
+        enlaces_vistos.update(entrada["enlace"] for entrada in nuevas)
+        paginas_leidas += 1
+        html_actual, direccion_actual = pagina.texto, pagina.url_final
+    return entradas, paginas_leidas
+
+
+def procesar_sitio(sitio, raiz, decisiones, cliente, presupuesto, articulos, descargas, historial,
+                   alimenta_un_filtro=False):
     """Devuelve el estado público del sitio. Nunca lanza: un fallo no debe parar a los demás."""
     ahora = datetime.now(timezone.utc).isoformat(timespec="seconds")
     estado = {"id": sitio["id"], "nombre": sitio["nombre"], "url": sitio["url"], "estado": "error",
@@ -543,13 +599,28 @@ def procesar_sitio(sitio, raiz, decisiones, cliente, presupuesto, articulos, des
             if entradas is None:
                 return estado_con_feed_propio(estado, feed_propio, "la web ya tiene feed: suscríbete a ese")
 
+        zona_horaria = sitio.get("zona_horaria_de_las_urls") or extractor.zona_horaria_probable(respuesta.url_final)
+        lectura_por_enlaces = ""  # «» = tarjetas; «manual» = `modo_enlaces`; «automático» = lo decide la regla de las fechas
         if entradas is None and sitio.get("modo_enlaces"):
             # Sin IA: los enlaces de una página repartida en bloques distintos no forman un grupo de tarjetas.
             entradas = extractor.entradas_por_enlaces(
-                respuesta.texto, respuesta.url_final, sitio.get("zona_horaria_de_las_urls"))[:MAXIMO_ENTRADAS_POR_ENLACES]
+                respuesta.texto, respuesta.url_final, zona_horaria)[:MAXIMO_ENTRADAS_POR_ENLACES]
             if not entradas:
                 estado["detalle"] = "no se han encontrado enlaces que parezcan artículos"
                 return estado
+            lectura_por_enlaces = "manual"
+        elif entradas is None and not sitio.get("forzar_tarjetas"):
+            # Automático: si las direcciones llevan fecha y hay el doble de enlaces que de tarjetas, mandan los enlaces.
+            por_enlaces = extractor.entradas_por_enlaces(respuesta.texto, respuesta.url_final, zona_horaria)
+            deteccion = extractor.detectar_tarjetas(respuesta.texto, respuesta.url_final)
+            if extractor.enlaces_superan_a_las_tarjetas(por_enlaces, len(deteccion["entradas"]) if deteccion else 0):
+                entradas = por_enlaces[:MAXIMO_ENTRADAS_POR_ENLACES]
+                lectura_por_enlaces = "automático"
+
+        paginas_leidas = 1
+        if lectura_por_enlaces:
+            entradas, paginas_leidas = anadir_paginas_siguientes(
+                entradas, respuesta, paginas_a_leer(sitio, alimenta_un_filtro), zona_horaria)
 
         usa_respaldo_por_enlaces = False
         if entradas is None:
@@ -597,6 +668,10 @@ def procesar_sitio(sitio, raiz, decisiones, cliente, presupuesto, articulos, des
         estado["detalle"] = "con IA" if cliente is not None else "sin IA (no hay clave de API)"
         if usa_respaldo_por_enlaces:
             estado["detalle"] += "; listado por enlaces (las tarjetas no daban nada)"
+        elif lectura_por_enlaces == "automático":
+            estado["detalle"] += "; listado por enlaces (automático: las direcciones llevan fecha y hay muchos más enlaces que tarjetas)"
+        if paginas_leidas > 1:
+            estado["detalle"] += f"; {paginas_leidas} páginas leídas"
         return estado
     except Exception as error:
         estado["detalle"] = f"error interno: {type(error).__name__}: {error}"
@@ -630,8 +705,10 @@ def main():
     print("IA:", "activada (Haiku 5.5)" if cliente else "desactivada: no hay ANTHROPIC_API_KEY", flush=True)
 
     resultados = []
+    alimentan_un_filtro = identificadores_que_alimentan_un_filtro(sitios)
     for sitio in [sitio for sitio in sitios if "combina" not in sitio]:
-        estado = procesar_sitio(sitio, raiz, decisiones, cliente, presupuesto, articulos, descargas, historial)
+        estado = procesar_sitio(sitio, raiz, decisiones, cliente, presupuesto, articulos, descargas, historial,
+                                sitio["id"] in alimentan_un_filtro)
         resultados.append(estado)
         print(f"- {sitio['id']}: {estado['estado']} ({estado['entradas']} entradas) {estado['detalle']}", flush=True)
 
