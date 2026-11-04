@@ -4,5 +4,11 @@
     "nombre": "abc.es/deportes/sevilla",
     "url": "https://abc.es/deportes/sevilla/",
     "texto_completo": true
+  },
+  {
+    "id": "muchodeporte-com-deporte-andaluz",
+    "nombre": "muchodeporte.com/deporte-andaluz",
+    "url": "https://muchodeporte.com/deporte-andaluz",
+    "texto_completo": true
   }
 ]
