@@ -2,6 +2,9 @@
  "abc-es-deportes-sevilla": {
   "feed_generico": true
  },
+ "diariodesevilla-es-tag-baloncesto": {
+  "feed_generico": false
+ },
  "muchodeporte-com-deporte-andaluz": {
   "enlaces": {
    "https://www.muchodeporte.com/deporte-andaluz/5-2-o-parrulo-pone-fin-a-la-imbatibilidad-del-jaen-fs/": "ok",

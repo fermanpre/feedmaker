@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-04T21:04:43+00:00",
- "llamadas_ia": 2,
+ "generado": "2026-11-04T21:20:30+00:00",
+ "llamadas_ia": 0,
  "sitios": [
   {
-   "actualizado": "2026-11-04T21:03:42+00:00",
+   "actualizado": "2026-11-04T21:20:20+00:00",
    "con_texto_completo": 32,
    "detalle": "con IA; listado por enlaces (automático: las direcciones llevan fecha y hay muchos más enlaces que tarjetas)",
    "entradas": 32,
@@ -15,7 +15,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T21:03:45+00:00",
+   "actualizado": "2026-11-04T21:20:23+00:00",
    "con_texto_completo": 48,
    "detalle": "con IA",
    "entradas": 48,
@@ -24,6 +24,17 @@
    "id": "muchodeporte-com-deporte-andaluz",
    "nombre": "muchodeporte.com/deporte-andaluz",
    "url": "https://muchodeporte.com/deporte-andaluz",
+   "user_agent": "feedmaker"
+  },
+  {
+   "actualizado": "2026-11-04T21:20:26+00:00",
+   "detalle": "la web ya tiene feed: suscríbete a ese",
+   "entradas": 0,
+   "estado": "feed_propio",
+   "feed_propio": "https://www.diariodesevilla.es/rss/category/tag/101368/",
+   "id": "diariodesevilla-es-tag-baloncesto",
+   "nombre": "www.diariodesevilla.es/tag/baloncesto",
+   "url": "https://www.diariodesevilla.es/tag/baloncesto",
    "user_agent": "feedmaker"
   }
  ]
