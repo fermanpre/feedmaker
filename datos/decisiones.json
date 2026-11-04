@@ -10,6 +10,7 @@
    "https://www.corriere.it/cultura/notizie/26_ottobre_16/arriva-l-agendina-2027-un-anno-con-la-lettura-afa5cfd0-4274-4526-aee7-a9c1a2acexlk.shtml": "descartar",
    "https://www.corriere.it/economia/finanza/26_novembre_04/hacker-nei-supermercati-il-big-dei-freezer-epta-rischi-sottovalutati-l-industria-non-era-pronta-a-un-attacco-simile-cosa-si-puo-504fabc4-b03c-4cc2-8042-3ff62f13bxlk.shtml": "ok",
    "https://www.corriere.it/esteri/26_novembre_04/trump-ha-perso-e-ora-cosa-vuol-dire-che-e-un-anatra-zoppa-il-piano-di-emergenza-per-i-prossimi-2-anni-e-che-cosa-rischia-davvero-2796b9d9-b867-4094-bb72-a76338507xlk.shtml": "ok",
+   "https://www.corriere.it/il-punto/america-cina/26_novembre_04/e-arrivata-l-onda-blu-dfe038e3-b0cb-4e20-8f2c-a96fda272xlk.shtml": "ok",
    "https://www.corriere.it/motori/auto/26_ottobre_28/peralta-d-by-fabrizio-giugiaro-la-supercar-in-rame-piu-esclusiva-al-mondo-con-postazione-make-up-34bf383a-0c4e-49b4-8451-9cf5446dfxlk.shtml": "ok",
    "https://www.corriere.it/offerte-recensioni/26_ottobre_28/come-scegliere-la-migliore-offerta-fibra-per-la-casa-velocita-copertura-e-costi-nascosti-b31db842-ef0d-4d62-b8c1-8eac89468xlk.shtml": "ok",
    "https://www.corriere.it/politica/26_novembre_03/manovra-alta-tensione-salvini-fdi-e-rispunta-il-condono-edilizio-58beeb0a-c413-4ba4-9f69-65c1fd476xlk.shtml": "ok",
@@ -28,6 +29,8 @@
  "elconfidencial-com": {
   "enlaces": {
    "https://www.elconfidencial.com/alma-corazon-vida/2026-10-30/recomendacion-jose-elias-rentabilizar-dinero-ahorrar-dos-formulas-1qrt_4454298/": "ok",
+   "https://www.elconfidencial.com/alma-corazon-vida/2026-11-01/emilia-pardo-bazan-vida-no-planificar-amar-elegir-camino-sentir-realizado_4455098/": "ok",
+   "https://www.elconfidencial.com/alma-corazon-vida/2026-11-01/william-arias-medico-manzanilla-herramienta-sueno_4186169/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-02/jose-elias-emprendedor-clase-media-comprarse-casa-sin-pareja-1qrt_4439540/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-03/experto-energetico-gran-mayoria-electrodomesticos-hogar_4458181/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-03/jordi-cruz-chef-aceite-vinagre-sal-ensalada_4344218/": "ok",
@@ -110,9 +113,12 @@
   "enlaces": {
    "https://www.elconfidencial.com/espana/2026-11-04/1qrt-a-que-dedicaba-carlos-cuerpo-estudios-trayectoria-transportes-puente_4328514/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/ave-madrid-barcelona-retrasos-robo-cable-zaragoza-adif-cuerpo_4458650/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-04/constitucional-amnistia-junqueras-turull-romeva-1tps_4458736/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de-teatrillo-en-prime-time-la-dimision-de-puente-y-promete-que-presentara-dos-presupuestos-en-2027_4458630/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de_4458630/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-04/incendio-luceni-cortes-navarra_4458798/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/indemnizacion-oscar-puente-dimision-ministro-transportes-ley-alto-cargo_4458565/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-04/pedro-sanchez-oscar-puente-dimision_4458636/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/prediccion-roberto-brasero-nieve-y-heladas-1qrt_4458568/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/primer-mensaje-oscar-uuente-x-tras-dimitir-guino-forges-1qrt_4458731/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/trenes-asco-rato-semana-rufian-1qrt_4458631/": "ok",
@@ -140,6 +146,7 @@
    "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/luciernaga-reaparece-eeuu-43-desaparecida-1qrt_4457564/": "ok",
    "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/motor-molecular-inspirado-invento-antiguo-1qrt_4458069/": "ok",
    "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/nasa-descubre-extranas-formaciones-roca-marte_4456403/": "ok",
+   "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-04/boligrafo-laser-superconductividad-nanoescala-circuitos-cuanticos-csic_4458143/": "ok",
    "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-04/gravedad-marte-brecha-caracteristicas-desconcertantes-1qrt_4433863/": "ok",
    "https://www.elconfidencial.com/tecnologia/novaceno/2026-11-03/darpa-jauria-robots-coordinada-ia_4458050/": "ok",
    "https://www.elconfidencial.com/tecnologia/novaceno/2026-11-03/estudio-contradice-teoria-agua-tierra-vino-en-cometas_4456135/": "ok",
@@ -176,7 +183,9 @@
    "https://www.publico.es/sociedad/acampada-historica-puerta-sol-sacudio-agenda-politica-espana-ahora.html": "ok",
    "https://www.publico.es/sociedad/docentes-madrilenos-vuelven-tenir-calles-verde-paron-movilizaciones-luto.html": "ok",
    "https://www.publico.es/sociedad/educacion/huelga-universidades-publicas-madrilenas-comienza-piquetes-informativos.html": "ok",
+   "https://www.publico.es/sociedad/familia-guillem-agullo-asesinado-neonazis-pide-le-reconozca-victima-terrorismo.html": "ok",
    "https://www.publico.es/tremending/estupor-video-abascal-reconoce-sabe-hay-pensiones-senor-quiere-presidir-nuestro-pais.html": "ok",
+   "https://www.publico.es/tremending/renuncia-oscar-puente-pone-pp-frente-espejo-pastor-dimitio-angrois-botella-dimitio-madrid-arena-trillo-dimitio-yak-42.html": "ok",
    "https://www.publico.es/tremending/video-viral-desmonta-contrato-basura-feijoo-espana-12-puntos-cero-ideas-nuevas-par-perlas.html": "ok"
   },
   "firma": "div.home-boards.page-container > section.default.desktop:mb-12"
@@ -188,11 +197,13 @@
    "https://www.rtve.es/noticias/20261103/accidente-tren-urda-inaki-gabilondo-bulo/17298284.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/competencia-abre-nuevo-expediente-sancionador-apple-amazon-desobedecer-resolucion-2023/17298286.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/cristina-fernandez-cubas-premio-cervantes-2026/17298411.shtml": "ok",
+   "https://www.rtve.es/noticias/20261103/cronica-dimision-inesperada-puente-sanchez-conocio-minutos-antes/17298572.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/juez-calama-pide-a-policia-averiguar-quien-fabrico-joyas-incautadas-a-zapatero/17297932.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/lista-forbes-fortunas-amancio-sandra-ortega-juan-roig/17297250.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/puerta-sol-luce-limpia-38-dias-acampada-turistas-bayern/17297486.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/transportes-validen-ordenes-sistema-frecuencia-madrid-sevilla/17297280.shtml": "ok",
    "https://www.rtve.es/noticias/20261104/agustin-comotto-publica-dias-pasear-perro-hablar-con-gente-hace-sienta-humano/17297227.shtml": "ok",
+   "https://www.rtve.es/noticias/20261104/cristina-fernandez-cubas-premio-cervantes-cuando-empece-decian-cuentos-eran-extranos/17299428.shtml": "ok",
    "https://www.rtve.es/noticias/20261104/elecciones-2026-como-votar-desde-extranjero-voto-cera/17297726.shtml": "ok",
    "https://www.rtve.es/noticias/20261104/expertos-recomiendan-subida-salario-minimo-2027/17298847.shtml": "ok",
    "https://www.rtve.es/noticias/ciencia-y-tecnologia/": "descartar",
@@ -208,10 +219,12 @@
  "share-google-mb1tq8c45rie7ilmv": {
   "enlaces": {
    "https://www.abc.es/deportes/futbol/barcelona-aston-villa-directo-partido-resultado-goles-20261103201815-di.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:10": "ok",
+   "https://www.abc.es/deportes/futbol/commotio-cordis-atipica-trampa-asesina-llevo-jesus-20261103192416-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:1": "ok",
    "https://www.abc.es/deportes/futbol/commotio-cordis-atipica-trampa-asesina-llevo-jesus-20261103192416-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:2": "ok",
    "https://www.abc.es/deportes/futbol/homicidio-imprudente-solo-responsabilidad-civil-claves-legales-20261103141124-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:4": "ok",
    "https://www.abc.es/deportes/futbol/jesus-miguel-arquetipo-esfuerzo-autoconfianza-20261103111628-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:9": "ok",
    "https://www.abc.es/deportes/futbol/lado-drama-peor-salida-atrevido-guardameta-jesus-20261103124851-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:1": "ok",
+   "https://www.abc.es/deportes/futbol/lado-drama-peor-salida-atrevido-guardameta-jesus-20261103124851-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:2": "ok",
    "https://www.abc.es/deportes/futbol/muere-hospital-futbolista-jesus-miguel-tras-salvaje-20261103093829-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:3": "ok",
    "https://www.abc.es/deportes/futbol/mundo-futbol-llora-muerte-jesus-miguel-reacciones-20261103104829-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:7": "ok",
    "https://www.abc.es/deportes/futbol/schumacher-gallardo-golpes-letales-salidas-porteros-20261103133432-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:6": "ok",
@@ -230,6 +243,6 @@
    "https://www.upf.edu/web/focus/w/projecte-harvest-coordinat-upf-posa-en-marxa-voluntat-connectar-comunitat-agricola-societat": "ok",
    "https://www.upf.edu/web/focus/w/upf-dona-benvinguda-mes-300-estudiants-doctorat-curs-2026-2027": "ok"
   },
-  "firma": "div.llistat-noticies744294200 > div.freemarker.noticia"
+  "firma": "div.llistat-noticies314498186 > div.freemarker.noticia"
  }
 }

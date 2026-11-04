@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-04T12:29:15+00:00",
- "llamadas_ia": 7,
+ "generado": "2026-11-04T13:05:55+00:00",
+ "llamadas_ia": 8,
  "sitios": [
   {
-   "actualizado": "2026-11-04T12:27:31+00:00",
-   "con_texto_completo": 36,
+   "actualizado": "2026-11-04T13:04:13+00:00",
+   "con_texto_completo": 38,
    "detalle": "con IA",
-   "entradas": 36,
+   "entradas": 38,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com",
@@ -15,10 +15,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:27:42+00:00",
-   "con_texto_completo": 18,
+   "actualizado": "2026-11-04T13:04:26+00:00",
+   "con_texto_completo": 21,
    "detalle": "con IA",
-   "entradas": 18,
+   "entradas": 21,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com-espana",
@@ -27,7 +27,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:27:52+00:00",
+   "actualizado": "2026-11-04T13:04:38+00:00",
    "con_texto_completo": 13,
    "detalle": "con IA",
    "entradas": 13,
@@ -39,10 +39,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:28:01+00:00",
-   "con_texto_completo": 14,
+   "actualizado": "2026-11-04T13:04:47+00:00",
+   "con_texto_completo": 15,
    "detalle": "con IA",
-   "entradas": 14,
+   "entradas": 15,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com-tecnologia",
@@ -51,7 +51,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:28:10+00:00",
+   "actualizado": "2026-11-04T13:04:57+00:00",
    "con_texto_completo": 15,
    "detalle": "con IA",
    "entradas": 15,
@@ -63,10 +63,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:28:21+00:00",
-   "con_texto_completo": 27,
+   "actualizado": "2026-11-04T13:05:06+00:00",
+   "con_texto_completo": 29,
    "detalle": "con IA",
-   "entradas": 28,
+   "entradas": 30,
    "estado": "ok",
    "feed_propio": "",
    "id": "publico-es",
@@ -75,10 +75,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:28:32+00:00",
-   "con_texto_completo": 13,
+   "actualizado": "2026-11-04T13:05:18+00:00",
+   "con_texto_completo": 15,
    "detalle": "con IA",
-   "entradas": 17,
+   "entradas": 19,
    "estado": "ok",
    "feed_propio": "",
    "id": "rtve-es-noticias",
@@ -87,10 +87,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:28:41+00:00",
-   "con_texto_completo": 20,
+   "actualizado": "2026-11-04T13:05:29+00:00",
+   "con_texto_completo": 21,
    "detalle": "con IA",
-   "entradas": 20,
+   "entradas": 21,
    "estado": "ok",
    "feed_propio": "",
    "id": "corriere-it",
@@ -99,7 +99,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:28:49+00:00",
+   "actualizado": "2026-11-04T13:05:39+00:00",
    "con_texto_completo": 6,
    "detalle": "con IA",
    "entradas": 6,
@@ -111,16 +111,16 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T12:29:15+00:00",
+   "actualizado": "2026-11-04T13:05:55+00:00",
    "combina": [
     "elconfidencial-com-espana",
     "elconfidencial-com-economia",
     "elconfidencial-com-tecnologia",
     "elconfidencial-com-deportes"
    ],
-   "con_texto_completo": 60,
+   "con_texto_completo": 64,
    "detalle": "combina 4 webs",
-   "entradas": 60,
+   "entradas": 64,
    "estado": "ok",
    "feed_propio": "",
    "filtro": [],
@@ -129,10 +129,10 @@
    "url": ""
   },
   {
-   "actualizado": "2026-11-04T12:28:58+00:00",
-   "con_texto_completo": 10,
+   "actualizado": "2026-11-04T13:05:49+00:00",
+   "con_texto_completo": 12,
    "detalle": "con IA",
-   "entradas": 10,
+   "entradas": 12,
    "estado": "ok",
    "feed_propio": "",
    "id": "share-google-mb1tq8c45rie7ilmv",
