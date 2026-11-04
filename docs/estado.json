@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-04T14:23:32+00:00",
- "llamadas_ia": 2,
+ "generado": "2026-11-04T15:20:11+00:00",
+ "llamadas_ia": 5,
  "sitios": [
   {
-   "actualizado": "2026-11-04T14:21:57+00:00",
-   "con_texto_completo": 49,
+   "actualizado": "2026-11-04T15:18:27+00:00",
+   "con_texto_completo": 55,
    "detalle": "con IA",
-   "entradas": 49,
+   "entradas": 55,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com",
@@ -15,10 +15,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:22:07+00:00",
-   "con_texto_completo": 22,
+   "actualizado": "2026-11-04T15:18:42+00:00",
+   "con_texto_completo": 32,
    "detalle": "con IA",
-   "entradas": 22,
+   "entradas": 32,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com-espana",
@@ -27,7 +27,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:22:16+00:00",
+   "actualizado": "2026-11-04T15:19:02+00:00",
    "con_texto_completo": 13,
    "detalle": "con IA",
    "entradas": 13,
@@ -39,7 +39,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:22:25+00:00",
+   "actualizado": "2026-11-04T15:19:10+00:00",
    "con_texto_completo": 16,
    "detalle": "con IA",
    "entradas": 16,
@@ -51,7 +51,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:22:34+00:00",
+   "actualizado": "2026-11-04T15:19:19+00:00",
    "con_texto_completo": 15,
    "detalle": "con IA",
    "entradas": 15,
@@ -63,10 +63,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:22:43+00:00",
-   "con_texto_completo": 29,
+   "actualizado": "2026-11-04T15:19:28+00:00",
+   "con_texto_completo": 30,
    "detalle": "con IA",
-   "entradas": 30,
+   "entradas": 31,
    "estado": "ok",
    "feed_propio": "",
    "id": "publico-es",
@@ -75,7 +75,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:22:51+00:00",
+   "actualizado": "2026-11-04T15:19:39+00:00",
    "con_texto_completo": 17,
    "detalle": "con IA",
    "entradas": 21,
@@ -87,10 +87,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:23:01+00:00",
-   "con_texto_completo": 22,
+   "actualizado": "2026-11-04T15:19:48+00:00",
+   "con_texto_completo": 23,
    "detalle": "con IA",
-   "entradas": 22,
+   "entradas": 23,
    "estado": "ok",
    "feed_propio": "",
    "id": "corriere-it",
@@ -99,7 +99,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:23:09+00:00",
+   "actualizado": "2026-11-04T15:19:58+00:00",
    "con_texto_completo": 6,
    "detalle": "con IA",
    "entradas": 6,
@@ -111,16 +111,16 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:23:30+00:00",
+   "actualizado": "2026-11-04T15:20:11+00:00",
    "combina": [
     "elconfidencial-com-espana",
     "elconfidencial-com-economia",
     "elconfidencial-com-tecnologia",
     "elconfidencial-com-deportes"
    ],
-   "con_texto_completo": 66,
+   "con_texto_completo": 76,
    "detalle": "combina 4 webs",
-   "entradas": 66,
+   "entradas": 76,
    "estado": "ok",
    "feed_propio": "",
    "filtro": [],
@@ -129,50 +129,64 @@
    "url": ""
   },
   {
-   "actualizado": "2026-11-04T14:23:18+00:00",
-   "con_texto_completo": 19,
-   "detalle": "con IA",
-   "entradas": 19,
-   "estado": "ok",
+   "actualizado": "2026-11-04T15:20:07+00:00",
+   "detalle": "esta dirección es un artículo suelto, no un listado de noticias: prueba con la sección o la etiqueta que lo contiene",
+   "entradas": 0,
+   "es_articulo": true,
+   "estado": "error",
    "feed_propio": "",
    "id": "share-google-mb1tq8c45rie7ilmv",
    "nombre": "share.google/mb1tQ8c45rIE7IlMv",
+   "sugerencias": [
+    "https://www.abc.es/deportes/sevilla/",
+    "https://www.abc.es/deportes/"
+   ],
    "url": "https://share.google/mb1tQ8c45rIE7IlMv",
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:23:21+00:00",
-   "detalle": "la web ya tiene feed: suscríbete a ese",
+   "actualizado": "2026-11-04T15:20:08+00:00",
+   "detalle": "esta dirección es un artículo suelto, no un listado de noticias: prueba con la sección o la etiqueta que lo contiene",
    "entradas": 0,
-   "estado": "feed_propio",
-   "feed_propio": "https://www.diariodesevilla.es/rss/",
+   "es_articulo": true,
+   "estado": "error",
+   "feed_propio": "",
    "id": "share-google-qxzxhj78rnjbgd1kx",
    "nombre": "share.google/QxzXhJ78RnJBgD1kx",
+   "sugerencias": [
+    "https://www.diariodesevilla.es/deportes/",
+    "https://www.diariodesevilla.es/tag/baloncesto/",
+    "https://www.diariodesevilla.es/tag/agenda-polideportiva-sevilla/"
+   ],
    "url": "https://share.google/QxzXhJ78RnJBgD1kx",
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:23:27+00:00",
-   "detalle": "el feed de la web es más general que esta página y no se ha podido generar uno propio de la página: suscríbete a ese",
+   "actualizado": "2026-11-04T15:20:10+00:00",
+   "detalle": "esta dirección es un artículo suelto, no un listado de noticias: prueba con la sección o la etiqueta que lo contiene",
    "entradas": 0,
-   "estado": "feed_propio",
-   "feed_propio": "https://www.muchodeporte.com/feed",
+   "es_articulo": true,
+   "estado": "error",
+   "feed_propio": "",
    "id": "share-google-isltvssnynv7j1zw8",
    "nombre": "share.google/ISlTVssnyNV7j1Zw8",
+   "sugerencias": [
+    "https://www.muchodeporte.com/deporte-andaluz/"
+   ],
    "url": "https://share.google/ISlTVssnyNV7j1Zw8",
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T14:23:30+00:00",
+   "actualizado": "2026-11-04T15:20:11+00:00",
    "combina": [
     "share-google-isltvssnynv7j1zw8",
     "share-google-qxzxhj78rnjbgd1kx",
     "share-google-mb1tq8c45rie7ilmv"
    ],
-   "con_texto_completo": 1,
-   "detalle": "combina 3 webs; filtro: Caja, Caja87; share-google-isltvssnynv7j1zw8: sin entradas guardadas (¿tiene feed propio o falló?); share-google-isltvssnynv7j1zw8: no se han podido leer entradas de su feed",
+   "detalle": "ninguna de las webs tiene entradas: share-google-isltvssnynv7j1zw8: sin entradas guardadas (¿tiene feed propio o falló?); share-google-qxzxhj78rnjbgd1kx: sin entradas guardadas (¿tiene feed propio o falló?); share-google-mb1tq8c45rie7ilmv: sin entradas guardadas (¿tiene feed propio o falló?)",
    "entradas": 1,
-   "estado": "ok",
+   "estado": "error",
+   "feed_anterior": "2026-11-04T14:23:32+00:00",
    "feed_propio": "",
    "filtro": [
     "Caja",
