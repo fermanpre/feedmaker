@@ -137,6 +137,12 @@ def peticion(url):
         return RespuestaHttp(0, url, "", "", error=f"{type(error).__name__}: {error}")
 
 
+_robots_ilegibles = set()  # webs cuyo robots.txt no se ha podido leer (red caída, 5xx, certificado inválido)
+MOTIVO_ROBOTS_PROHIBE = "robots.txt lo prohíbe"
+MOTIVO_ROBOTS_ILEGIBLE = ("no se ha podido leer el robots.txt de la web (error de red, de certificado o del servidor): "
+                          "por precaución no se descarga")
+
+
 def _cargar_robots(esquema, host):
     clave = (esquema, host)
     if clave in _robots_por_host:
@@ -149,6 +155,7 @@ def _cargar_robots(esquema, host):
         analizador.parse([])  # sin robots.txt: todo permitido (RFC 9309, sección 2.3.1.3)
     else:
         analizador.parse(["User-agent: *", "Disallow: /"])  # 5xx o red caída: no rastrear
+        _robots_ilegibles.add(clave)
     _robots_por_host[clave] = analizador
     return analizador
 
@@ -159,11 +166,38 @@ def permitido_por_robots(url):
     return analizador.can_fetch(AGENTE_USUARIO, url)
 
 
-def descargar_respetuosamente(url):
-    """Devuelve (RespuestaHttp, motivo_de_bloqueo). Si robots.txt lo prohíbe, no se descarga."""
+def _con_www(url):
+    """La misma dirección con «www.» delante si el dominio no lo lleva (solo dominios de dos partes); si no, ''."""
+    partes = urllib.parse.urlsplit(url)
+    anfitrion = partes.hostname or ""
+    if anfitrion.startswith("www.") or anfitrion.count(".") != 1:
+        return ""
+    return urllib.parse.urlunsplit((partes.scheme, "www." + anfitrion, partes.path, partes.query, ""))
+
+
+def _descargar_una_vez(url):
     if not permitido_por_robots(url):
-        return RespuestaHttp(0, url, "", "", error="robots.txt"), "robots.txt lo prohíbe"
+        partes = urllib.parse.urlsplit(url)
+        if (partes.scheme, partes.netloc) in _robots_ilegibles:
+            return RespuestaHttp(0, url, "", "", error="robots.txt ilegible"), MOTIVO_ROBOTS_ILEGIBLE
+        return RespuestaHttp(0, url, "", "", error="robots.txt"), MOTIVO_ROBOTS_PROHIBE
     return peticion(url), ""
+
+
+def descargar_respetuosamente(url):
+    """Devuelve (RespuestaHttp, motivo_de_bloqueo). Si robots.txt lo prohíbe, no se descarga.
+
+    Si el dominio sin «www.» falla por red o certificado (hay webs cuyo certificado solo cubre «www.»), se reintenta
+    una vez con «www.»: la dirección final de la respuesta es la que vale para resolver los enlaces."""
+    respuesta, bloqueo = _descargar_una_vez(url)
+    fallo_de_conexion = bloqueo == MOTIVO_ROBOTS_ILEGIBLE or (not bloqueo and respuesta.estado == 0)
+    if fallo_de_conexion:
+        alternativa = _con_www(url)
+        if alternativa:
+            respuesta_alternativa, bloqueo_alternativo = _descargar_una_vez(alternativa)
+            if not bloqueo_alternativo and 200 <= respuesta_alternativa.estado < 300:
+                return respuesta_alternativa, ""
+    return respuesta, bloqueo
 
 
 # --------------------------------------------------------------------------- DOM mínimo
