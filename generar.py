@@ -263,9 +263,14 @@ def descargar_datos_del_articulo(enlace):
     respuesta = extractor.peticion(enlace)
     if not (200 <= respuesta.estado < 300):
         return "", "", ""
-    cuerpo = extractor.extraer_cuerpo_articulo(respuesta.texto, respuesta.url_final) or ""
-    fecha = extractor.fecha_del_articulo(respuesta.texto, cuerpo) or ""
-    extracto = extractor.extracto_del_articulo(respuesta.texto, cuerpo)
+    try:
+        cuerpo = extractor.extraer_cuerpo_articulo(respuesta.texto, respuesta.url_final) or ""
+        fecha = extractor.fecha_del_articulo(respuesta.texto, cuerpo) or ""
+        extracto = extractor.extracto_del_articulo(respuesta.texto, cuerpo)
+    except Exception as error:
+        # Un artículo con un HTML raro no debe tumbar el feed entero: se anota y se sigue con el resto.
+        print(f"  aviso: no se ha podido extraer {enlace}: {type(error).__name__}: {error}", flush=True)
+        return "", "", ""
     return cuerpo, fecha, extracto
 
 
