@@ -74,6 +74,7 @@
    "https://www.elconfidencial.com/tecnologia/2026-10-29/accidente-sistema-lbz-cbtr_4455034/": "ok",
    "https://www.elconfidencial.com/tecnologia/2026-11-01/impuesto-internet_4456905/": "ok",
    "https://www.elconfidencial.com/tecnologia/2026-11-04/como-sintonizar-la-septima-nuevo-canal-sin-instalar-nada-ni-cambiar-tv-1qrt_4420041/": "ok",
+   "https://www.elconfidencial.com/tecnologia/ciencia/2026-10-30/yogures-bacterias-laboratorio-pais-vasco-microorganismos-fermentacion_4455772/": "ok",
    "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/motor-molecular-inspirado-invento-antiguo-1qrt_4458069/": "ok",
    "https://www.elconfidencial.com/tecnologia/novaceno/2026-11-04/nasa-nuevo-avion-experimental-blackbird-sr71-isaacman_4458281/": "ok",
    "https://www.elconfidencial.com/television/programas-tv/2026-11-04/audiencias-3-noviembre-2026-tierra-de-nadie-en-tierra-lejana_4458497/": "ok",
@@ -269,6 +270,6 @@
    "https://www.upf.edu/web/focus/w/projecte-harvest-coordinat-upf-posa-en-marxa-voluntat-connectar-comunitat-agricola-societat": "ok",
    "https://www.upf.edu/web/focus/w/upf-dona-benvinguda-mes-300-estudiants-doctorat-curs-2026-2027": "ok"
   },
-  "firma": "div.llistat-noticies1466653437 > div.freemarker.noticia"
+  "firma": "div.llistat-noticies-1247563857 > div.freemarker.noticia"
  }
 }

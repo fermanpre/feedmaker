@@ -71,5 +71,19 @@
     "nombre": "share.google/ISlTVssnyNV7j1Zw8",
     "url": "https://share.google/ISlTVssnyNV7j1Zw8",
     "texto_completo": true
+  },
+  {
+    "id": "comb-caja87",
+    "nombre": "Caja87",
+    "combina": [
+      "share-google-isltvssnynv7j1zw8",
+      "share-google-qxzxhj78rnjbgd1kx",
+      "share-google-mb1tq8c45rie7ilmv"
+    ],
+    "filtro": [
+      "Caja",
+      "Caja87"
+    ],
+    "texto_completo": true
   }
 ]
