@@ -22,6 +22,7 @@
    "https://www.corriere.it/sport/calcio/26_novembre_03/chi-era-jesus-de-miguel-morto-tenerife-6baf3668-7b53-4d55-913d-57b9bf508xlk.shtml": "ok",
    "https://www.corriere.it/sport/calcio/europa-league/26_novembre_04/teun-peer-koopmeiners-fratelli-az-alkmaar-juventus-00881cd8-a84b-45a1-b3f7-76362e0daxlk.shtml": "ok",
    "https://www.corriere.it/tecnologia/26_novembre_01/il-telescopio-swift-staprecipitando-sulla-terra-hubble-lo-seguira-tra-qualche-anno-la-nasa-senza-soldi-e-veicoli-chiede-aiuto-ai-19beba12-4efc-45ab-8de0-a864114a5xlk.shtml": "ok",
+   "https://www.corriere.it/tecnologia/26_novembre_03/frigoriferi-hackerati-nei-supermercati-perche-sono-in-rete-chi-c-e-dietro-gli-attacchi-e-puo-succedere-anche-a-casa-125c7304-b7a7-452d-88ed-267fac0d8xlk.shtml": "ok",
    "https://www.iodonna.it/personaggi/famiglie-reali/2026/11/04/perche-harry-e-meghan-continuano-a-cambiar-casa-ecco-cosa-comporta-ogni-trasloco/": "ok"
   },
   "firma": "main > section.media-group.media-group--fascione"
@@ -37,6 +38,7 @@
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-04/carmen-de-burgos-escritora-espanola-del-98_4458024/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-04/manuel-sans-segarra-ser-feliz-psiquiatra-1qrt_4457971/": "ok",
    "https://www.elconfidencial.com/cultura/2026-11-02/tavares-premio-formentor_4457241/": "ok",
+   "https://www.elconfidencial.com/cultura/2026-11-04/allende-trump-novelas_4458838/": "ok",
    "https://www.elconfidencial.com/cultura/2026-11-04/martina-meola-pianista-prodigio_4455778/": "ok",
    "https://www.elconfidencial.com/decompras/lifestyle/2025-11-07/mejores-plumiferos-hombre_3967897/": "ok",
    "https://www.elconfidencial.com/deportes/2026-11-04/jose-abellan-cardiologo-sobre-la-muerte-de-jesus-de-miguel_4458549/": "ok",
@@ -46,10 +48,14 @@
    "https://www.elconfidencial.com/economia/2026-10-30/santiago-satrustegui-bra_4449187/": "ok",
    "https://www.elconfidencial.com/empresas/2026-11-04/carlos-cuerpo-ministro-de-transportes_4458567/": "ok",
    "https://www.elconfidencial.com/empresas/2026-11-04/plan-murtra-telefonica-cumple-objetivos-cotizacion_4457905/": "ok",
+   "https://www.elconfidencial.com/espana/2026-04-12/por-que-no-tenemos-hijos-cbtrrptj_4335688/": "descartar",
    "https://www.elconfidencial.com/espana/2026-11-03/el-juez-pide-a-la-policia-investigar-quien-es-el-autor-del-punzon-de-las-joyas-de-zapatero_4458082/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-03/pp-y-vox-exigen-a-la-jec-que-interior-les-envie-todos-los-datos-sobre-el-voto-por-correo-tras-la-exclusiva-de-el-confidencial_4458049/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/debate-gestion-crisis-espana-accidente-urda-gan-pampols-fernando-prados_4458387/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de_4458630/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/junta-electoral-dni-digital-interior-lector-mesas-electorales_4458255/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/marruecos-espana-despliegue-barcos-avalancha-ceuta_4458314/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-04/oscar-puente-dimision-desmovilizacion-izquierda-crisis-sanchez-1hms_4458420/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/puente-desobedece-sanchez-dimite-resistencia_4458427/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/zapatero-joyas-londres-casa-subastas-pendientes-2023-udef_4458639/": "ok",
    "https://www.elconfidencial.com/mercados/2026-11-04/sanz-gras-gannet-capital-fondo-agricola-tecnologia-olivar-citricos-almendros_4457989/": "ok",
@@ -62,6 +68,7 @@
    "https://www.elconfidencial.com/salud/2026-10-31/negocio-testosterona-cansancio-reclamo_4450870/": "ok",
    "https://www.elconfidencial.com/tecnologia/2026-04-15/kazajistan-astana-tecnologia-inteligencia-artificial-freedom24-timur-turlov_4335070/": "descartar",
    "https://www.elconfidencial.com/tecnologia/2026-04-18/ciberseguridad-vibecoding-agujeros-nuevas-ia_4339456/": "descartar",
+   "https://www.elconfidencial.com/tecnologia/2026-10-29/accidente-sistema-lbz-cbtr_4455034/": "ok",
    "https://www.elconfidencial.com/tecnologia/2026-11-04/como-sintonizar-la-septima-nuevo-canal-sin-instalar-nada-ni-cambiar-tv-1qrt_4420041/": "ok",
    "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/motor-molecular-inspirado-invento-antiguo-1qrt_4458069/": "ok",
    "https://www.elconfidencial.com/tecnologia/novaceno/2026-11-04/nasa-nuevo-avion-experimental-blackbird-sr71-isaacman_4458281/": "ok",
@@ -113,6 +120,7 @@
   "enlaces": {
    "https://www.elconfidencial.com/espana/2026-11-04/1qrt-a-que-dedicaba-carlos-cuerpo-estudios-trayectoria-transportes-puente_4328514/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/ave-madrid-barcelona-retrasos-robo-cable-zaragoza-adif-cuerpo_4458650/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-04/concejal-adra-detenido-violencia-genero-1tna-1tps_4458806/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/constitucional-amnistia-junqueras-turull-romeva-1tps_4458736/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de-teatrillo-en-prime-time-la-dimision-de-puente-y-promete-que-presentara-dos-presupuestos-en-2027_4458630/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de_4458630/": "ok",
@@ -141,6 +149,7 @@
    "https://www.elconfidencial.com/tecnologia/2026-11-03/luciernaga-reaparece-eeuu-43-desaparecida-1qrt_4457564/": "ok",
    "https://www.elconfidencial.com/tecnologia/2026-11-03/sonos-beam-ultra-opiniones-precios_4457504/": "ok",
    "https://www.elconfidencial.com/tecnologia/2026-11-04/como-sintonizar-la-septima-nuevo-canal-sin-instalar-nada-ni-cambiar-tv-1qrt_4420041/": "ok",
+   "https://www.elconfidencial.com/tecnologia/2026-11-04/expo-agritech-innovacion-agricola-technologia-1hms-1svm_4458793/": "ok",
    "https://www.elconfidencial.com/tecnologia/2026-11-04/hackers-nevera-reservas-de-sangre_4458603/": "ok",
    "https://www.elconfidencial.com/tecnologia/2026-11-04/ia-ciberseguridad-complicar-vida_4457536/": "ok",
    "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/luciernaga-reaparece-eeuu-43-desaparecida-1qrt_4457564/": "ok",
@@ -204,6 +213,7 @@
    "https://www.rtve.es/noticias/20261103/transportes-validen-ordenes-sistema-frecuencia-madrid-sevilla/17297280.shtml": "ok",
    "https://www.rtve.es/noticias/20261104/agustin-comotto-publica-dias-pasear-perro-hablar-con-gente-hace-sienta-humano/17297227.shtml": "ok",
    "https://www.rtve.es/noticias/20261104/cristina-fernandez-cubas-premio-cervantes-cuando-empece-decian-cuentos-eran-extranos/17299428.shtml": "ok",
+   "https://www.rtve.es/noticias/20261104/detencion-badajoz-linares-operacion-trafico-menores/17299457.shtml": "ok",
    "https://www.rtve.es/noticias/20261104/elecciones-2026-como-votar-desde-extranjero-voto-cera/17297726.shtml": "ok",
    "https://www.rtve.es/noticias/20261104/expertos-recomiendan-subida-salario-minimo-2027/17298847.shtml": "ok",
    "https://www.rtve.es/noticias/ciencia-y-tecnologia/": "descartar",
@@ -219,6 +229,7 @@
  "share-google-mb1tq8c45rie7ilmv": {
   "enlaces": {
    "https://www.abc.es/deportes/futbol/barcelona-aston-villa-directo-partido-resultado-goles-20261103201815-di.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:10": "ok",
+   "https://www.abc.es/deportes/futbol/barcelona-aston-villa-directo-partido-resultado-goles-20261103201815-di.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:9": "ok",
    "https://www.abc.es/deportes/futbol/commotio-cordis-atipica-trampa-asesina-llevo-jesus-20261103192416-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:1": "ok",
    "https://www.abc.es/deportes/futbol/commotio-cordis-atipica-trampa-asesina-llevo-jesus-20261103192416-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:2": "ok",
    "https://www.abc.es/deportes/futbol/homicidio-imprudente-solo-responsabilidad-civil-claves-legales-20261103141124-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:4": "ok",
@@ -226,13 +237,19 @@
    "https://www.abc.es/deportes/futbol/lado-drama-peor-salida-atrevido-guardameta-jesus-20261103124851-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:1": "ok",
    "https://www.abc.es/deportes/futbol/lado-drama-peor-salida-atrevido-guardameta-jesus-20261103124851-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:2": "ok",
    "https://www.abc.es/deportes/futbol/muere-hospital-futbolista-jesus-miguel-tras-salvaje-20261103093829-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:3": "ok",
+   "https://www.abc.es/deportes/futbol/mundo-futbol-llora-muerte-jesus-miguel-reacciones-20261103104829-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:10": "ok",
    "https://www.abc.es/deportes/futbol/mundo-futbol-llora-muerte-jesus-miguel-reacciones-20261103104829-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:7": "ok",
    "https://www.abc.es/deportes/futbol/schumacher-gallardo-golpes-letales-salidas-porteros-20261103133432-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:6": "ok",
+   "https://www.abc.es/deportes/futbol/ver-television-online-barcelona-aston-villa-hora-champions-20261103152042-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:7": "ok",
    "https://www.abc.es/deportes/futbol/ver-television-online-barcelona-aston-villa-hora-champions-20261103152042-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:8": "ok",
-   "https://www.abc.es/deportes/muere-joven-atleta-anos-maraton-nueva-york-20261103173130-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:5": "ok"
+   "https://www.abc.es/deportes/muere-joven-atleta-anos-maraton-nueva-york-20261103173130-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:5": "ok",
+   "https://www.abc.es/deportes/real-madrid/rafa-nadal-propuesto-miembro-junta-directiva-real-20261104125527-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:8": "ok"
   },
   "feed_generico": true,
   "firma": "ol.v-u.v-u--t1 > li.v-u__l"
+ },
+ "share-google-qxzxhj78rnjbgd1kx": {
+  "feed_generico": false
  },
  "upf-edu": {
   "enlaces": {
@@ -243,6 +260,6 @@
    "https://www.upf.edu/web/focus/w/projecte-harvest-coordinat-upf-posa-en-marxa-voluntat-connectar-comunitat-agricola-societat": "ok",
    "https://www.upf.edu/web/focus/w/upf-dona-benvinguda-mes-300-estudiants-doctorat-curs-2026-2027": "ok"
   },
-  "firma": "div.llistat-noticies314498186 > div.freemarker.noticia"
+  "firma": "div.llistat-noticies-910495290 > div.freemarker.noticia"
  }
 }

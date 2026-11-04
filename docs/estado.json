@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-04T13:05:55+00:00",
- "llamadas_ia": 8,
+ "generado": "2026-11-04T14:04:32+00:00",
+ "llamadas_ia": 7,
  "sitios": [
   {
-   "actualizado": "2026-11-04T13:04:13+00:00",
-   "con_texto_completo": 38,
+   "actualizado": "2026-11-04T14:02:26+00:00",
+   "con_texto_completo": 43,
    "detalle": "con IA",
-   "entradas": 38,
+   "entradas": 43,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com",
@@ -15,10 +15,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:04:26+00:00",
-   "con_texto_completo": 21,
+   "actualizado": "2026-11-04T14:02:52+00:00",
+   "con_texto_completo": 22,
    "detalle": "con IA",
-   "entradas": 21,
+   "entradas": 22,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com-espana",
@@ -27,7 +27,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:04:38+00:00",
+   "actualizado": "2026-11-04T14:03:09+00:00",
    "con_texto_completo": 13,
    "detalle": "con IA",
    "entradas": 13,
@@ -39,10 +39,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:04:47+00:00",
-   "con_texto_completo": 15,
+   "actualizado": "2026-11-04T14:03:18+00:00",
+   "con_texto_completo": 16,
    "detalle": "con IA",
-   "entradas": 15,
+   "entradas": 16,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com-tecnologia",
@@ -51,7 +51,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:04:57+00:00",
+   "actualizado": "2026-11-04T14:03:30+00:00",
    "con_texto_completo": 15,
    "detalle": "con IA",
    "entradas": 15,
@@ -63,7 +63,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:05:06+00:00",
+   "actualizado": "2026-11-04T14:03:38+00:00",
    "con_texto_completo": 29,
    "detalle": "con IA",
    "entradas": 30,
@@ -75,10 +75,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:05:18+00:00",
-   "con_texto_completo": 15,
+   "actualizado": "2026-11-04T14:03:47+00:00",
+   "con_texto_completo": 16,
    "detalle": "con IA",
-   "entradas": 19,
+   "entradas": 20,
    "estado": "ok",
    "feed_propio": "",
    "id": "rtve-es-noticias",
@@ -87,10 +87,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:05:29+00:00",
-   "con_texto_completo": 21,
+   "actualizado": "2026-11-04T14:03:57+00:00",
+   "con_texto_completo": 22,
    "detalle": "con IA",
-   "entradas": 21,
+   "entradas": 22,
    "estado": "ok",
    "feed_propio": "",
    "id": "corriere-it",
@@ -99,7 +99,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:05:39+00:00",
+   "actualizado": "2026-11-04T14:04:06+00:00",
    "con_texto_completo": 6,
    "detalle": "con IA",
    "entradas": 6,
@@ -111,16 +111,16 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T13:05:55+00:00",
+   "actualizado": "2026-11-04T14:04:32+00:00",
    "combina": [
     "elconfidencial-com-espana",
     "elconfidencial-com-economia",
     "elconfidencial-com-tecnologia",
     "elconfidencial-com-deportes"
    ],
-   "con_texto_completo": 64,
+   "con_texto_completo": 66,
    "detalle": "combina 4 webs",
-   "entradas": 64,
+   "entradas": 66,
    "estado": "ok",
    "feed_propio": "",
    "filtro": [],
@@ -129,15 +129,26 @@
    "url": ""
   },
   {
-   "actualizado": "2026-11-04T13:05:49+00:00",
-   "con_texto_completo": 12,
+   "actualizado": "2026-11-04T14:04:15+00:00",
+   "con_texto_completo": 16,
    "detalle": "con IA",
-   "entradas": 12,
+   "entradas": 16,
    "estado": "ok",
    "feed_propio": "",
    "id": "share-google-mb1tq8c45rie7ilmv",
    "nombre": "share.google/mb1tQ8c45rIE7IlMv",
    "url": "https://share.google/mb1tQ8c45rIE7IlMv",
+   "user_agent": "feedmaker"
+  },
+  {
+   "actualizado": "2026-11-04T14:04:24+00:00",
+   "detalle": "la web ya tiene feed: suscríbete a ese",
+   "entradas": 0,
+   "estado": "feed_propio",
+   "feed_propio": "https://www.diariodesevilla.es/rss/",
+   "id": "share-google-qxzxhj78rnjbgd1kx",
+   "nombre": "share.google/QxzXhJ78RnJBgD1kx",
+   "url": "https://share.google/QxzXhJ78RnJBgD1kx",
    "user_agent": "feedmaker"
   }
  ]
