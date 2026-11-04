@@ -1,5 +1,18 @@
 {
- "generado": "2026-11-04T19:19:31+00:00",
+ "generado": "2026-11-04T20:52:45+00:00",
  "llamadas_ia": 0,
- "sitios": []
+ "sitios": [
+  {
+   "actualizado": "2026-11-04T20:52:09+00:00",
+   "con_texto_completo": 32,
+   "detalle": "con IA; listado por enlaces (automático: las direcciones llevan fecha y hay muchos más enlaces que tarjetas)",
+   "entradas": 32,
+   "estado": "ok",
+   "feed_propio": "",
+   "id": "abc-es-deportes-sevilla",
+   "nombre": "abc.es/deportes/sevilla",
+   "url": "https://abc.es/deportes/sevilla/",
+   "user_agent": "feedmaker"
+  }
+ ]
 }

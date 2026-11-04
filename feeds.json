@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": "abc-es-deportes-sevilla",
+    "nombre": "abc.es/deportes/sevilla",
+    "url": "https://abc.es/deportes/sevilla/",
+    "texto_completo": true
+  }
+]
