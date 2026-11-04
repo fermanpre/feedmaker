@@ -25,6 +25,7 @@
  },
  "elconfidencial-com": {
   "enlaces": {
+   "https://www.elconfidencial.com/alma-corazon-vida/2026-10-30/recomendacion-jose-elias-rentabilizar-dinero-ahorrar-dos-formulas-1qrt_4454298/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-02/jose-elias-emprendedor-clase-media-comprarse-casa-sin-pareja-1qrt_4439540/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-03/experto-energetico-gran-mayoria-electrodomesticos-hogar_4458181/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-04/carmen-de-burgos-escritora-espanola-del-98_4458024/": "ok",
@@ -89,6 +90,7 @@
   "enlaces": {
    "https://www.elconfidencial.com/espana/2026-11-04/1qrt-a-que-dedicaba-carlos-cuerpo-estudios-trayectoria-transportes-puente_4328514/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de-teatrillo-en-prime-time-la-dimision-de-puente-y-promete-que-presentara-dos-presupuestos-en-2027_4458630/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de_4458630/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/indemnizacion-oscar-puente-dimision-ministro-transportes-ley-alto-cargo_4458565/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/tribunal-supremo-confirma-condena-prision-autor-crimen-morata-tajuna_4458609/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/video-sanchez-comparece-dimision-ministro-oscar-puente_4458559/": "ok",
@@ -152,12 +154,14 @@
    "https://www.rtve.es/noticias/20260916/cuelgamuros-trailer-documental-criptas-valle-caidos/17225107.shtml": "ok",
    "https://www.rtve.es/noticias/20261027/raphael-gran-playlist-canciones/17277903.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/accidente-tren-urda-inaki-gabilondo-bulo/17298284.shtml": "ok",
+   "https://www.rtve.es/noticias/20261103/competencia-abre-nuevo-expediente-sancionador-apple-amazon-desobedecer-resolucion-2023/17298286.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/cristina-fernandez-cubas-premio-cervantes-2026/17298411.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/juez-calama-pide-a-policia-averiguar-quien-fabrico-joyas-incautadas-a-zapatero/17297932.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/lista-forbes-fortunas-amancio-sandra-ortega-juan-roig/17297250.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/puerta-sol-luce-limpia-38-dias-acampada-turistas-bayern/17297486.shtml": "ok",
    "https://www.rtve.es/noticias/20261103/transportes-validen-ordenes-sistema-frecuencia-madrid-sevilla/17297280.shtml": "ok",
    "https://www.rtve.es/noticias/20261104/agustin-comotto-publica-dias-pasear-perro-hablar-con-gente-hace-sienta-humano/17297227.shtml": "ok",
+   "https://www.rtve.es/noticias/20261104/elecciones-2026-como-votar-desde-extranjero-voto-cera/17297726.shtml": "ok",
    "https://www.rtve.es/noticias/ciencia-y-tecnologia/": "descartar",
    "https://www.rtve.es/noticias/guerra-ucrania-rusia-especial-noticias-analisis-datos-bulos/": "ok",
    "https://www.rtve.es/noticias/sagrada-familia-gaudi/": "ok",
@@ -177,6 +181,6 @@
    "https://www.upf.edu/web/focus/w/projecte-harvest-coordinat-upf-posa-en-marxa-voluntat-connectar-comunitat-agricola-societat": "ok",
    "https://www.upf.edu/web/focus/w/upf-dona-benvinguda-mes-300-estudiants-doctorat-curs-2026-2027": "ok"
   },
-  "firma": "div.llistat-noticies1049418904 > div.freemarker.noticia"
+  "firma": "div.llistat-noticies-1306172489 > div.freemarker.noticia"
  }
 }

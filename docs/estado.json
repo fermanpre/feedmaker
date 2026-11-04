@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-04T10:12:39+00:00",
- "llamadas_ia": 18,
+ "generado": "2026-11-04T10:21:39+00:00",
+ "llamadas_ia": 4,
  "sitios": [
   {
-   "actualizado": "2026-11-04T10:09:56+00:00",
-   "con_texto_completo": 24,
+   "actualizado": "2026-11-04T10:19:17+00:00",
+   "con_texto_completo": 25,
    "detalle": "con IA",
-   "entradas": 24,
+   "entradas": 25,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com",
@@ -15,10 +15,10 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:10:33+00:00",
-   "con_texto_completo": 11,
+   "actualizado": "2026-11-04T10:19:27+00:00",
+   "con_texto_completo": 12,
    "detalle": "con IA",
-   "entradas": 11,
+   "entradas": 12,
    "estado": "ok",
    "feed_propio": "",
    "id": "elconfidencial-com-espana",
@@ -27,7 +27,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:10:55+00:00",
+   "actualizado": "2026-11-04T10:19:37+00:00",
    "con_texto_completo": 11,
    "detalle": "con IA",
    "entradas": 11,
@@ -39,7 +39,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:11:17+00:00",
+   "actualizado": "2026-11-04T10:19:46+00:00",
    "con_texto_completo": 11,
    "detalle": "con IA",
    "entradas": 11,
@@ -51,8 +51,8 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:11:38+00:00",
-   "con_texto_completo": 6,
+   "actualizado": "2026-11-04T10:19:55+00:00",
+   "con_texto_completo": 11,
    "detalle": "con IA",
    "entradas": 11,
    "estado": "ok",
@@ -63,8 +63,8 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:11:52+00:00",
-   "con_texto_completo": 0,
+   "actualizado": "2026-11-04T10:20:10+00:00",
+   "con_texto_completo": 24,
    "detalle": "con IA",
    "entradas": 25,
    "estado": "ok",
@@ -75,11 +75,11 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:12:04+00:00",
-   "con_texto_completo": 0,
-   "detalle": "con IA",
+   "actualizado": "2026-11-04T10:20:44+00:00",
+   "detalle": "error interno: AttributeError: 'NoneType' object has no attribute 'replace'",
    "entradas": 15,
-   "estado": "ok",
+   "estado": "error",
+   "feed_anterior": "2026-11-04T10:12:16+00:00",
    "feed_propio": "",
    "id": "rtve-es-noticias",
    "nombre": "www.rtve.es/noticias",
@@ -87,8 +87,8 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:12:16+00:00",
-   "con_texto_completo": 0,
+   "actualizado": "2026-11-04T10:21:03+00:00",
+   "con_texto_completo": 18,
    "detalle": "con IA",
    "entradas": 18,
    "estado": "ok",
@@ -99,7 +99,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:12:28+00:00",
+   "actualizado": "2026-11-04T10:21:30+00:00",
    "con_texto_completo": 0,
    "detalle": "con IA",
    "entradas": 6,
@@ -111,16 +111,16 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:12:39+00:00",
+   "actualizado": "2026-11-04T10:21:39+00:00",
    "combina": [
     "elconfidencial-com-espana",
     "elconfidencial-com-economia",
     "elconfidencial-com-tecnologia",
     "elconfidencial-com-deportes"
    ],
-   "con_texto_completo": 39,
+   "con_texto_completo": 45,
    "detalle": "combina 4 webs",
-   "entradas": 44,
+   "entradas": 45,
    "estado": "ok",
    "feed_propio": "",
    "filtro": [],
