@@ -32,10 +32,12 @@
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-03/experto-energetico-gran-mayoria-electrodomesticos-hogar_4458181/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-03/jordi-cruz-chef-aceite-vinagre-sal-ensalada_4344218/": "ok",
    "https://www.elconfidencial.com/alma-corazon-vida/2026-11-04/carmen-de-burgos-escritora-espanola-del-98_4458024/": "ok",
+   "https://www.elconfidencial.com/alma-corazon-vida/2026-11-04/manuel-sans-segarra-ser-feliz-psiquiatra-1qrt_4457971/": "ok",
    "https://www.elconfidencial.com/cultura/2026-11-02/tavares-premio-formentor_4457241/": "ok",
    "https://www.elconfidencial.com/cultura/2026-11-04/martina-meola-pianista-prodigio_4455778/": "ok",
    "https://www.elconfidencial.com/decompras/lifestyle/2025-11-07/mejores-plumiferos-hombre_3967897/": "ok",
    "https://www.elconfidencial.com/deportes/2026-11-04/jose-abellan-cardiologo-sobre-la-muerte-de-jesus-de-miguel_4458549/": "ok",
+   "https://www.elconfidencial.com/deportes/futbol/2026-11-03/pique-presidente-andorra-lamento-fallecimiento-jesus-miguel-tenerife_4457962/": "ok",
    "https://www.elconfidencial.com/deportes/futbol/2026-11-04/jesus-de-miguel-owono-tenerife-andorra-muerte-sancion-acta_4458188/": "ok",
    "https://www.elconfidencial.com/deportes/tenis/2026-11-04/carlos-alcaraz-debut-masters-1000-paris-rafa-jodar-amenaza_4458540/": "ok",
    "https://www.elconfidencial.com/economia/2026-10-30/santiago-satrustegui-bra_4449187/": "ok",
@@ -76,11 +78,13 @@
    "https://www.elconfidencial.com/deportes/futbol/2026-11-04/jesus-de-miguel-owono-tenerife-andorra-muerte-sancion-acta_4458188/": "ok",
    "https://www.elconfidencial.com/deportes/futbol/2026-11-04/jesus-de-miguel-tenerife-fallecimiento-salamanca-adarve_4458184/": "ok",
    "https://www.elconfidencial.com/deportes/futbol/2026-11-04/jesus-owono-andorra-tenerife-jesus-de-miguel_4458564/": "ok",
+   "https://www.elconfidencial.com/deportes/futbol/2026-11-04/rafa-nadal-junta-directiva-real-madrid_4458739/": "ok",
    "https://www.elconfidencial.com/deportes/futbol/2026-11-04/rodri-barcelona-atletico-de-madrid-liga-lesion_4458720/": "ok",
    "https://www.elconfidencial.com/deportes/futbol/2026-11-04/santiago-canizares-entrada-owono-jesus-miguel-1qrt_4458560/": "ok",
    "https://www.elconfidencial.com/deportes/futbol/champions/2026-11-03/barca-aston-villa-champions-lamine-yamal-raphinha-pedri-emery_4458350/": "ok",
    "https://www.elconfidencial.com/deportes/tenis/2026-11-04/carlos-alcaraz-debut-masters-1000-paris-rafa-jodar-amenaza_4458540/": "ok",
-   "https://www.elconfidencial.com/deportes/tenis/2026-11-04/cuando-debuta-alcaraz-masters-1000-paris-1qrt_4458144/": "ok"
+   "https://www.elconfidencial.com/deportes/tenis/2026-11-04/cuando-debuta-alcaraz-masters-1000-paris-1qrt_4458144/": "ok",
+   "https://www.elconfidencial.com/deportes/tenis/2026-11-04/quien-es-alvaro-alcaraz-hermano-boda-equipo-tenis_4458749/": "ok"
   },
   "firma": "div.templateContainer.templateContainer--isMainSection > div.templateContainer__item.templateContainer__item--opening"
  },
@@ -110,6 +114,7 @@
    "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de_4458630/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/indemnizacion-oscar-puente-dimision-ministro-transportes-ley-alto-cargo_4458565/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/prediccion-roberto-brasero-nieve-y-heladas-1qrt_4458568/": "ok",
+   "https://www.elconfidencial.com/espana/2026-11-04/primer-mensaje-oscar-uuente-x-tras-dimitir-guino-forges-1qrt_4458731/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/trenes-asco-rato-semana-rufian-1qrt_4458631/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/tribunal-supremo-confirma-condena-prision-autor-crimen-morata-tajuna_4458609/": "ok",
    "https://www.elconfidencial.com/espana/2026-11-04/video-sanchez-comparece-dimision-ministro-oscar-puente_4458559/": "ok",
@@ -164,13 +169,15 @@
    "https://www.publico.es/opinion/columnas/vas-cambiar-voto.html": "ok",
    "https://www.publico.es/politica/comite-empresa-adif-acuerda-huelga-proximo-17-noviembre.html": "ok",
    "https://www.publico.es/politica/congreso/oscar-puente-ministro-politicamente-incorrecto-saco-quicio-derecha-encandilo-socialistas.html": "ok",
+   "https://www.publico.es/politica/directo-video-punto-critico-analiza-dimision-oscar-puente-varapalo-trump.html": "ok",
    "https://www.publico.es/politica/partidos/video-canallita-youtube-entrevistar-pedro-sanchez-influencia-jordi-wild-29n.html": "ok",
    "https://www.publico.es/politica/tribunales/constitucional-acumula-recursos-enfrentan-sanchez-pp-vox-plena-amenaza-mayoria-conservadora-29n.html": "ok",
    "https://www.publico.es/public/politica/junqueras-buscara-distancia-amb-illa-feijoo-arriba-moncloa.html": "ok",
    "https://www.publico.es/sociedad/acampada-historica-puerta-sol-sacudio-agenda-politica-espana-ahora.html": "ok",
    "https://www.publico.es/sociedad/docentes-madrilenos-vuelven-tenir-calles-verde-paron-movilizaciones-luto.html": "ok",
    "https://www.publico.es/sociedad/educacion/huelga-universidades-publicas-madrilenas-comienza-piquetes-informativos.html": "ok",
-   "https://www.publico.es/tremending/estupor-video-abascal-reconoce-sabe-hay-pensiones-senor-quiere-presidir-nuestro-pais.html": "ok"
+   "https://www.publico.es/tremending/estupor-video-abascal-reconoce-sabe-hay-pensiones-senor-quiere-presidir-nuestro-pais.html": "ok",
+   "https://www.publico.es/tremending/video-viral-desmonta-contrato-basura-feijoo-espana-12-puntos-cero-ideas-nuevas-par-perlas.html": "ok"
   },
   "firma": "div.home-boards.page-container > section.default.desktop:mb-12"
  },
@@ -198,6 +205,22 @@
   },
   "firma": "div.bodier.wrapper > div.toplayer.wrapper"
  },
+ "share-google-mb1tq8c45rie7ilmv": {
+  "enlaces": {
+   "https://www.abc.es/deportes/futbol/barcelona-aston-villa-directo-partido-resultado-goles-20261103201815-di.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:10": "ok",
+   "https://www.abc.es/deportes/futbol/commotio-cordis-atipica-trampa-asesina-llevo-jesus-20261103192416-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:2": "ok",
+   "https://www.abc.es/deportes/futbol/homicidio-imprudente-solo-responsabilidad-civil-claves-legales-20261103141124-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:4": "ok",
+   "https://www.abc.es/deportes/futbol/jesus-miguel-arquetipo-esfuerzo-autoconfianza-20261103111628-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:9": "ok",
+   "https://www.abc.es/deportes/futbol/lado-drama-peor-salida-atrevido-guardameta-jesus-20261103124851-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:1": "ok",
+   "https://www.abc.es/deportes/futbol/muere-hospital-futbolista-jesus-miguel-tras-salvaje-20261103093829-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:3": "ok",
+   "https://www.abc.es/deportes/futbol/mundo-futbol-llora-muerte-jesus-miguel-reacciones-20261103104829-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:7": "ok",
+   "https://www.abc.es/deportes/futbol/schumacher-gallardo-golpes-letales-salidas-porteros-20261103133432-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:6": "ok",
+   "https://www.abc.es/deportes/futbol/ver-television-online-barcelona-aston-villa-hora-champions-20261103152042-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:8": "ok",
+   "https://www.abc.es/deportes/muere-joven-atleta-anos-maraton-nueva-york-20261103173130-nt.html#vtm_modulosEngag=lomas:deportes/sevilla:noticia:5": "ok"
+  },
+  "feed_generico": true,
+  "firma": "ol.v-u.v-u--t1 > li.v-u__l"
+ },
  "upf-edu": {
   "enlaces": {
    "https://www.upf.edu/web/focus/w/antonio-monegal-obre-curs-2026-2027-humanitats-potser-llegir-no-ens-fara-millors-pero-si-mes-lliures": "ok",
@@ -207,6 +230,6 @@
    "https://www.upf.edu/web/focus/w/projecte-harvest-coordinat-upf-posa-en-marxa-voluntat-connectar-comunitat-agricola-societat": "ok",
    "https://www.upf.edu/web/focus/w/upf-dona-benvinguda-mes-300-estudiants-doctorat-curs-2026-2027": "ok"
   },
-  "firma": "div.llistat-noticies-941021649 > div.freemarker.noticia"
+  "firma": "div.llistat-noticies744294200 > div.freemarker.noticia"
  }
 }
