@@ -1,1 +1,812 @@
-{}
+{
+ "corriere-it": {
+  "https://27esimaora.corriere.it/notizie/26_ottobre_28/educazione-sessuale-a-scuola-perche-l-italia-va-nella-direzione-opposta-all-europa-6dde2915-b9fc-41d5-947e-76ad1dc48xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Educazione sessuale a scuola: perché l’Italia va nella direzione opposta all’Europa",
+   "visto": "2026-11-04"
+  },
+  "https://living.corriere.it/architettura/card/gentrificazione-citta-significato-che-cos-e-da-dove-viene/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Capire la gentrificazione, ovvero come architettura e urbanistica cambiano gli abitanti di una città",
+   "visto": "2026-11-04"
+  },
+  "https://style.corriere.it/moda/sfilate/milano-paris-fashion-week-per-punti/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Milano e Parigi Fashion Week: la transizione è gattopardesca",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/animali/cani/26_novembre_03/ma-i-cani-soffrono-il-freddo-come-affrontare-le-temperature-in-calo-a-seconda-della-razza-0f923996-a995-45b3-a75a-e75830e34xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Torna il freddo, i cani lo soffrono o il pelo li tutela? Affrontare le temperature in calo in base alla razza",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/buone-notizie/26_novembre_03/desiderio-di-futuro-via-alla-call-di-milano-civil-week-f9f8eed8-f084-4e3e-921b-3ebbfc056xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "«Desiderio di futuro»: annunciato il tema di Milano Civil Week",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/cook/news/26_novembre_03/addio-a-nadia-santini-la-cuoca-umanista-unica-chef-donna-in-italia-ad-aver-ottenuto-le-tre-stelle-michelin-il-cibo-e-gentilezza-05c78839-8815-4512-b17a-53ce1ae3dxlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Addio a Nadia Santini, la cuoca umanista, unica chef donna in Italia ad aver ottenuto tre stelle Michelin: «Il cibo è gentilezza»",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/economia/finanza/26_novembre_04/hacker-nei-supermercati-il-big-dei-freezer-epta-rischi-sottovalutati-l-industria-non-era-pronta-a-un-attacco-simile-cosa-si-puo-504fabc4-b03c-4cc2-8042-3ff62f13bxlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Hacker nei supermercati, il big dei freezer Epta: «Rischi sottovalutati, l’industria non era pronta a un attacco simile». Cosa si può fare",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/esteri/26_novembre_04/trump-ha-perso-e-ora-cosa-vuol-dire-che-e-un-anatra-zoppa-il-piano-di-emergenza-per-i-prossimi-2-anni-e-che-cosa-rischia-davvero-2796b9d9-b867-4094-bb72-a76338507xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Cosa vuol dire che Trump ora è un'«anatra zoppa»? Ecco il suo «piano di emergenza» per i prossimi 2 anni (e che cosa rischia davvero)",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/motori/auto/26_ottobre_28/peralta-d-by-fabrizio-giugiaro-la-supercar-in-rame-piu-esclusiva-al-mondo-con-postazione-make-up-34bf383a-0c4e-49b4-8451-9cf5446dfxlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Peralta D by Fabrizio Giugiaro: la supercar in rame più esclusiva al mondo. Con postazione make-up",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/offerte-recensioni/26_ottobre_28/come-scegliere-la-migliore-offerta-fibra-per-la-casa-velocita-copertura-e-costi-nascosti-b31db842-ef0d-4d62-b8c1-8eac89468xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Speciale tariffe telefoniche : come scegliere la migliore offerta fibra per la casa ed evitare i costi nascosti",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/politica/26_novembre_03/manovra-alta-tensione-salvini-fdi-e-rispunta-il-condono-edilizio-58beeb0a-c413-4ba4-9f69-65c1fd476xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Manovra, alta tensione Salvini-FdI. E «rispunta» il condono edilizio",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/salute/malattie_infettive/26_novembre_03/morbillo-primo-bambino-morto-nello-stato-di-new-york-una-tragedia-annunciata-e-nel-mondo-vaccinazioni-in-calo-cd0044ac-61ed-4a72-952f-4bf1d0783xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Morbillo, primo bimbo morto nello Stato di New York: una tragedia annunciata e nel mondo vaccinazioni in calo",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/scuola/26_ottobre_29/scuola-crollo-degli-stipendi-negli-ultimi-sei-anni-20-mila-euro-in-meno-in-busta-paga-fee827cd-dd01-4093-84e8-7a666ec16xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Scuola, stipendi troppo bassi: negli ultimi sei anni «persi» 20 mila euro",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/sette/26_ottobre_25/giorgia-intervista-baroni-lo-51c27094-c4c9-45b1-a70e-1592830a9xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Giorgia: «Temevo di aver dato tutto. Ora riesco a rendere omaggio ad Alex Baroni senza spezzarmi. Il mio compagno Emanuel Lo? Gli dicevo: \"Sono vecchia, ma dove andiamo?\"»",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/spettacoli/cinema-serie-tv/cards/the-greatest-arriva-la-prima-serie-tv-autorizzata-sulla-vita-di-muhammad-ali/vita-di-un-campione_principale.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "«The Greatest», arriva la prima serie tv autorizzata sulla vita di Muhammad Ali",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/sport/calcio/26_novembre_03/chi-era-jesus-de-miguel-morto-tenerife-6baf3668-7b53-4d55-913d-57b9bf508xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Idolo a Tenerife dopo la gavetta, numero 9 e fisico imponente: chi era De Miguel, morto dopo lo scontro con il portiere",
+   "visto": "2026-11-04"
+  },
+  "https://www.corriere.it/tecnologia/26_novembre_01/il-telescopio-swift-staprecipitando-sulla-terra-hubble-lo-seguira-tra-qualche-anno-la-nasa-senza-soldi-e-veicoli-chiede-aiuto-ai-19beba12-4efc-45ab-8de0-a864114a5xlk.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Il telescopio Swift staprecipitando sulla Terra. Hubble lo seguirà tra qualche anno: la Nasa chiede aiuto ai privati",
+   "visto": "2026-11-04"
+  },
+  "https://www.iodonna.it/personaggi/famiglie-reali/2026/11/04/perche-harry-e-meghan-continuano-a-cambiar-casa-ecco-cosa-comporta-ogni-trasloco/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Perché Harry e Meghan continuano a cambiare casa?",
+   "visto": "2026-11-04"
+  }
+ },
+ "elconfidencial-com": {
+  "https://www.elconfidencial.com/alma-corazon-vida/2026-11-02/jose-elias-emprendedor-clase-media-comprarse-casa-sin-pareja-1qrt_4439540/": {
+   "extracto": "El empresario defiende que pertenecer a la clase media implica tener suficiente independencia económica para afrontar una vivienda, un coche y ciertos gastos de ocio sin depender de una pareja",
+   "fecha": "2026-11-02T12:00:00+00:00",
+   "titulo": "José Elías, emprendedor: \"Clase media para mí es una persona que es capaz de comprarse una casa o un coche sin necesidad de estar en pareja\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/alma-corazon-vida/2026-11-03/experto-energetico-gran-mayoria-electrodomesticos-hogar_4458181/": {
+   "extracto": "Este modo de muchos aparatos electrónicos puede influir enormente en la cantidad a pagar en nuestra factura de la luz",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Manuel, experto energético: “La gran mayoría de electrodomésticos de nuestro hogar siguen consumiendo electricidad, aunque no veas el piloto rojo de stand",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/alma-corazon-vida/2026-11-04/carmen-de-burgos-escritora-espanola-del-98_4458024/": {
+   "extracto": "Complétalo en tiempo récord. Un nuevo reto de lógica cada mañana",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Carmen de Burgos, escritora española del 98: \"Una buena vida no consiste en aparentar ni buscar reconocimiento, sino en rodearse de gente que comparte tus sueños\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/cultura/2026-11-02/tavares-premio-formentor_4457241/": {
+   "extracto": "\"Para mí, la llamada realidad está llena de agujeros negros y de situaciones inexplicables\", me dijo una vez. Quizá para todos los esté, solo que ella lo escribe. Y muy bien",
+   "fecha": "2026-11-02T12:00:00+00:00",
+   "titulo": "Gonçalo M. Tavares, premio Formentor: \"Son tiempos peligrosos: la palabra de los más poderosos carece de empatía. Y los elegimos nosotros\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/cultura/2026-11-04/martina-meola-pianista-prodigio_4455778/": {
+   "extracto": "Los grandes inversores se están lanzando al almacenamiento industrial al aire libre, aprovechando la demanda de los centros de datos por estos recintos",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Tiene 13 años y toca el piano como los ángeles: esta es la nueva niña prodigio que asombra a todos",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/decompras/lifestyle/2025-11-07/mejores-plumiferos-hombre_3967897/": {
+   "extracto": "Hemos preparado una comparativa con chaquetas de plumas de hombre y las marcas más prestigiosas, tanto de abrigos de plumas de hombre como de plumíferos ligeros de hombre, para no pasar frío este invierno",
+   "fecha": "2025-11-07T12:00:00+00:00",
+   "titulo": "Los mejores plumíferos de hombre para lucir un 'look' abrigado, pero impecable, durante todo el invierno",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/2026-11-04/jesus-de-miguel-owono-tenerife-andorra-muerte-sancion-acta_4458188/": {
+   "extracto": "Cuando suben los costes, los precios de los alimentos suben en cuestión de días. Cuando bajan, tardan meses en notarse en la tienda, y a veces ni llegan. Así, cada crisis deja el suelo de precios un poco más alto",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "El estigma que perseguirá a Owono y una ambulancia fuera del estadio: las incógnitas de la dramática muerte de Jesús de Miguel",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/tenis/2026-11-04/carlos-alcaraz-debut-masters-1000-paris-rafa-jodar-amenaza_4458540/": {
+   "extracto": "El número tres arranca su andadura en el torneo parisino con la moral recuperada tras su lesión de muñeca. En su comparecencia, elogia el meteórico ascenso del joven jugador madrileño, quien acaba de ser eliminado del cuadro por el noruego Casper Ruud",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Carlos Alcaraz, sobre Rafa Jódar, antes del Masters 1000 de París: \"No es una amenaza. Es increíble la forma en que está jugando en su primer año\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-10-30/santiago-satrustegui-bra_4449187/": {
+   "extracto": "¿Tener más dinero significa vivir mejor? El presidente de Abante cuestiona esta idea y reflexiona sobre el papel del dinero, la importancia de tener un propósito y cómo afrontar la incertidumbre",
+   "fecha": "2026-10-30T12:00:00+00:00",
+   "titulo": "Satrústegui: \"Uno se puede considerar rico si está a gusto con el futuro\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/empresas/2026-11-04/carlos-cuerpo-ministro-de-transportes_4458567/": {
+   "extracto": "Pedro Sánchez apuesta por su vicepresidente, un perfil técnico para intentar combatir el discurso de gestión del Partido Popular en la recta final hacia las próximas elecciones generales del 29 de noviembre",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Carlos Cuerpo, el perfil más técnico del Gobierno, toma el mando de Transportes para intentar salvar el 29-N",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/empresas/2026-11-04/plan-murtra-telefonica-cumple-objetivos-cotizacion_4457905/": {
+   "extracto": "Hasta el momento, ha alcanzado sus metas de ingresos, ebitda y apalancamiento, pero las acciones siguen a la baja, afectadas por los problemas sistémicos del sector de las telecomunicaciones",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Plan Murtra, año I: Telefónica cumple los objetivos marcados, pero la cotización no acompaña por problemas del sector",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/2026-11-03/el-juez-pide-a-la-policia-investigar-quien-es-el-autor-del-punzon-de-las-joyas-de-zapatero_4458082/": {
+   "extracto": "La Generalitat ha estado aguantando al jefe de gabinete del presidente, Eduard Rivas, durante siete meses. Al final ha caído cuando su causa ha avanzado y se ha levantado el secreto de sumario",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "El juez pide a la Policía investigar quién es el autor del punzón de las joyas del expresidente Zapatero",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/2026-11-04/debate-gestion-crisis-espana-accidente-urda-gan-pampols-fernando-prados_4458387/": {
+   "extracto": "En esta nueva entrega de &#039;A debate&#039;, Francisco José Gan Pampols y el médico de Emergencias Fernando Prados abordan las deficiencias de nuestro país a la hora de afrontar catástrofes y crisis",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "\"Estamos abocados a un tercer y un cuarto accidente\": dos especialistas en gestión de crisis abordan la situación",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/2026-11-04/junta-electoral-dni-digital-interior-lector-mesas-electorales_4458255/": {
+   "extracto": "Antes de permitir su utilización en las elecciones, exige que los miembros de cada mesa puedan comprobar de forma segura que la credencial que muestra el votante es auténtica y está siendo generada en ese momento",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "La JEC mantendrá por ahora en suspenso el uso del DNI digital hasta que Interior garantice un lector en las 61.033 mesas",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/2026-11-04/puente-desobedece-sanchez-dimite-resistencia_4458427/": {
+   "extracto": "ElConfidencial estrena nuevo espacio de entretenimiento: crucigramas, sudokus, buscaminas y mucho más",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Puente desobedece a Sánchez y dimite tras seis días de resistencia: Moncloa descartaba...",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/mercados/2026-11-04/sanz-gras-gannet-capital-fondo-agricola-tecnologia-olivar-citricos-almendros_4457989/": {
+   "extracto": "La segunda añada de su vehículo de capital riesgo incorpora los cítricos al olivar y el almendro y refuerza la apuesta por la tecnología y la gestión profesional de las explotaciones agrícolas",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Los Sanz Gras captan 25 M en 4 meses con su nuevo fondo y aspiran a 100 M para cítricos, olivar y almendros",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/mercados/the-wall-street-journal/2026-11-03/fondo-de-cobertura-elliott-advierte-sobre-fogo_4458138/": {
+   "extracto": "La gestora de fondos de cobertura, con un patrimonio de 80.000 millones de dólares, ha registrado una rentabilidad plana en el tercer trimestre y unas ganancias inferiores al 2%",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Olvídate del 'FOMO' y prepárate para el 'FOGO': el aviso de uno de los grandes 'hedge funds' de Wall St.",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/motor/2026-11-04/eleccion-silenciosa-volkswagen-cupra-derroto-seat_4438234/": {
+   "extracto": "Aunque la compañía insista en que el futuro de Seat sigue abierto hasta 2030, las decisiones del Grupo Volkswagen revelan que el destino de la marca ya estaba escrito en favor de Cupra desde hace años",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "La elección silenciosa de Volkswagen: cómo Cupra derrotó a Seat antes de que nadie lo admitiera",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/mundo/2026-11-03/rusia-negociara-ucrania-con-mediacion-de-estados-unidos-_4458017/": {
+   "extracto": "Dibujar al monarca, aunque sea en su mejor versión, está prohibido en Marruecos. Por hacerlo en redes sociales, Yasser Mounbir, de 22 años, permanecerá en prisión hasta 2030. Su caso se añade al de dos mujeres, al de un abogado octogenario y al de cientos de jóvenes que en 2025 protestaron en las calles",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Rusia y Ucrania retomarán las negociaciones el 10 de noviembre con mediación de Estados Unidos",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/mundo/2026-11-04/james-talarico-gana-senado-texas-1tps_4458481/": {
+   "extracto": "Formado en Harvard y vinculado a la enseñanza, el nuevo legislador propone reformar ICE y facilitar la ciudadanía a migrantes sin papeles",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Seminarista progresita. Talarico, el hombre que ha roto décadas de dominio republicano en Texas",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/salud/2026-10-31/negocio-testosterona-cansancio-reclamo_4450870/": {
+   "extracto": "Los andrólogos alertan de diagnósticos incompletos y de enfermedades que pueden pasar inadvertidas. En una de las clínicas consultadas, los primeros seis meses de tratamiento cuestan entre 1.700 y 2.000 euros, con las analíticas incluidas",
+   "fecha": "2026-10-31T12:00:00+00:00",
+   "titulo": "El chute de testosterona que promete más músculo, energía y deseo sexual... que probablemente no necesitas",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/motor-molecular-inspirado-invento-antiguo-1qrt_4458069/": {
+   "extracto": "Científicos de Alemania, Dinamarca e Israel han desarrollado un motor molecular que gira en ambas direcciones mediante electricidad",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Un invento de hace 2.000 años inspira un revolucionario motor molecular que multiplica hasta por 100 la conductividad eléctrica",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/television/programas-tv/2026-11-04/pasapalabra-alberto-sanfrutos-boom-rechace-historico_4455786/": {
+   "extracto": "El reconocido concursante de Los Lobos explica por qué rechazó la oferta que le hizo el programa de Antena 3 en sus inicios",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Alberto Sanfrutos: \"Rechacé participar en 'Pasapalabra'. No tiene sentido aprenderse de memoria el diccionario\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.vanitatis.elconfidencial.com/novias/2026-11-04/boda-golfista-david-puig-berta-sanchez-alta-burguesia-catalana_4457873/": {
+   "extracto": "Al principio de la relación, la hija de la infanta Elena y su pareja llegaron a convivir. La intensidad del inicio les ha pasado factura y ahora se han dado un tiempo de tranquilidad",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Primicia | La boda del golfista David Puig y Berta Sánchez: en la Catedral del Mar y con un vestido de Rosa Clará",
+   "visto": "2026-11-04"
+  }
+ },
+ "elconfidencial-com-deportes": {
+  "https://www.elconfidencial.com/deportes/2026-11-04/jose-abellan-cardiologo-sobre-la-muerte-de-jesus-de-miguel_4458549/": {
+   "extracto": "El especialista explica qué es la commotio cordis, una alteración cardíaca que puede producirse tras un fuerte impacto en el pecho, y recuerda la importancia de actuar rápidamente ante una parada cardiorrespiratoria",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "José Abellán, cardiólogo, sobre la muerte de Jesús de Miguel: \"Es un golpe potente contra el corazón justo en un momento concreto del ciclo cardíaco\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/2026-11-03/psg-villarreal-liga-campeones-1tps_4458423/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "El PSG arrasa al Villarreal y deja el futuro de Íñigo Pérez en el aire (0-6)",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/2026-11-04/aek-atenas-real-madrid-hora-donde-ver-partido-champions-league-1qrt_4457866/": {
+   "extracto": "El equipo de José Mourinho suma nueve puntos tras superar al Inter por 2-1, ganar en Roma por 3-4 y derrotar al Leipzig por 4-1 en las últimas jornadas",
+   "fecha": "",
+   "titulo": "AEK Atenas vs Real Madrid: horario y dónde ver por TV en directo el partido de la Champions League",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/2026-11-04/caso-tenerife-andorra-imprudencia-1hms_4458301/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Cuando el deporte deja de ser solo un juego: lesiones, muerte y derecho penal",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/2026-11-04/jesus-de-miguel-owono-tenerife-andorra-muerte-sancion-acta_4458188/": {
+   "extracto": "El fallecimiento del delantero del Tenerife tras sufrir un fuerte golpe a la altura del pecho \"cuando el balón estaba en disputa\" deja muchas preguntas sobre qué le puede pasar al portero del Andorra",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "El estigma que perseguirá a Owono y una ambulancia fuera del estadio: las incógnitas de la dramática muerte de Jesús de Miguel",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/2026-11-04/jesus-de-miguel-tenerife-fallecimiento-salamanca-adarve_4458184/": {
+   "extracto": "A los 30 años, falleció el delantero tras un choque en el duelo ante el Andorra. El balompié nacional está de luto después de lo ocurrido. Los que coincidieron con él lo recuerdan como un tipo humilde y tímido",
+   "fecha": "",
+   "titulo": "Jesús de Miguel, \"el obrero del fútbol\" que dejó goles y cariño por donde pasó",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/2026-11-04/jesus-owono-andorra-tenerife-jesus-de-miguel_4458564/": {
+   "extracto": "Lautaro Spatz publicó un comunicado en sus redes sociales para defender al portero y reconocer que la plantilla del Andorra estaba \"conmocionada, hundida y afectada\" después de conocer la trágica noticia",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Un compañero de Owono en el Andorra sale en su defensa: \"Jamás haría daño a nadie, está sufriendo\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/2026-11-04/santiago-canizares-entrada-owono-jesus-miguel-1qrt_4458560/": {
+   "extracto": "El guardameta ha examinado la jugada desde la experiencia de quien pasó buena parte de su vida bajo los palos. Lamentó el fallecimiento del delantero del Tenerife",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Cañizares, sobre la entrada de Owono: \"Las rodillas se usan como protección y para evitar los choques\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/futbol/champions/2026-11-03/barca-aston-villa-champions-lamine-yamal-raphinha-pedri-emery_4458350/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "El Barça arrolla al Aston Villa con el doblete de Raphinha en una segunda parte mágica (3-0)",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/tenis/2026-11-04/carlos-alcaraz-debut-masters-1000-paris-rafa-jodar-amenaza_4458540/": {
+   "extracto": "El número tres arranca su andadura en el torneo parisino con la moral recuperada tras su lesión de muñeca. En su comparecencia, elogia el meteórico ascenso del joven jugador madrileño, quien acaba de ser eliminado del cuadro por el noruego Casper Ruud",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Carlos Alcaraz, sobre Rafa Jódar, antes del Masters 1000 de París: \"No es una amenaza. Es increíble la forma en que está jugando en su primer año\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/deportes/tenis/2026-11-04/cuando-debuta-alcaraz-masters-1000-paris-1qrt_4458144/": {
+   "extracto": "El murciano busca conquistar por primera vez el torneo francés y mejorar su resultado de la pasada edición, cuando Cameron Norrie lo eliminó en su estreno",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Alcaraz vs Michelsen: horario y dónde ver por TV el partido del Masters 1000 de París",
+   "visto": "2026-11-04"
+  }
+ },
+ "elconfidencial-com-economia": {
+  "https://www.elconfidencial.com/economia/2026-11-03/10-espanoles-mas-ricos-2026-segun-forbes-ortega-roig-perez-1qrt_4458331/": {
+   "extracto": "Nombres conocidos de la moda, el turismo y los supermercados vuelven a batirse en el exclusivo escaparate de Forbes. Descubre quiénes son y cuánto dinero amasan los diez españoles más poderosos este año",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Los 10 españoles más ricos de 2026 según Forbes: el patrimonio astronómico de Amancio Ortega, Juan Roig y Florentino Pérez",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-11-04/1qrt-personas-mas-ricas-comunidad-autonoma-espana-forbes-patrimonio_4458553/": {
+   "extracto": "La última clasificación de grandes fortunas españolas revela importantes diferencias territoriales y confirma el peso de sectores como la moda, la alimentación, el turismo y las infraestructuras",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Estas son las personas más ricas de cada comunidad autónoma en 2026, según Forbes: el patrimonio de Amancio Ortega, Juan Roig o Sol Daurella",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-11-04/expertos-trabajo-terminan-informe-subida-smi-recomendacion_4458211/": {
+   "extracto": "El ministerio ha convocado la mesa de diálogo para este miércoles, a la que asistirán tanto los sindicatos como la patronal. Lo más probable es que el salario mínimo ascienda a 17.934 euros brutos el año que viene, un 74% más que en 2018",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Los expertos de Trabajo terminan el informe sobre el SMI de 2027 y recomiendan subirlo un 4,9%",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-11-04/inflacion-octubre-subida-pensiones-1qrt_4458577/": {
+   "extracto": "Los últimos datos del IPC permiten anticipar un incremento de las prestaciones para el próximo año",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Inflación de octubre y subida de las pensiones en 2027: cuánto y cuándo subirán",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-11-04/jubilada-mayores-mirando-gastamos-pension-para-tanto_4458304/": {
+   "extracto": "La tendencia al alza del coste de muchos elementos de la vida cotidiana condiciona la subsistencia de cada vez más usuarios pertenecientes a la tercera edad",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Mari, jubilada: “Los mayores es que tenemos que ir mirando delicadamente lo que gastamos porque la pensión no da para tanto”",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-11-04/precio-luz-miercoles-4-noviembre-horas-baratas-1qrt_4458496/": {
+   "extracto": "Desplazar el consumo hacia las franjas de menor precio puede ayudar a reducir el gasto eléctrico frente a las horas nocturnas más caras",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Precio de la luz por horas hoy, miércoles 4 de noviembre: las horas más baratas y más caras",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-11-04/puente-senala-falta-presupuestos-estado-gasto-mantenimiento-tren_4458425/": {
+   "extracto": "&quot;Tenemos un presupuesto del año 2023 que no ha cambiado&quot; justificó el Congreso antes de anunciar su dimisión: &quot;¿Invertir más en mantenimiento? Yo invierto todo lo que tengo&quot;",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Puente señala que la falta de PGE impidió mejorar el mantenimiento de Adif",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-11-04/seguridad-social-acelera-octubre-gracias-extranjeros-186-600-empleos_4458479/": {
+   "extracto": "El paro aumenta en 43.128 personas, más de lo habitual, y el mercado laboral muestra síntomas de desaceleración si se descuenta la regularización extraordinaria de inmigrantes",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "La Seguridad Social acelera por los extranjeros y gana 186.600 empleos en octubre",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/2026-11-04/subida-cesta-compra-guerra-iran_4458300/": {
+   "extracto": "Cuando suben los costes, los precios de los alimentos suben en cuestión de días. Cuando bajan, tardan meses en notarse en la tienda, y a veces ni llegan. Así, cada crisis deja el suelo de la compra un escalón más alto",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Por qué la guerra de Irán subirá la compra y por qué tardará en bajar",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/el-beneficio-de-la-duda/2026-11-04/dimision-oscar-puente-responsabilidad-ferroviaria-1hms_4458456/": {
+   "extracto": "Su queja por la falta de presupuestos, la promesa incumplida de reforzar Adif y su agradecimiento a Sánchez apuntan arriba, abajo y a los lados",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "La responsabilidad política no acaba en Óscar Puente (basta con escucharle)",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/economia/por-las-esquinas/2026-11-04/del-puente-de-difuntos-al-puente-aereo_4458282/": {
+   "extracto": "Sevilla vio caer su ocupación hotelera el fin de semana y reclama recuperar la conexión aérea con Madrid, mientras Málaga pide desde la WTM de Londres soluciones inmediatas",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Del puente de Difuntos al puente aéreo",
+   "visto": "2026-11-04"
+  }
+ },
+ "elconfidencial-com-espana": {
+  "https://www.elconfidencial.com/espana/2026-11-04/1qrt-a-que-dedicaba-carlos-cuerpo-estudios-trayectoria-transportes-puente_4328514/": {
+   "extracto": "El presidente del Gobierno, Pedro Sánchez, ha anunciado que será Cuerpo quien se hará cargo de las competencias del departamento tras la salida de Óscar Puente",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "A qué se dedicaba Carlos Cuerpo antes de ser político: sus estudios y trayectoria del nuevo ministro de Transportes tras la dimisión de Óscar Puente",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/2026-11-04/feijoo-tilda-de-teatrillo-en-prime-time-la-dimision-de-puente-y-promete-que-presentara-dos-presupuestos-en-2027_4458630/": {
+   "extracto": "El líder popular anuncia que en su primer año de Gobierno aprobará las cuentas de 2027 y 2028 y que la inversión en infraestructuras tendrá un papel prioritario en caso de llegar a la Moncloa",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Feijóo tilda de \"teatrillo en prime time\" la dimisión de Puente y promete que presentará dos Presupuestos en 2027",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/2026-11-04/indemnizacion-oscar-puente-dimision-ministro-transportes-ley-alto-cargo_4458565/": {
+   "extracto": "La legislación prevé una prestación equivalente al 80% de la retribución anual durante un período máximo de dos años. El exministro dispone de quince días para decidir si solicita esta asignación, incompatible con cualquier otro sueldo público o privado",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Esta es la indemnización a la que tiene derecho Óscar Puente tras su dimisión como ministro de Transportes: tiene 15 días para decidir",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/2026-11-04/tribunal-supremo-confirma-condena-prision-autor-crimen-morata-tajuna_4458609/": {
+   "extracto": "Lo hacen al considerar probada la \"violencia exorbitante\" empleada contra las víctimas. Los magistrados desestiman la atenuante de confesión al determinar que el acusado acudió a las autoridades cuando ya se sabía investigado",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "El Supremo ratifica la condena de 36 años de prisión para el autor del triple crimen de Morata de Tajuña",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/2026-11-04/video-sanchez-comparece-dimision-ministro-oscar-puente_4458559/": {
+   "extracto": "El presidente del Gobierno debe decidir si nombrar un nuevo ministro en sustitución de Puente o dejar que otro miembro del Ejecutivo asuma sus competencias a pocas semanas de las elecciones",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Vídeo | Pedro Sánchez comparece tras la dimisión del ministro Óscar Puente",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/andalucia/2026-11-04/desarticulada-red-cocaina-coin-1tna-1tps_4458614/": {
+   "extracto": "Tres arrestados ingresan en prisión tras incautarse 68 kilos de droga y productos químicos destinados a preparar envíos ocultos hacia Francia e Italia",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Cae en Málaga una red dedicada a adulterar cocaína que luego enviaba a Francia e Italia",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/cataluna/2026-11-04/detenidos-clinica-estetica-sin-titulacion-1tps_4458588/": {
+   "extracto": "Los Mossos detuvieron a un hombre por ofrecer tratamientos estéticos sin titulación; varias clientas sufrieron lesiones y se incautaron fármacos y dinero durante el registro",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Detenido por presuntos tratamientos estéticos sin titulación en una clínica de Barcelona",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/cataluna/2026-11-04/illa-sacrifica-a-su-jefe-de-gabinete-tras-levantarse-el-secreto-de-sumario-de-su-caso_4458271/": {
+   "extracto": "La Generalitat ha estado aguantando al jefe de gabinete del presidente durante siete meses. Al final ha caído cuando su causa ha avanzado y se ha levantado el secreto de sumario",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Illa cierra filas en el Parlament con su jefe de gabinete caído por un caso judicial",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-11-04/agresor-kickboxing-prision-vila-real-1tna-1tps_4458594/": {
+   "extracto": "Un altercado por una fotografía terminó con un varón de 32 años en la UCI y el arresto del supuesto atacante, experto en K1 y kickboxing, en Vila-real",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "A prisión un maestro de artes marciales tras agredir y mandar a la UCI a un hombre",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-11-04/detenido-grooming-menor-redes-sociales-1tna-1tps_4458589/": {
+   "extracto": "El arrestado contactó con la víctima mediante internet, se ganó su confianza simulando compartir aficiones y le pidió imágenes y vídeos de índole sexual mientras los agentes buscan a más afectados",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Detenido por corrupción de menores por obtener y difundir contenido sexual de un menor",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/espana/madrid/2026-11-04/detenido-acoso-mujeres-madrid-1tna-1tps_4458586/": {
+   "extracto": "Al menos nueve jóvenes relataron que fueron forzadas a entregar sus teléfonos en Tetuán y recibieron después mensajes obscenos, insultantes y humillantes",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Detenido un hombre que abordaba, perseguía y acosaba a mujeres en plena calle en Madrid",
+   "visto": "2026-11-04"
+  }
+ },
+ "elconfidencial-com-tecnologia": {
+  "https://www.elconfidencial.com/tecnologia/2026-11-03/foro-ia-negocio-seguridad-bra_4456329/": {
+   "extracto": "La III edición del Foro de IA reunirá este jueves 5 a expertos internacionales y nacionales para poner la inteligencia artificial bajo la lupa del negocio, la seguridad y el impacto en nuestras vidas",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "¿Pozo sin fondo o rentabilidad? Los líderes de la inteligencia artificial ponen cifras a su negocio",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/2026-11-03/luciernaga-reaparece-eeuu-43-desaparecida-1qrt_4457564/": {
+   "extracto": "El científico Christopher Heckscher y su equipo consiguieron encontrarla en el Parque Estatal Brandywine Creek, en Delaware (Estados Unidos)",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Reaparece en EEUU una luciérnaga que llevaba 43 años desaparecida: \"Necesitamos protegerla frente a la contaminación lumínica y la expansión urbana\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/2026-11-03/sonos-beam-ultra-opiniones-precios_4457504/": {
+   "extracto": "Llevamos años viendo cómo las barras de sonido compactas prometen hacer mucho con poco. La Sonos Beam Ultra da un paso al llevar Dolby Atmos a un formato menor e ideal para salones pequeños y medianos. Pero, como todo, tiene letra pequeña",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Llevo años probando barras de sonido. Esta cumple una promesa que parecía imposible en mi salón",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/2026-11-04/hackers-nevera-reservas-de-sangre_4458603/": {
+   "extracto": "Mientras media Europa miraba el caos ocasionado en supermercados, un centro del EFS sufría un ataque contra la refrigeración de las cámaras donde se guardan reservas de sangre y plasma. La intervención de un técnico evitó que la crisis fuera a mayores",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Los ciberataques apuntan a las reservas de sangre: manipulan las cámaras frigoríficas del sistema de transfusiones francés",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/2026-11-04/ia-ciberseguridad-complicar-vida_4457536/": {
+   "extracto": "Con la IA abaratando la búsqueda de fallos, cualquier red mal protegida es un blanco inmediato. \"A partir de ahora van a ser todo ataques\". El hackeo de las neveras en media Europa es el último de una serie de crisis que han sucedido en el último mes",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Los ciberataques a supermercados solo son el principio: \"Internet está a punto de colapsar\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/motor-molecular-inspirado-invento-antiguo-1qrt_4458069/": {
+   "extracto": "Científicos de Alemania, Dinamarca e Israel han desarrollado un motor molecular que gira en ambas direcciones mediante electricidad",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Un invento de hace 2.000 años inspira un revolucionario motor molecular que multiplica hasta por 100 la conductividad eléctrica",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-03/nasa-descubre-extranas-formaciones-roca-marte_4456403/": {
+   "extracto": "El róver Curiosity analizará unas peculiares formaciones con aspecto de discos y agujas que podrían revelar nuevas pistas sobre el pasado geológico del planeta rojo",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "La NASA detecta unas extrañas estructuras en una roca de Marte y prepara una perforación para descubrir su origen",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/ciencia/2026-11-04/gravedad-marte-brecha-caracteristicas-desconcertantes-1qrt_4433863/": {
+   "extracto": "Un estudio publicado en Nature utiliza datos de tres misiones de la NASA para reconstruir el interior marciano y detectar una marcada asimetría térmica entre sus dos hemisferios en profundidad",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Analizan la gravedad de Marte y descubren una brecha que explicaría sus características más desconcertantes",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/novaceno/2026-11-03/darpa-jauria-robots-coordinada-ia_4458050/": {
+   "extracto": "Cuatro vehículos autónomos del Pentágono salieron a buscar a un enemigo simulado tras un aviso por satélite, lo encontraron y esperaron a que un humano ordenase el ataque antes de eliminarlo",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "DARPA demuestra una jauría de robots coordinada cazando enemigos por su cuenta usando IA",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/novaceno/2026-11-03/estudio-contradice-teoria-agua-tierra-vino-en-cometas_4456135/": {
+   "extracto": "Una lluvia de guijarros fundidos en la atmósfera de la Tierra primitiva, rica en hidrógeno, pudo fabricar cientos de océanos de agua sin ayuda de cometas ni asteroides",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Un nuevo estudio explica la formación de océanos en la Tierra: el agua no llegó en cometas",
+   "visto": "2026-11-04"
+  },
+  "https://www.elconfidencial.com/tecnologia/novaceno/2026-11-03/polilla-robot-sangre-artificial-sensor-ultravioleta-3d_4458237/": {
+   "extracto": "Científicos de Estonia e Italia han creado un robot que transporta por sus venas los ingredientes para fabricar dentro de su cuerpo un sensor que no tenía al salir del laboratorio",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "La polilla robot que se fabrica \"partes del cuerpo que antes no existían\" con su propia sangre artificial",
+   "visto": "2026-11-04"
+  }
+ },
+ "publico-es": {
+  "https://periodicoclm.publico.es/agricultura/castilla-mancha-rebaja-restricciones-cosechar-temporada-incendios/20261103174831032004.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Castilla-La Mancha pacta con el sector agrario rebajar las restricciones para cosechar en temporada de incendios",
+   "visto": "2026-11-04"
+  },
+  "https://www.nuevatribuna.es/actualidad/ayuso-kast-madrid-chile-fascismo-quemarropa/20261103185045255866.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "El fascismo a quemarropa",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/ahorro-inteligente/evitar-gastos-hormiga-llevan-sueldo-casi-darte-cuenta.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Cómo evitar los gastos hormiga que se llevan tu sueldo casi sin darte cuenta",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/comunidad/video-manuel-rico-suscriptores-publico-barcelona-somos-objetivos-somos-honestos.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Manuel Rico, con los suscriptores de 'Público' en Barcelona: \"No somos objetivos, somos honestos\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/cp/bienestar-es-vida/te-duele-despues-entrenar-asi-puedes-saber-lesion-deportiva-prevenirla.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "¿Te duele después de entrenar? Así puedes saber si es una lesión deportiva y cómo prevenirla",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/culturas/cine-tv/bola-negra-convierte-pelicula-vista-ano-espana-5-5-millones-espectadores.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "'La bola negra' se convierte en la película más vista del año en España con 5,5 millones de espectadores",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/economia/brecha-financiera-jovenes-mucha-curiosidad-invertir-poco-conocimiento-dar-paso.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "La brecha financiera de los jóvenes: mucha curiosidad por invertir, poco conocimiento para dar el paso",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/espacio-publico/intervenciones/ola-ultra-hay-reforzar-democracia.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Ante la ola ultra hay que reforzar la democracia",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/internacional/america-latina/oposicion-israeli-acuerda-tratar-crear-gobierno-sionista-ponga-era-netanyahu.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "La oposición israelí acuerda tratar de crear un Gobierno sionista que ponga fin a la era Netanyahu",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/internacional/eeuu/james-talarico-convierte-primer-senador-democrata-elegido-texas-38-anos.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "James Talarico, elegido como primer senador demócrata por Texas en 38 años",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/internacional/eeuu/resultados-elecciones-midterm-2026-eeuu-directo.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Los demócratas logran el control de las dos cámaras",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/internacional/eeuu/tsunami-democrata-sepulta-trump.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Un tsunami demócrata 'sepulta' a Trump",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/internacional/video-donald-trump-juega-control-congreso-pueden-midterms-frenar-poder.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Donald Trump se juega el control del Congreso: ¿pueden las 'midterms' frenar su poder?",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/la-buena-vida/jubilarse-toda-informacion-web-fernando-minguela-queria-madre.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Jubilarse con toda la información: la web que Fernando Minguela quería para su madre",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/mira/efecto-wild-project-canallita-youtube-querer-convertirse-guia-electoral-generacion.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "El 'efecto Wild Project': de ser el canallita de Youtube a querer convertirse en guía electoral de una generación",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/opinion/columnas/vas-cambiar-voto.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "¿Vas a cambiar tu voto?",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/politica/comite-empresa-adif-acuerda-huelga-proximo-17-noviembre.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "El comité de empresa de Adif acuerda una huelga para el próximo 17 de noviembre",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/politica/congreso/oscar-puente-ministro-politicamente-incorrecto-saco-quicio-derecha-encandilo-socialistas.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Óscar Puente, el ministro políticamente incorrecto que sacó de quicio a la derecha y encandiló a los socialistas",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/politica/partidos/video-canallita-youtube-entrevistar-pedro-sanchez-influencia-jordi-wild-29n.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "De 'canallita' de YouTube a entrevistar a Pedro Sánchez: la influencia de Jordi Wild en el 29N",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/politica/tribunales/constitucional-acumula-recursos-enfrentan-sanchez-pp-vox-plena-amenaza-mayoria-conservadora-29n.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "El Constitucional acumula recursos que enfrentan a Sánchez con el PP y Vox en plena amenaza de una mayoría conservadora tras el 29N",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/public/politica/junqueras-buscara-distancia-amb-illa-feijoo-arriba-moncloa.html": {
+   "extracto": "El president del Parlament, Josep Rull, i els membres independentistes de la Mesa ha rebut la visita de l'exconseller",
+   "fecha": "",
+   "titulo": "Junqueras buscarà \"distància\" amb Illa si Feijóo arriba a La Moncloa",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/sociedad/acampada-historica-puerta-sol-sacudio-agenda-politica-espana-ahora.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Fin de la acampada histórica en la Puerta del Sol que sacudió la agenda política de España: ¿y ahora qué?",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/sociedad/docentes-madrilenos-vuelven-tenir-calles-verde-paron-movilizaciones-luto.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Los docentes madrileños vuelven a teñir las calles de verde tras el parón de las movilizaciones por el luto",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/sociedad/educacion/huelga-universidades-publicas-madrilenas-comienza-piquetes-informativos.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "La huelga en las universidades públicas madrileñas comienza con piquetes informativos",
+   "visto": "2026-11-04"
+  },
+  "https://www.publico.es/tremending/estupor-video-abascal-reconoce-sabe-hay-pensiones-senor-quiere-presidir-nuestro-pais.html": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Estupor por el vídeo de Abascal en el que reconoce que no sabe qué hay que hacer con las pensiones: \"Este señor quiere presidir nuestro país\"",
+   "visto": "2026-11-04"
+  }
+ },
+ "rtve-es-noticias": {
+  "https://www.rtve.es/noticias/20260916/cuelgamuros-trailer-documental-criptas-valle-caidos/17225107.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Cuelgamuros. Entre lo difícil y lo imposible",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/20261027/raphael-gran-playlist-canciones/17277903.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Proyecto Raphael Inphinito",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/20261103/accidente-tren-urda-inaki-gabilondo-bulo/17298284.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Este texto sobre el accidente no lo escribe Iñaki Gabilondo, es un bulo",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/20261103/cristina-fernandez-cubas-premio-cervantes-2026/17298411.shtml": {
+   "extracto": "La escritora catalana ha recibido la noticia de su galardón en su casa de l'Eixample de Barcelona.",
+   "fecha": "",
+   "titulo": "La gran maestra del cuento Cristina Fernández Cubas gana el Premio Cervantes",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/20261103/juez-calama-pide-a-policia-averiguar-quien-fabrico-joyas-incautadas-a-zapatero/17297932.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "El juez Calama pide a la policía averiguar quién fabricó las joyas incautadas a Zapatero",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/20261103/lista-forbes-fortunas-amancio-sandra-ortega-juan-roig/17297250.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Amancio y Sandra Ortega, Juan Roig y Juan Carlos Escotet coronan la lista Forbes de fortunas, un 16% más ricas",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/20261103/puerta-sol-luce-limpia-38-dias-acampada-turistas-bayern/17297486.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "La Puerta del Sol luce despejada tras 38 días de acampada por el desahucio de Maricarmen",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/20261103/transportes-validen-ordenes-sistema-frecuencia-madrid-sevilla/17297280.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Tragedia en Urda",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/20261104/agustin-comotto-publica-dias-pasear-perro-hablar-con-gente-hace-sienta-humano/17297227.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Agustín Comotto publica 'Los días': \"Pasear al perro y hablar con la gente hace que me sienta humano\"",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/guerra-ucrania-rusia-especial-noticias-analisis-datos-bulos/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Guerra en Ucrania Día 1.715",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/sagrada-familia-gaudi/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "'Sagrada Familia: cien años después de Gaudí'",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/noticias/vivienda-para-entrar-a-vivir/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "'Para entrar a vivir': voces y radiografía del problema de la vivienda en España",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/play/audios/24-horas-fin-de-semana/madrigal-sobre-disturbios-barcelona/17283832/": {
+   "extracto": "Este martes, Estados Unidos vota en unas elecciones legislativas cuyo resultado, según las encuestas, podría complicar las cosas para la actual Administración de Donald Trump. Los sondeos pronostican...",
+   "fecha": "2026-11-03T12:00:00+00:00",
+   "titulo": "Audios | ¿Te suena?",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/play/noticias/20261026/ofensiva-trump-contra-universidades-purgar-campus-neutralizar-disidencia-reescribir-planes-estudios/17278576.shtml": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "La ofensiva de Trump contra las universidades: purgar los campus, neutralizar la disidencia y reescribir los planes de estudios",
+   "visto": "2026-11-04"
+  },
+  "https://www.rtve.es/play/videos/la-hora-de-la-1/colau-sobre-dimision-puente-no-creo-fuera-culpable-directo-absoluto-pero-si-tenia-responsabilidad-politica/17298961/": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Colau, sobre la dimisión de Puente: \"No creo que fuera culpable directo en absoluto pero si tenía la responsabilidad política\"",
+   "visto": "2026-11-04"
+  }
+ },
+ "upf-edu": {
+  "https://www.upf.edu/web/focus/w/antonio-monegal-obre-curs-2026-2027-humanitats-potser-llegir-no-ens-fara-millors-pero-si-mes-lliures": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Antonio Monegal obre el curs 2026-2027 a Humanitats: “Potser llegir no ens farà millors, però sí més lliures”",
+   "visto": "2026-11-04"
+  },
+  "https://www.upf.edu/web/focus/w/associacio-quirurgica-gimbernat-15-aniversari": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "L’Associació Quirúrgica Gimbernat celebra el seu 15è aniversari",
+   "visto": "2026-11-04"
+  },
+  "https://www.upf.edu/web/focus/w/com-art-interactiu-pot-apropar-memoria-historica": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Com l’art interactiu pot apropar-nos a la memòria històrica?",
+   "visto": "2026-11-04"
+  },
+  "https://www.upf.edu/web/focus/w/comunicat-condol-acup-urda": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "Comunicat de condol per l’accident ferroviari a Urda",
+   "visto": "2026-11-04"
+  },
+  "https://www.upf.edu/web/focus/w/projecte-harvest-coordinat-upf-posa-en-marxa-voluntat-connectar-comunitat-agricola-societat": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "El projecte HARVEST, coordinat per la UPF, es posa en marxa amb la voluntat de connectar la comunitat agrícola i la societat",
+   "visto": "2026-11-04"
+  },
+  "https://www.upf.edu/web/focus/w/upf-dona-benvinguda-mes-300-estudiants-doctorat-curs-2026-2027": {
+   "extracto": "",
+   "fecha": "",
+   "titulo": "La UPF dona la benvinguda a més de 300 estudiants de doctorat del curs 2026-2027",
+   "visto": "2026-11-04"
+  }
+ }
+}
