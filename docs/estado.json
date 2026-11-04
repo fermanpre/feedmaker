@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-04T10:21:39+00:00",
- "llamadas_ia": 4,
+ "generado": "2026-11-04T10:23:59+00:00",
+ "llamadas_ia": 1,
  "sitios": [
   {
-   "actualizado": "2026-11-04T10:19:17+00:00",
+   "actualizado": "2026-11-04T10:22:31+00:00",
    "con_texto_completo": 25,
    "detalle": "con IA",
    "entradas": 25,
@@ -15,7 +15,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:19:27+00:00",
+   "actualizado": "2026-11-04T10:22:39+00:00",
    "con_texto_completo": 12,
    "detalle": "con IA",
    "entradas": 12,
@@ -27,7 +27,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:19:37+00:00",
+   "actualizado": "2026-11-04T10:22:48+00:00",
    "con_texto_completo": 11,
    "detalle": "con IA",
    "entradas": 11,
@@ -39,7 +39,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:19:46+00:00",
+   "actualizado": "2026-11-04T10:22:57+00:00",
    "con_texto_completo": 11,
    "detalle": "con IA",
    "entradas": 11,
@@ -51,7 +51,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:19:55+00:00",
+   "actualizado": "2026-11-04T10:23:06+00:00",
    "con_texto_completo": 11,
    "detalle": "con IA",
    "entradas": 11,
@@ -63,7 +63,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:20:10+00:00",
+   "actualizado": "2026-11-04T10:23:15+00:00",
    "con_texto_completo": 24,
    "detalle": "con IA",
    "entradas": 25,
@@ -75,7 +75,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:20:44+00:00",
+   "actualizado": "2026-11-04T10:23:24+00:00",
    "detalle": "error interno: AttributeError: 'NoneType' object has no attribute 'replace'",
    "entradas": 15,
    "estado": "error",
@@ -87,7 +87,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:21:03+00:00",
+   "actualizado": "2026-11-04T10:23:36+00:00",
    "con_texto_completo": 18,
    "detalle": "con IA",
    "entradas": 18,
@@ -99,8 +99,8 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:21:30+00:00",
-   "con_texto_completo": 0,
+   "actualizado": "2026-11-04T10:23:44+00:00",
+   "con_texto_completo": 6,
    "detalle": "con IA",
    "entradas": 6,
    "estado": "ok",
@@ -111,7 +111,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T10:21:39+00:00",
+   "actualizado": "2026-11-04T10:23:59+00:00",
    "combina": [
     "elconfidencial-com-espana",
     "elconfidencial-com-economia",
