@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-04T20:53:05+00:00",
- "llamadas_ia": 0,
+ "generado": "2026-11-04T21:04:43+00:00",
+ "llamadas_ia": 2,
  "sitios": [
   {
-   "actualizado": "2026-11-04T20:53:03+00:00",
+   "actualizado": "2026-11-04T21:03:42+00:00",
    "con_texto_completo": 32,
    "detalle": "con IA; listado por enlaces (automático: las direcciones llevan fecha y hay muchos más enlaces que tarjetas)",
    "entradas": 32,
@@ -15,10 +15,11 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T20:53:05+00:00",
-   "detalle": "robots.txt lo prohíbe",
-   "entradas": 0,
-   "estado": "error",
+   "actualizado": "2026-11-04T21:03:45+00:00",
+   "con_texto_completo": 48,
+   "detalle": "con IA",
+   "entradas": 48,
+   "estado": "ok",
    "feed_propio": "",
    "id": "muchodeporte-com-deporte-andaluz",
    "nombre": "muchodeporte.com/deporte-andaluz",
