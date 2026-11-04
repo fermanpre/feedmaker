@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-04T21:20:30+00:00",
+ "generado": "2026-11-04T21:33:34+00:00",
  "llamadas_ia": 0,
  "sitios": [
   {
-   "actualizado": "2026-11-04T21:20:20+00:00",
-   "con_texto_completo": 32,
-   "detalle": "con IA; listado por enlaces (automático: las direcciones llevan fecha y hay muchos más enlaces que tarjetas)",
-   "entradas": 32,
+   "actualizado": "2026-11-04T21:32:18+00:00",
+   "con_texto_completo": 79,
+   "detalle": "con IA; listado por enlaces (automático: las direcciones llevan fecha y hay muchos más enlaces que tarjetas); 4 páginas leídas",
+   "entradas": 79,
    "estado": "ok",
    "feed_propio": "",
    "id": "abc-es-deportes-sevilla",
@@ -15,7 +15,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T21:20:23+00:00",
+   "actualizado": "2026-11-04T21:33:15+00:00",
    "con_texto_completo": 48,
    "detalle": "con IA",
    "entradas": 48,
@@ -27,7 +27,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-04T21:20:26+00:00",
+   "actualizado": "2026-11-04T21:33:19+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -36,6 +36,26 @@
    "nombre": "www.diariodesevilla.es/tag/baloncesto",
    "url": "https://www.diariodesevilla.es/tag/baloncesto",
    "user_agent": "feedmaker"
+  },
+  {
+   "actualizado": "2026-11-04T21:33:21+00:00",
+   "combina": [
+    "diariodesevilla-es-tag-baloncesto",
+    "muchodeporte-com-deporte-andaluz",
+    "abc-es-deportes-sevilla"
+   ],
+   "con_texto_completo": 22,
+   "detalle": "combina 3 webs; filtro: caja, caja87",
+   "entradas": 22,
+   "estado": "ok",
+   "feed_propio": "",
+   "filtro": [
+    "caja",
+    "caja87"
+   ],
+   "id": "comb-combinado-www-diariodesevilla-es-tag-bal",
+   "nombre": "Combinado: www.diariodesevilla.es/tag/baloncesto + muchodeporte.com/deporte-anda",
+   "url": ""
   }
  ]
 }

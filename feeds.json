@@ -16,5 +16,19 @@
     "nombre": "www.diariodesevilla.es/tag/baloncesto",
     "url": "https://www.diariodesevilla.es/tag/baloncesto",
     "texto_completo": true
+  },
+  {
+    "id": "comb-combinado-www-diariodesevilla-es-tag-bal",
+    "nombre": "Combinado: www.diariodesevilla.es/tag/baloncesto + muchodeporte.com/deporte-anda",
+    "combina": [
+      "diariodesevilla-es-tag-baloncesto",
+      "muchodeporte-com-deporte-andaluz",
+      "abc-es-deportes-sevilla"
+    ],
+    "filtro": [
+      "caja",
+      "caja87"
+    ],
+    "texto_completo": true
   }
 ]
