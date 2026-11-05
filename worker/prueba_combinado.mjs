@@ -100,5 +100,24 @@ r = await llamar(env, { clave: "secreta", url: "https://web.com/blog", texto_com
 const web = entradasEnviadas();
 comprobar("el alta de una web no cambia", r.estado === 200 && web.url === "https://web.com/blog" && web.texto_completo === "true" && web.combina === undefined, JSON.stringify(web));
 
+// Direcciones pegadas (webs nuevas que se dan de alta como fuentes ocultas)
+comprobar("dos direcciones nuevas valen", prepararCombinado({ urls: ["https://a.com/x/", "https://b.com/y/"] }).inputs?.urls_combinado === "https://a.com/x/ https://b.com/y/");
+comprobar("feeds marcados y direcciones suman de 2 a 5", prepararCombinado({ combina: ["a"], urls: ["https://b.com/y/"] }).inputs?.combina === "a");
+comprobar("una sola dirección no basta", prepararCombinado({ urls: ["https://a.com/x/"] }).motivo !== undefined);
+comprobar("cuatro feeds y dos direcciones son demasiados", prepararCombinado({ combina: ["a", "b", "c", "d"], urls: ["https://a.com/x/", "https://b.com/y/"] }).motivo !== undefined);
+comprobar("urls que no es lista", prepararCombinado({ urls: "https://a.com/x/ https://b.com/y/" }).motivo !== undefined);
+for (const hostil of ["http://a.com/x", "https://127.0.0.1/x", "https://localhost/x", "https://a.com:8080/x", "https://u:p@a.com/x", "ftp://a.com/x", "no es una url", "https://a.com/x y", "https://a.com/x" + SALTO + "y", 7, null, ""]) {
+  comprobar(`rechaza la dirección ${JSON.stringify(hostil)}`, prepararCombinado({ urls: ["https://ok.com/x/", hostil] }).motivo !== undefined);
+}
+let enviadosUrls;
+llamadasGithub = [];
+r = await llamar(entorno(), { clave: "secreta", urls: ["https://a.com/x/", "https://b.com/y/"], filtro: ["caja"] });
+enviadosUrls = entradasEnviadas();
+comprobar("el servicio acepta un combinado solo con direcciones", r.estado === 200 && enviadosUrls.urls_combinado === "https://a.com/x/ https://b.com/y/" && enviadosUrls.combina === "", JSON.stringify(enviadosUrls));
+comprobar("   y la url del alta de una web va vacía", enviadosUrls.url === "");
+llamadasGithub = [];
+r = await llamar(entorno(), { clave: "secreta", urls: ["https://a.com/x/"] });
+comprobar("una sola dirección: 400 sin llamar a GitHub", r.estado === 400 && llamadasGithub.length === 0, JSON.stringify(r));
+
 console.log(fallos === 0 ? "\nTodas las pruebas pasan." : `\n${fallos} prueba(s) fallan.`);
 process.exit(fallos === 0 ? 0 : 1);

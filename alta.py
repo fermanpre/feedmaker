@@ -25,6 +25,7 @@ MAXIMO_DE_COMBINADOS = 20
 MAXIMO_DE_PALABRAS_DE_FILTRO = 5
 MAXIMA_LONGITUD_DE_PALABRA = 40
 MAXIMA_LONGITUD_DEL_NOMBRE = 80
+MAXIMA_LONGITUD_DE_URL = 2000
 PATRON_DE_IDENTIFICADOR = re.compile(r"^[a-z0-9][a-z0-9-]{0,79}$")
 
 
@@ -103,24 +104,65 @@ def separar_por_comas(texto):
 
 
 def leer_peticion_de_combinado():
-    """(identificadores, nombre, filtro) si el alta pide un combinado, o None si pide una web.
+    """(identificadores, direcciones, nombre, filtro) si el alta pide un combinado, o None si pide una web.
 
-    Llega por los parámetros del workflow (COMBINA, NOMBRE_COMBINADO, FILTRO_COMBINADO) o por una incidencia con el
-    título «combinar: id1, id2, id3» y, en el cuerpo, líneas opcionales «nombre: …» y «filtro: palabra1, palabra2»."""
+    Llega por los parámetros del workflow (COMBINA, URLS_COMBINADO, NOMBRE_COMBINADO, FILTRO_COMBINADO) o por una
+    incidencia con el título «combinar: id1, id2» (puede ir vacío tras los dos puntos) y, en el cuerpo, líneas
+    opcionales «web: <dirección>» (una por web nueva), «nombre: …» y «filtro: palabra1, palabra2».
+    `identificadores` son feeds que ya existen; `direcciones`, webs que se dan de alta como fuentes ocultas."""
     combina = os.environ.get("COMBINA", "").strip()
+    direcciones = os.environ.get("URLS_COMBINADO", "").strip()
     nombre = os.environ.get("NOMBRE_COMBINADO", "")
     filtro = os.environ.get("FILTRO_COMBINADO", "")
-    if not combina:
-        coincidencia = re.match(r"^\s*combinar:\s*(.+?)\s*$", os.environ.get("ISSUE_TITLE", ""), re.IGNORECASE)
+    if not combina and not direcciones:
+        coincidencia = re.match(r"^\s*combinar:\s*(.*?)\s*$", os.environ.get("ISSUE_TITLE", ""), re.IGNORECASE)
         if not coincidencia:
             return None
         combina = coincidencia.group(1)
         cuerpo = os.environ.get("ISSUE_BODY", "")
         linea_nombre = re.search(r"^\s*nombre:\s*(.*?)\s*$", cuerpo, re.IGNORECASE | re.MULTILINE)
         linea_filtro = re.search(r"^\s*filtro:\s*(.*?)\s*$", cuerpo, re.IGNORECASE | re.MULTILINE)
+        lineas_web = re.findall(r"^\s*web:\s*(\S+)\s*$", cuerpo, re.IGNORECASE | re.MULTILINE)
         nombre = linea_nombre.group(1) if linea_nombre else ""
         filtro = linea_filtro.group(1) if linea_filtro else ""
-    return separar_por_comas(combina), limpiar_texto_libre(nombre, MAXIMA_LONGITUD_DEL_NOMBRE), separar_por_comas(filtro)
+        direcciones = " ".join(lineas_web)
+    return (separar_por_comas(combina), direcciones.split(), limpiar_texto_libre(nombre, MAXIMA_LONGITUD_DEL_NOMBRE),
+            separar_por_comas(filtro))
+
+
+def etiqueta_de_la_web(url):
+    """Nombre corto de una web para anteponerlo a los títulos de un combinado: su dominio sin «www.» (abc.es)."""
+    anfitrion = (urllib.parse.urlsplit(url).hostname or "").lower()
+    return anfitrion[4:] if anfitrion.startswith("www.") else anfitrion
+
+
+def etiqueta_del_miembro(miembro):
+    if miembro.get("etiqueta"):
+        return miembro["etiqueta"]
+    return etiqueta_de_la_web(miembro["url"]) if miembro.get("url") else miembro["nombre"]
+
+
+def nombre_por_defecto(miembros, filtro):
+    """«caja, caja87: abc.es + diariodesevilla.es» (con filtro) o «Combinado: abc.es + …» (sin él), de 80 caracteres como
+    máximo: si no cabe, se quitan webs enteras del final y se pone «…», sin cortar el nombre de una web por la mitad."""
+    etiquetas = []
+    for miembro in miembros:
+        etiqueta = etiqueta_del_miembro(miembro)
+        if etiqueta not in etiquetas:
+            etiquetas.append(etiqueta)
+    prefijo = ", ".join(filtro) + ": " if filtro else "Combinado: "
+    completo = limpiar_texto_libre(prefijo + " + ".join(etiquetas), 10000)
+    if len(completo) <= MAXIMA_LONGITUD_DEL_NOMBRE:
+        return completo
+    elegidas = []
+    for etiqueta in etiquetas:
+        con_esta = limpiar_texto_libre(prefijo + " + ".join(elegidas + [etiqueta]) + " + …", 10000)
+        if len(con_esta) > MAXIMA_LONGITUD_DEL_NOMBRE:
+            break
+        elegidas.append(etiqueta)
+    if not elegidas:
+        return limpiar_texto_libre(completo, MAXIMA_LONGITUD_DEL_NOMBRE)
+    return limpiar_texto_libre(prefijo + " + ".join(elegidas) + " + …", MAXIMA_LONGITUD_DEL_NOMBRE)
 
 
 def validar_combinado(identificadores, filtro, sitios):
@@ -144,14 +186,55 @@ def validar_combinado(identificadores, filtro, sitios):
     return ""
 
 
-def registrar_combinado(ruta_feeds, identificadores, nombre, filtro):
+def dar_de_alta_fuentes_ocultas(direcciones, sitios):
+    """(identificadores, webs nuevas, motivo de rechazo) para esas direcciones.
+
+    Una dirección que ya está dada de alta (con o sin «www.», con o sin barra final) reutiliza esa web tal como está. Las
+    demás se crean como fuentes ocultas: solo son ingredientes del combinado y no salen en «Mis feeds»."""
+    identificadores = []
+    nuevas = []
+    en_uso = {sitio["id"] for sitio in sitios}
+    for direccion in direcciones:
+        if len(direccion) > MAXIMA_LONGITUD_DE_URL:
+            return [], [], "una dirección es demasiado larga"
+        motivo_url = extractor.validar_url(direccion)
+        if motivo_url:
+            return [], [], f"la dirección «{direccion[:80]}» no es válida: {motivo_url}"
+        buscada = normalizar_url(direccion)
+        existente = next((sitio for sitio in sitios + nuevas
+                          if "combina" not in sitio and normalizar_url(sitio.get("url", "")) == buscada), None)
+        if existente is None:
+            partes = urllib.parse.urlsplit(direccion)
+            existente = {"id": crear_identificador(direccion, en_uso), "nombre": partes.netloc + partes.path.rstrip("/"),
+                         "url": direccion, "etiqueta": etiqueta_de_la_web(direccion), "oculto": True}
+            en_uso.add(existente["id"])
+            nuevas.append(existente)
+        identificadores.append(existente["id"])
+    return identificadores, nuevas, ""
+
+
+def registrar_combinado(ruta_feeds, identificadores, direcciones, nombre, filtro):
     with open(ruta_feeds, encoding="utf-8") as fichero:
         sitios = json.load(fichero)
-    motivo = validar_combinado(identificadores, filtro, sitios)
+    if len(identificadores) + len(direcciones) > MAXIMO_DE_FEEDS_POR_COMBINADO:
+        escribir_salida(valida="false", id="", motivo=(
+            f"un combinado lleva de {MINIMO_DE_FEEDS_POR_COMBINADO} a {MAXIMO_DE_FEEDS_POR_COMBINADO} feeds "
+            f"(se han indicado {len(identificadores) + len(direcciones)})"))
+        return
+    de_las_direcciones, nuevas, motivo = dar_de_alta_fuentes_ocultas(direcciones, sitios)
     if motivo:
         escribir_salida(valida="false", motivo=motivo.replace("\n", " "), id="")
         return
-    claves = (frozenset(identificadores), tuple(sorted(palabra.lower() for palabra in filtro)))
+    todos = []
+    for identificador in identificadores + de_las_direcciones:
+        if identificador not in todos:
+            todos.append(identificador)
+    candidatos = sitios + nuevas
+    motivo = validar_combinado(todos, filtro, candidatos)
+    if motivo:
+        escribir_salida(valida="false", motivo=motivo.replace("\n", " "), id="")
+        return
+    claves = (frozenset(todos), tuple(sorted(palabra.lower() for palabra in filtro)))
     existente = next((sitio for sitio in sitios if "combina" in sitio and (
         frozenset(sitio["combina"]), tuple(sorted(palabra.lower() for palabra in sitio.get("filtro", [])))) == claves), None)
     if existente is not None:
@@ -160,22 +243,22 @@ def registrar_combinado(ruta_feeds, identificadores, nombre, filtro):
     if sum(1 for sitio in sitios if "combina" in sitio) >= MAXIMO_DE_COMBINADOS:
         escribir_salida(valida="false", motivo=f"ya hay {MAXIMO_DE_COMBINADOS} combinados: borra alguno antes", id="")
         return
-    por_identificador = {sitio["id"]: sitio for sitio in sitios}
+    por_identificador = {sitio["id"]: sitio for sitio in candidatos}
     if not nombre:
-        nombres = [por_identificador[i].get("etiqueta") or por_identificador[i]["nombre"] for i in identificadores]
-        nombre = limpiar_texto_libre("Combinado: " + " + ".join(nombres), MAXIMA_LONGITUD_DEL_NOMBRE)
+        nombre = nombre_por_defecto([por_identificador[identificador] for identificador in todos], filtro)
     base = "comb-" + (re.sub(r"[^a-z0-9]+", "-", nombre.lower()).strip("-")[:40].strip("-") or "feeds")
-    en_uso = {sitio["id"] for sitio in sitios}
+    en_uso = {sitio["id"] for sitio in candidatos}
     nuevo_id, contador = base, 2
     while nuevo_id in en_uso:
         nuevo_id = f"{base}-{contador}"
         contador += 1
-    combinado = {"id": nuevo_id, "nombre": nombre, "combina": identificadores}
+    combinado = {"id": nuevo_id, "nombre": nombre, "combina": todos}
     if filtro:
         combinado["filtro"] = filtro
     pedido = texto_completo_pedido()
     if pedido is not None:
         combinado["texto_completo"] = pedido
+    sitios.extend(nuevas)
     sitios.append(combinado)
     with open(ruta_feeds, "w", encoding="utf-8", newline="\n") as fichero:
         json.dump(sitios, fichero, ensure_ascii=False, indent=2)

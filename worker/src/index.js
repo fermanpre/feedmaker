@@ -81,11 +81,17 @@ const MAXIMO_DE_PALABRAS_DE_FILTRO = 5;
 const MAXIMA_LONGITUD_DE_PALABRA = 40;
 const MAXIMA_LONGITUD_DEL_NOMBRE = 200;
 
-// Valida una petición de combinado ({combina, nombre?, filtro?}). Devuelve { motivo } si no vale o { inputs } con los
-// parámetros que espera alta.yml. alta.py vuelve a validarlo todo: esto evita lanzar un workflow en balde.
+// Valida una petición de combinado ({combina?, urls?, nombre?, filtro?}). `combina` son feeds que ya existen y `urls`,
+// webs nuevas que alta.py da de alta como fuentes ocultas; entre las dos suman de 2 a 5. Devuelve { motivo } si no vale
+// o { inputs } con los parámetros que espera alta.yml. alta.py vuelve a validarlo todo: esto evita lanzar un workflow en balde.
 export function prepararCombinado(datos) {
-  const identificadores = datos.combina;
-  if (!Array.isArray(identificadores) || identificadores.length < MINIMO_DE_FEEDS || identificadores.length > MAXIMO_DE_FEEDS) {
+  const identificadores = datos.combina === undefined || datos.combina === null ? [] : datos.combina;
+  const direcciones = datos.urls === undefined || datos.urls === null ? [] : datos.urls;
+  if (!Array.isArray(identificadores) || !Array.isArray(direcciones)) {
+    return { motivo: "lista de feeds no válida" };
+  }
+  const total = identificadores.length + direcciones.length;
+  if (total < MINIMO_DE_FEEDS || total > MAXIMO_DE_FEEDS) {
     return { motivo: `un combinado lleva de ${MINIMO_DE_FEEDS} a ${MAXIMO_DE_FEEDS} feeds` };
   }
   if (!identificadores.every((i) => typeof i === "string" && PATRON_DE_IDENTIFICADOR.test(i))) {
@@ -93,6 +99,14 @@ export function prepararCombinado(datos) {
   }
   if (new Set(identificadores).size !== identificadores.length) {
     return { motivo: "hay feeds repetidos" };
+  }
+  for (const direccion of direcciones) {
+    // Sin espacios ni caracteres de control: alta.yml recibe las direcciones separadas por espacios.
+    if (typeof direccion !== "string" || /\s/.test(direccion) || PATRON_DE_CONTROL.test(direccion)) {
+      return { motivo: "dirección no válida" };
+    }
+    const motivoDeLaDireccion = validarUrl(direccion);
+    if (motivoDeLaDireccion) return { motivo: `dirección no válida: ${motivoDeLaDireccion}` };
   }
   const nombre = datos.nombre === undefined || datos.nombre === null ? "" : datos.nombre;
   if (typeof nombre !== "string" || nombre.length > MAXIMA_LONGITUD_DEL_NOMBRE) {
@@ -111,6 +125,7 @@ export function prepararCombinado(datos) {
     inputs: {
       url: "",
       combina: identificadores.join(","),
+      urls_combinado: direcciones.join(" "),
       nombre_combinado: nombre.replace(PATRON_DE_CONTROL, " ").trim(),
       filtro_combinado: filtro.map((p) => p.trim()).join(","),
       texto_completo: datos.texto_completo === true ? "true" : "false",
@@ -169,9 +184,9 @@ export async function manejar(peticion, env) {
     return responder(env, 401, { ok: false, mensaje: "Contraseña incorrecta." });
   }
 
-  // Una petición con «combina» es un combinado (y se ignora «url»); si no, es el alta de una web.
+  // Una petición con «combina» o «urls» es un combinado (y se ignora «url»); si no, es el alta de una web.
   let inputs;
-  if (datos.combina !== undefined) {
+  if (datos.combina !== undefined || datos.urls !== undefined) {
     const combinado = prepararCombinado(datos);
     if (combinado.motivo) {
       return responder(env, 400, { ok: false, mensaje: combinado.motivo });

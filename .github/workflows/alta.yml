@@ -14,6 +14,11 @@ on:
         required: false
         default: ""
         type: string
+      urls_combinado:
+        description: Direcciones de webs nuevas para un combinado, separadas por espacios (se dan de alta como fuentes ocultas)
+        required: false
+        default: ""
+        type: string
       nombre_combinado:
         description: Nombre del combinado (opcional)
         required: false
@@ -29,7 +34,7 @@ on:
         required: false
         default: "true"
         type: string
-  # Alternativa sin token: una incidencia con el título «alta: <url>» o «combinar: id1, id2».
+  # Alternativa sin token: una incidencia con el título «alta: <url>» o «combinar: id1, id2» (más líneas «web: <url>» en el cuerpo).
   issues:
     types: [opened]
 
@@ -56,6 +61,7 @@ jobs:
       GH_TOKEN: ${{ github.token }}
       URL_ALTA: ${{ inputs.url }}
       COMBINA: ${{ inputs.combina }}
+      URLS_COMBINADO: ${{ inputs.urls_combinado }}
       NOMBRE_COMBINADO: ${{ inputs.nombre_combinado }}
       FILTRO_COMBINADO: ${{ inputs.filtro_combinado }}
       TEXTO_COMPLETO: ${{ inputs.texto_completo }}

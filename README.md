@@ -90,19 +90,33 @@ Una entrada de `feeds.json` con `combina` junta en un solo feed las entradas del
 
 ### Crear un combinado desde la página
 
-En «Combinar varios feeds en uno» se marcan de 2 a 5 feeds de «Mis feeds» (los generados, los que solo tienen feed propio y
-los que tienen un error pero ya un feed publicado), y opcionalmente un nombre y hasta 5 palabras de filtro. Se crea por
-los mismos tres caminos que el alta de una web:
+En «Combinar varios feeds en uno» se **pegan de 2 a 5 direcciones de webs** (una por línea) y, opcionalmente, un nombre y hasta
+5 palabras de filtro. No hace falta dar de alta cada web antes ni editar `feeds.json`:
 
-- **Servicio con contraseña** (Worker): la página envía `{combina, nombre, filtro, texto_completo}`. Hay que desplegar el Worker
-  de nuevo (`npx wrangler deploy`) para que reconozca `combina`.
-- **Token de GitHub**: lanza `alta.yml` con los parámetros `combina`, `nombre_combinado` y `filtro_combinado`.
-- **Incidencia**: título `combinar: id1, id2, id3`; en el cuerpo, líneas opcionales `nombre: …`, `filtro: a, b` y
-  `texto_completo: false`.
+- Cada dirección que no esté dada de alta se crea como **fuente oculta** (`oculto: true`, con su dominio como `etiqueta`:
+  los títulos salen como «[abc.es] …»). Una dirección que ya existe (con o sin `www.`, con o sin barra final) se reutiliza tal
+  como está, sin tocarla.
+- Las fuentes se leen con el **listado por enlaces automático** y, como alimentan un combinado con filtro, hasta 4 páginas
+  (ver las secciones siguientes). El texto completo del combinado viene marcado por defecto.
+- Si hay feeds ya creados en «Mis feeds» (los generados, los que solo tienen feed propio y los que tienen un error pero ya
+  un feed publicado), un bloque aparte permite sumarlos; los marcados y las direcciones pegadas suman de 2 a 5 webs distintas.
+- Sin nombre, se pone uno con las webs y el filtro, de 80 caracteres como máximo y sin cortar el nombre de una web por la
+  mitad: «caja, caja87: abc.es + muchodeporte.com» (sin filtro, «Combinado: abc.es + …»).
 
-Límites, aplicados por el servidor (`alta.py`) aunque la página ya los compruebe: de 2 a 5 feeds, un máximo de 20 combinados,
-hasta 5 palabras de filtro de 40 caracteres como máximo, y no se pueden anidar combinados. Si ya existe un combinado con los
-mismos feeds y el mismo filtro, no se crea otro. El texto completo viene marcado por defecto, como en las webs.
+Se crea por los mismos tres caminos que el alta de una web:
+
+- **Servicio con contraseña** (Worker): la página envía `{combina, urls, nombre, filtro, texto_completo}`; `combina` son los
+  identificadores de feeds que ya existen y `urls`, las direcciones nuevas. Hay que desplegar el Worker de nuevo
+  (`npx wrangler deploy`) para que reconozca `urls`.
+- **Token de GitHub**: lanza `alta.yml` con los parámetros `combina`, `urls_combinado` (direcciones separadas por espacios),
+  `nombre_combinado` y `filtro_combinado`.
+- **Incidencia**: título `combinar: id1, id2` (puede ir vacío tras los dos puntos); en el cuerpo, una línea `web: <dirección>`
+  por cada web nueva y líneas opcionales `nombre: …`, `filtro: a, b` y `texto_completo: false`.
+
+Límites, aplicados por el servidor (`alta.py`) aunque la página ya los compruebe: de 2 a 5 webs en total, direcciones https
+válidas (sin IP, puerto ni credenciales) de 2.000 caracteres como máximo, un máximo de 20 combinados, hasta 5 palabras de
+filtro de 40 caracteres como máximo, y no se pueden anidar combinados. Si algo no vale, no se escribe nada (tampoco las
+fuentes nuevas). Si ya existe un combinado con las mismas webs y el mismo filtro, no se crea otro.
 
 ## Respaldo por enlaces
 
