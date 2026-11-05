@@ -30,5 +30,26 @@
       "caja87"
     ],
     "texto_completo": true
+  },
+  {
+    "id": "muchodeporte-com-caja87",
+    "nombre": "muchodeporte.com/caja87",
+    "url": "https://muchodeporte.com/caja87",
+    "etiqueta": "muchodeporte.com",
+    "oculto": true
+  },
+  {
+    "id": "comb-caja-caja87-diariodesevilla-es-muchodepo",
+    "nombre": "caja, caja87: diariodesevilla.es + muchodeporte.com + abc.es",
+    "combina": [
+      "diariodesevilla-es-tag-baloncesto",
+      "muchodeporte-com-caja87",
+      "abc-es-deportes-sevilla"
+    ],
+    "filtro": [
+      "caja",
+      "caja87"
+    ],
+    "texto_completo": true
   }
 ]

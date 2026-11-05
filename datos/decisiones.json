@@ -5,6 +5,21 @@
  "diariodesevilla-es-tag-baloncesto": {
   "feed_generico": false
  },
+ "muchodeporte-com-caja87": {
+  "enlaces": {
+   "https://www.muchodeporte.com/baloncesto/insolac-caja-87-con-todo-y-con-moody-ante-jaen-cb/": "ok",
+   "https://www.muchodeporte.com/baloncesto/los-guinos-que-la-historia-le-lanza-al-insolac-caja-87/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/caja87/68-72-el-caja87-condenado-ante-melilla-baloncesto-por-un-psimo-segundo-cuarto/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/caja87/72-78-el-caja87-suma-y-sigue-en-huelva/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/caja87/disputar-la-copa-diputacin-ante-el-udea-algeciras/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/caja87/el-caja-87-ficha-al-base-internacional-chileno-nacho-arroyo-varela/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/caja87/el-caja87-firma-una-histrica-victoria-ante-el-udea-algeciras-51-58/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/caja87/la-paliza-dentro-y-fuera-de-la-pista-del-coto-crdoba-al-caja87/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/caja87/nueva-derrota-del-caja87-92-75/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/caja87/un-equipo-que-deja-de-ser-invisible/": "ok"
+  },
+  "firma": "div.CONTENIDO-IZQ.LISTADO_BUSQUEDA > div.MODULO"
+ },
  "muchodeporte-com-deporte-andaluz": {
   "enlaces": {
    "https://www.muchodeporte.com/deporte-andaluz/5-2-o-parrulo-pone-fin-a-la-imbatibilidad-del-jaen-fs/": "ok",

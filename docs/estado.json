@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-05T13:17:46+00:00",
- "llamadas_ia": 1,
+ "generado": "2026-11-05T21:30:12+00:00",
+ "llamadas_ia": 2,
  "sitios": [
   {
-   "actualizado": "2026-11-05T13:17:13+00:00",
-   "con_texto_completo": 93,
+   "actualizado": "2026-11-05T21:29:28+00:00",
+   "con_texto_completo": 101,
    "detalle": "con IA; listado por enlaces (automático: las direcciones llevan fecha y hay muchos más enlaces que tarjetas); 4 páginas leídas",
-   "entradas": 93,
+   "entradas": 101,
    "estado": "ok",
    "feed_propio": "",
    "id": "abc-es-deportes-sevilla",
@@ -15,7 +15,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-05T13:17:33+00:00",
+   "actualizado": "2026-11-05T21:29:42+00:00",
    "con_texto_completo": 52,
    "detalle": "con IA",
    "entradas": 52,
@@ -27,7 +27,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-05T13:17:42+00:00",
+   "actualizado": "2026-11-05T21:29:46+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -38,7 +38,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-05T13:17:45+00:00",
+   "actualizado": "2026-11-05T21:29:58+00:00",
    "combina": [
     "diariodesevilla-es-tag-baloncesto",
     "muchodeporte-com-deporte-andaluz",
@@ -55,6 +55,39 @@
    ],
    "id": "comb-combinado-www-diariodesevilla-es-tag-bal",
    "nombre": "Combinado: www.diariodesevilla.es/tag/baloncesto + muchodeporte.com/deporte-anda",
+   "url": ""
+  },
+  {
+   "actualizado": "2026-11-05T21:29:54+00:00",
+   "con_texto_completo": 0,
+   "detalle": "con IA",
+   "entradas": 10,
+   "estado": "ok",
+   "feed_propio": "",
+   "id": "muchodeporte-com-caja87",
+   "nombre": "muchodeporte.com/caja87",
+   "oculto": true,
+   "url": "https://muchodeporte.com/caja87",
+   "user_agent": "feedmaker"
+  },
+  {
+   "actualizado": "2026-11-05T21:29:58+00:00",
+   "combina": [
+    "diariodesevilla-es-tag-baloncesto",
+    "muchodeporte-com-caja87",
+    "abc-es-deportes-sevilla"
+   ],
+   "con_texto_completo": 32,
+   "detalle": "combina 3 webs; filtro: caja, caja87",
+   "entradas": 32,
+   "estado": "ok",
+   "feed_propio": "",
+   "filtro": [
+    "caja",
+    "caja87"
+   ],
+   "id": "comb-caja-caja87-diariodesevilla-es-muchodepo",
+   "nombre": "caja, caja87: diariodesevilla.es + muchodeporte.com + abc.es",
    "url": ""
   }
  ]
