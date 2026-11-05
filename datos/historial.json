@@ -1,34 +1,52 @@
 {
  "abc-es-deportes-sevilla": {
+  "https://www.abc.es/deportes/futbol/celta-royale-union-horario-canal-television-ver-20261104050000-nt.html": {
+   "extracto": "Conoce a qué hora es el Celta - Royale Unión y dónde ver online y en televisión en directo el partido de Europa League, que se disputa hoy, 5 de noviembre",
+   "fecha": "2026-11-04T05:00:00+01:00",
+   "titulo": "Celta - Royale Unión",
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/deportes/futbol/getafe-brighton-horario-canal-television-ver-online-20261104050000-nt.html": {
+   "extracto": "Conoce a qué hora es el Getafe - Brighton y dónde ver online y en televisión en directo el partido de Conference League, que se disputa hoy, 5 de noviembre",
+   "fecha": "2026-11-04T05:00:00+01:00",
+   "titulo": "Getafe - Brighton",
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/deportes/futbol/real-sociedad-lyon-horario-canal-television-ver-20261105050000-nt.html": {
+   "extracto": "Conoce a qué hora es el Real Sociedad - Olympique de Lyon y dónde ver online y en televisión en directo el partido de Europa League, que se disputa hoy, 5 de noviembre",
+   "fecha": "2026-11-05T05:00:00+01:00",
+   "titulo": "Real Sociedad - Lyon",
+   "visto": "2026-11-05"
+  },
   "https://www.abc.es/deportes/sevilla/60a-regata-sevilla-betis-primera-palada-presentando-20261021131523-nts.html": {
    "extracto": "La imagen oficial de la clásica del remo hispalense, que se disputa el 14 de noviembre, recrea la llegada de las dos embarcaciones al Puente de Triana",
    "fecha": "2026-10-21T13:15:23+02:00",
    "titulo": "La 60ª Regata Sevilla - Betis da la primera palada presentando su cartel anunciador",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/alvaro-pedrosa-duplica-exito-nautico-sevilla-mundial-20261024123037-nts.html": {
    "extracto": "El canoísta hispalense suma un nuevo metal, tras la plata de Javier Reja en paracanoa, al conseguir la medalla de bronce en C2 Júnior junto a Adrián Hermelo",
    "fecha": "2026-10-24T12:30:37+02:00",
    "titulo": "Álvaro Pedrosa duplica el éxito del Náutico Sevilla en el Mundial de piragüismo en maratón",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/antonio-garcia-ante-partido-especial-frente-granollers-20261017124645-nts.html": {
    "extracto": "El técnico del Cajasol Sevilla Proin se reencuentra este domingo en Amate con el club de su vida, en el que desarrolló la mayor parte de su trayectoria como jugador",
    "fecha": "2026-10-17T12:46:45+02:00",
    "titulo": "Antonio García, ante un partido «muy especial» frente al Granollers: «No puede haber ningún tipo de desconexión»",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/aplazado-partido-copero-cajasol-sevilla-proin-pamplona-20261028115227-nts.html": {
    "extracto": "La expedición sevillana no ha podido desplazarse hasta tierras navarras para el choque que iba a disputarse esta noche en el pabellón Anaitasuna",
    "fecha": "2026-10-28T11:52:27+01:00",
    "titulo": "Aplazado el partido copero del Cajasol Sevilla BM Proin en Pamplona por el grave accidente ferroviario",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/ariana-geerlings-conquista-primer-wta-125-mallorca-20261018162907-nts.html": {
    "extracto": "La granadina completa una semana sobresaliente, con victorias ante la primera y la segunda cabeza de serie del Vanda Pharmaceuticals Mallorca Women",
    "fecha": "2026-10-18T16:29:07+02:00",
    "titulo": "Ariana Geerlings conquista su primer WTA 125 en Mallorca",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/ariana-geerlings-unica-andaluza-superviviente-octavos-final-20261007093424-nts.html": {
    "extracto": "La granadina supera a la alemana Laura Boehner en dos sets y mantiene viva la presencia andaluza en el torneo",
@@ -40,145 +58,151 @@
    "extracto": "La italiana Aurora Zantedeschi acaba con el camino de la granadina Ariana Geerlings a tres sets",
    "fecha": "2026-10-08T13:27:06+02:00",
    "titulo": "Aurora Zantedeschi acaba con el sueño andaluz en la Copa Nadia",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/caijsa-henneman-conquista-10a-copa-nadia-jcastillo-20261010160748-nts.html": {
    "extracto": "La tenista sueca se impone a Ruth Roura por 6-2 y 6-1 en una final dominada de principio a fin",
    "fecha": "2026-10-10T16:07:48+02:00",
    "titulo": "Caijsa Henneman conquista la 10ª Copa Nadia by JCastillo Seguros en Sevilla",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/caja-alma-plan-coraza-defensiva-gana-partidos-20261011150508-nts.html": {
    "extracto": "Los verdirrojos suman su segunda victoria de la temporada tras superar con nota un examen de alto nivel contra el Partizán de Fuenlabrada",
    "fecha": "2026-10-11T15:05:08+02:00",
    "titulo": "El Caja 87 tiene alma, un plan y una coraza defensiva que gana partidos (77-74)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/caja-ante-peligro-medirse-domicilio-inesperado-colista-20261030193557-nts.html": {
    "extracto": "Los verdirrojos visitan este sábado al Básquet Menorca, que partía como aspirante al play off de ascenso y, tras cinco jornadas, cierra la tabla",
    "fecha": "2026-10-30T19:35:57+01:00",
    "titulo": "El Caja 87, ante el peligro de medirse a domicilio a un inesperado colista",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/caja-defendera-condicion-invicto-casa-ante-candidato-20261024194056-nts.html": {
    "extracto": "El conjunto sevillano recibe este domingo al Covirán Granada tras perder hace una semana en Córdoba y vencer el pasado martes a domicilio al Bisbal Bàsquet en dieciseisavos de la Copa de España",
    "fecha": "2026-10-24T19:40:56+02:00",
    "titulo": "El Caja 87 defenderá su condición de invicto en casa ante un candidato al ascenso a la ACB",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/caja-encaja-cordoba-derrota-duele-motivos-8381-20261017231211-nts.html": {
    "extracto": "Mike Nuga, en el último suspiro, anotó sobre la bocina la canasta que definió un choque que los verdirrojos no debieron perder tras manejar rentas de hasta 13 puntos en el tercer cuarto",
    "fecha": "2026-10-17T23:12:11+02:00",
    "titulo": "El Caja 87 suma en Córdoba una derrota que duele por muchos motivos (83-81)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/caja-estrena-copa-espana-premisas-ilusion-seriedad-20261019183911-nts.html": {
    "extracto": "Los verdirrojos visitan este martes, en la eliminatoria de dieciseisavos, al Sol Gironès Bisbal Basquet, de Segunda FEB; el CB Starlabs Morón, por su parte, recibirá al Fibwi Palma, de Primera FEB, en el Alameda",
    "fecha": "2026-10-19T18:39:11+02:00",
    "titulo": "El Caja 87 se estrena en la Copa de España bajo las premisas de la ilusión y la seriedad",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/caja-patina-momentos-clave-cae-prorroga-ante-20261025171143-nts.html": {
    "extracto": "Tras un esfuerzo descomunal para reengancharse al partido en el segundo tiempo y forzar el tiempo extra, los verdirrojos dejan escapar cuatro puntos de renta y son castigados por la habilidad y el físico de Parham",
    "fecha": "2026-10-25T17:11:43+01:00",
    "titulo": "El Caja 87 patina en los momentos clave y cae en la prórroga ante el Covirán Granada (81-84)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/caja-quiere-demostrar-cordoba-receta-casera-sirve-20261016194618-nts.html": {
    "extracto": "Los verdirrojos afrontan este sábado su segunda visita de la temporada tras asegurar con sendas victorias su doble turno en San Pablo",
    "fecha": "2026-10-16T19:46:18+02:00",
    "titulo": "El Caja 87 quiere demostrar en Córdoba que la receta casera sirve también a domicilio",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/cajasol-sevilla-cocos-solo-suma-bonus-defensivo-20261017233152-nts.html": {
    "extracto": "Dos exclusiones temporales fueron demasiada rémora para el conjunto mairenero en su visita al CRAT A Coruña",
    "fecha": "2026-10-17T23:31:52+02:00",
    "titulo": "El Cajasol Sevilla Cocos solo suma un bonus defensivo en su debut liguero (22-17)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/cajasol-sevilla-proin-cara-paga-errores-torrelavega-20261025202905-nts.html": {
    "extracto": "Los hispalenses perdieron en el Vicente Trueba presentando batalla ante un equipo superior que juega competición europea; ahora tienen que cambiar el chip: el próximo miércoles, en Pamplona, el Proin debuta en la Copa del Rey",
    "fecha": "2026-10-25T20:29:05+01:00",
    "titulo": "El Cajasol Sevilla Proin da la cara pero paga sus errores en Torrelavega (37-33)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/cajasol-sevilla-proin-desbloquea-sufrimiento-victoria-liberadora-20261101142659-nts.html": {
    "extracto": "Primer triunfo del conjunto hispalense en Amate en un partido que manejó con solvencia hasta el descanso y se le complicó mucho en la recta final",
    "fecha": "2026-11-01T14:26:59+01:00",
    "titulo": "El Cajasol Sevilla BM Proin desbloquea con sufrimiento una victoria liberadora (29-28)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/cajasol-sevilla-proin-ilusion-dar-sorpresa-plaza-20261009140054-nts.html": {
    "extracto": "Los hispalenses visitan Artaleku, la cancha del líder de la Asobal, este sábado (19.00 horas)",
    "fecha": "2026-10-09T14:00:54+02:00",
    "titulo": "El Cajasol Sevilla Proin, con la ilusión de dar la sorpresa en una plaza histórica: «Ganar al Bidasoa sería un puntazo»",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/cajasol-sevilla-proin-llega-momento-alzar-vuelo-20261029183608-nts.html": {
    "extracto": "El Fertiberia Puerto Sagunto, recién ascendido, noveno de la tabla y rival directo, visita este domingo a los hispalenses",
    "fecha": "2026-10-29T18:36:08+01:00",
    "titulo": "Al Cajasol Sevilla Proin le llega ya el momento de alzar el vuelo en Amate",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/cajasol-sevilla-proin-toma-serio-debut-copero-20261027200926-nts.html": {
    "extracto": "El conjunto hispalense visita Pamplona, donde buscará este miércoles el pase a la segunda ronda del torneo ante el Anaitasuna, de División de Honor Plata, en un escenario emblemático del balonmano español",
    "fecha": "2026-10-27T20:09:26+01:00",
    "titulo": "El Cajasol Sevilla Proin se toma muy en serio su debut copero en La Catedral: «No pasa por nuestra cabeza tirar ninguna competición»",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/carrera-nocturna-sevilla-premio-agesport-mejor-evento-20261102125145-nts.html": {
    "extracto": "El galardón ha sido concedido por la Asociación Andaluza de Gestión del Deporte; el GP de España de MotoGP y el Meeting Internacional de Málaga, los otros finalistas",
    "fecha": "2026-11-02T12:51:45+01:00",
    "titulo": "La Carrera Nocturna de Sevilla, Premio Agesport al mejor evento deportivo de 2025 en Andalucía",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/club-atletico-central-derrota-palmas-atletico-20261101181459-nts.html": {
    "extracto": "Un gol de Juan Antonio desequilibró la balanza en favor del equipo sevillano",
    "fecha": "2026-11-01T18:14:59+01:00",
    "titulo": "El Club Atlético Central derrota al Las Palmas Atlético (0-1)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/concurso-hipico-saltos-ciudad-sevilla-sube-nivel-20261104143654-nts.html": {
    "extracto": "Se disputa desde este jueves y hasta el domingo en las instalaciones del Real Club Pineda, donde se rendirá homenaje a la Infanta Elena, junto al Campeonato de España de Veteranos y la Copa de Veteranos",
    "fecha": "2026-11-04T14:36:54+01:00",
    "titulo": "El Concurso Hípico de Saltos Ciudad de Sevilla sube de nivel hasta las cinco estrellas",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/contundente-derrota-fundacion-cajasol-andalucia-cancha-lider-20261017235245-nts.html": {
    "extracto": "Las nazarenas pierden en su visita al Avarca de Menorca y este próximo jueves debutarán en la CEV Champions League contra el Oporto a domicilio",
    "fecha": "2026-10-17T23:52:45+02:00",
    "titulo": "Contundente derrota del Fundación Cajasol Andalucía en la cancha del líder (3-0)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/copa-espana-alcanza-octavos-final-caja-visitara-20261022130702-nts.html": {
    "extracto": "Los verdirrojos se enfrentarán al UEMC Valladolid y los aruncitanos, al conjunto insular, gran favorito para el ascenso a la ACB",
    "fecha": "2026-10-22T13:07:02+02:00",
    "titulo": "La Copa de España define sus octavos de final: el Caja 87 visitará Pisuerga y el CB Morón recibirá al Gran Canaria",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/deportes/sevilla/cordoba-corona-nuevos-campeones-andalucia-sub-sub-20261105091737-nts.html": {
+   "extracto": "Se han disputado cuatro campeonatos en paralelo en las instalaciones del Open Arena de Córdoba, donde se han reunido 185 jugadores y disputado 220 partidos",
+   "fecha": "2026-11-05T09:17:37+01:00",
+   "titulo": "Córdoba corona a los nuevos campeones de Andalucía sub 9, sub 11, sub 13 y sub 15",
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/cumplidor-caja-avanza-sustos-octavos-copa-espana-20261020220442-nts.html": {
    "extracto": "Los sevillanos vencen a domicilio al Sol Gironès Bisbal Bàsquet, de Segunda FEB, imponiendo su defensa y la diferencia de categoría",
    "fecha": "2026-10-20T22:04:42+02:00",
    "titulo": "Un cumplidor Caja 87 avanza sin sustos a octavos de final de la Copa de España (61-76)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/dani-munoz-jose-antonio-rueda-quinto-decimo-20261011120547-nts.html": {
    "extracto": "El nazareno, quinto, se queda a las puertas del podio y el palaciego, décimo, sigue evolucionando en su primer año en la categoría intermedia",
    "fecha": "2026-10-11T12:05:47+02:00",
    "titulo": "Dani Muñoz y José Antonio Rueda rinden a un alto nivel en el GP de Indonesia de Moto2",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/destacado-protagonismo-clubes-locales-sevilla-rowing-masters-20261018192536-nts.html": {
    "extracto": "La Sevilla International Rowing Masters Regatta celebró este fin de semana su novena edición en el Centro Especializado de Alto Rendimiento de la Isla de la Cartuja (CEAR). Las dos jornadas de la competición de veteranos, que incluían los días previos un campus de ... entrenamiento, reunieron en esta ocasión a unos 700 deportistas procedentes de 21 países de Europa, Asia y América.",
    "fecha": "2026-10-18T19:25:36+02:00",
    "titulo": "Destacado protagonismo de los clubes locales en la Sevilla Rowing Masters 2026",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/deuda-cajasol-sevilla-proin-aficion-necesitamos-victoria-20261031070636-nts.html": {
    "extracto": "El equipo hispalense de la Liga Nexus Energía Asobal, que aún no conoce el triunfo en su feudo, recibe este domingo al Feriberia Puerto Sagunto",
    "fecha": "2026-10-31T07:06:36+01:00",
    "titulo": "La deuda del Cajasol Sevilla BM Proin con su afición: «Necesitamos ya una victoria en casa»",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/dieciseis-espanolas-disputaran-cuadro-final-copa-nadia-20261006101523-nts.html": {
    "extracto": "Andalucía tendrá a cinco jugadoras en esta fase final del torneo",
@@ -190,193 +214,199 @@
    "extracto": "María García y Ruth Roura se enfrentarán en semifinales, mientras que Aurora Zantedeschi y Caijsa Henneman completan el cuadro individual",
    "fecha": "2026-10-09T12:38:45+02:00",
    "titulo": "Dos españolas buscarán la final de la 10ª Copa Nadia",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/dos-hermanas-suena-noche-historica-champions-league-20261028194606-nts.html": {
    "extracto": "El Fundación Cajasol Andalucía disputa este miércoles en el Complejo Municipal de Montequinto la vuelta de la eliminatoria previa ante el Oporto",
    "fecha": "2026-10-28T19:46:06+01:00",
    "titulo": "Dos Hermanas sueña con una noche histórica en la Champions League de voleibol",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/estepona-club-atletico-central-central-cae-puestos-20261011222949-nts.html": {
    "extracto": "El equipo sevillano consiguió mantenerse en el partido hasta el minuto 80, pero acabó sucumbiendo",
    "fecha": "2026-10-11T22:29:49+02:00",
    "titulo": "Estepona - Club Atlético Central (3-2): El Central cae a puestos de descenso tras encadenar dos derrotas consecutivas",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/fuenlabrada-balcanico-examina-san-pablo-consistencia-caja-20261010190004-nts.html": {
    "extracto": "Segundo partido consecutivo en casa de los verdirrojos, que reciben al conjunto madrileño, ahora con la denominación de Partizán y con Benite e Iván Cruz en sus filas",
    "fecha": "2026-10-10T19:00:04+02:00",
    "titulo": "El Fuenlabrada más 'balcánico' examina en San Pablo la consistencia del Caja 87",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/fundacion-cajasol-andalucia-desafia-lider-liga-iberdrola-20261016213346-nts.html": {
    "extracto": "Las nazarenas juegan a domicilio este sábado a cinco días del estreno en la CEV Champions League contra el Oporto",
    "fecha": "2026-10-16T21:33:46+02:00",
    "titulo": "El Fundación Cajasol Andalucía desafía al líder de la Liga Iberdrola en Menorca",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/fundacion-cajasol-andalucia-estrena-champions-league-visitando-20261022102714-nts.html": {
    "extracto": "La ida de esta eliminatoria previa se juega este jueves (21.00 horas); la vuelta, el 28 de octubre en Montequinto",
    "fecha": "2026-10-22T10:27:14+02:00",
    "titulo": "El Fundación Cajasol Andalucía debuta en la Champions League de voleibol visitando al Oporto",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/fundacion-cajasol-estrena-derrota-champions-league-voleibol-20261022002037-nts.html": {
    "extracto": "Las nazarenas ceden en el Dragao Arena ante el Oporto y jugarán la vuelta el miércoles 28 de octubre en Montequinto, donde tendrán que ganar para buscar el set de oro",
    "fecha": "2026-10-22T00:20:37+02:00",
    "titulo": "El Fundación Cajasol se estrena con derrota en la Champions League de voleibol (3-1)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/fundacion-cajasol-quiere-acelerar-ensamblaje-calor-montecillos-20261007182251-nts.html": {
    "extracto": "El CV Melilla, que ya ganó en pretemporada en Dos Hermanas, primer rival liguero de las nazarenas en su feudo (sábado, 18.00 horas)",
    "fecha": "2026-10-07T18:22:51+02:00",
    "titulo": "El Fundación Cajasol quiere acelerar su ensamblaje al calor de Los Montecillos",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/fundacion-cajasol-rearma-animicamente-champions-voleibol-victoria-20261024204227-nts.html": {
    "extracto": "El conjunto de Dos Hermanas se recompone de un mal inicio y vence en Los Montecillos al Fedes Ascensores La Laguna en la cuarta jornada de la Liga Iberdrola",
    "fecha": "2026-10-24T20:42:27+02:00",
    "titulo": "El Fundación Cajasol se rearma anímicamente para la Champions de voleibol con una victoria revitalizadora (3-1)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/fundacion-cajasol-voleibol-asignatura-pendiente-casa-20261031070641-nts.html": {
    "extracto": "Tras su eliminación de la Champions, pero no de Europa, las nazarenas retoman este domingo la competición doméstica visitando al CV Sayre, en Gran Canaria",
    "fecha": "2026-10-31T07:06:41+01:00",
    "titulo": "El Fundación Cajasol de voleibol tiene una asignatura pendiente fuera de casa",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/fundacion-cajasol-voleibol-rompe-gran-canaria-arena-20261101164417-nts.html": {
    "extracto": "Las nazarenas logran su tercera victoria de la temporada, la primera fuera de casa",
    "fecha": "2026-11-01T16:44:17+01:00",
    "titulo": "Megan Wilson lidera el triunfo del Fundación Cajasol de voleibol en el Gran Canaria Arena (2-3)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/granollers-historico-pone-picante-regreso-casa-cajasol-20261015191034-nts.html": {
    "extracto": "Los hispalenses vuelven este domingo a Amate para enfrentarse a uno de los clubes más importantes de la Asobal, del que han venido dos jugadores cedidos y al que pertenecieron Antonio García o Juan Andreu",
    "fecha": "2026-10-15T19:10:34+02:00",
    "titulo": "El Granollers, un histórico que pone picante al regreso a casa del Cajasol Sevilla Proin",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/deportes/sevilla/insolac-caja-trae-vuelta-casa-georgiano-beka-20261105105353-nts.html": {
+   "extracto": "El club verdirrojo anuncia la incorporación de este ala-pívot de 32 años y 2,01 metros formado en el Club Baloncesto Sevilla, al que llegó con 16 años",
+   "fecha": "2026-11-05T10:53:53+01:00",
+   "titulo": "El Insolac Caja 87 trae de vuelta a casa al georgiano Beka Burjanadze",
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/liga-educa-inicia-xiv-edicion-escuelas-330-20261019123551-nts.html": {
    "extracto": "Este pasado fin de semana comenzó la competición y se vuelve a situar la diversión, el buen ambiente y la formación en el centro del fútbol base",
    "fecha": "2026-10-19T12:35:51+02:00",
    "titulo": "La Liga Educa inicia su XIV edición con 75 escuelas y más de 330 equipos",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/lorena-solar-conquista-open-sevilla-tenis-memorial-20261017143018-nts.html": {
    "extracto": "La malagueña venció en la final, en las instalaciones del Club Náutico Sevilla, a la balear de origen rumano Silvia Caliman (6-0 y 6-4)",
    "fecha": "2026-10-17T14:30:18+02:00",
    "titulo": "Lorena Solar conquista el Open Sevilla de tenis Memorial Ricardo Villena",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/mundo-reves-cajasol-sevilla-proin-dificil-cancha-20261007200405-nts.html": {
    "extracto": "Los hispalenses, tras hacer pleno de victorias en Cuenca y Nava, concluyen la triple visita a domicilio en la pista del Bidasoa",
    "fecha": "2026-10-07T20:04:05+02:00",
    "titulo": "El mundo al revés del Cajasol Sevilla Proin y el más difícil todavía en la cancha del líder",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/octavos-final-abren-open-sevilla-tenis-pistas-20261013202556-nts.html": {
    "extracto": "La 34ª edición del Memorial Ricardo Villena en el club hispalense arranca este miércoles con cuatro partidos en el turno matinal y otros cuatro en el vespertino",
    "fecha": "2026-10-13T20:25:56+02:00",
    "titulo": "Los octavos de final inauguran el Open Sevilla de tenis en las pistas del Club Náutico",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/oporto-implacable-elimina-fundacion-cajasol-champions-league-20261028222858-nts.html": {
    "extracto": "Las nazarenas se despiden de la máxima competición continental, pero no de Europa, ya que ahora disputarán la CEV Cup contra el Neuchatel suizo",
    "fecha": "2026-10-28T22:28:58+01:00",
    "titulo": "Un Oporto implacable elimina al Fundación Cajasol de la Champions League (0-3)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/primera-victoria-fundacion-cajasol-casa-via-remontada-20261010224117-nts.html": {
    "extracto": "Las nazarenas levantaron el partido en Los Montecillos contra el CV Melilla tras reponerse del mazazo anímico que supuso perder el set inicial",
    "fecha": "2026-10-10T22:41:17+02:00",
    "titulo": "La primera victoria del Fundación Cajasol, en casa y por la vía de la remontada (3-1)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/racha-domicilio-cajasol-sevilla-proin-acaba-pista-20261010211739-nts.html": {
    "extracto": "Buena imagen del equipo sevillano, que tras un mal arranque ante el Bidasoa llegó vivo al descanso y se mantuvo a flote hasta la recta final en Artaleku",
    "fecha": "2026-10-10T21:17:39+02:00",
    "titulo": "La racha a domicilio del Cajasol Sevilla Proin acaba en la pista del líder (38-33)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/recital-panitti-frena-interminable-persecucion-cajasol-sevilla-20261018144026-nts.html": {
    "extracto": "Los hispalenses caen ante el Fraikin Granollers en casa, donde cuentan por derrotas sus tres primeros partidos como equipo de Asobal",
    "fecha": "2026-10-18T14:40:26+02:00",
    "titulo": "El recital de paradas de Panitti ahoga en Amate al Cajasol Sevilla Proin (29-31)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/regata-sevilla-betis-une-proyecto-hombre-destacar-20261029112011-nts.html": {
    "extracto": "El derbi del remo, programado el 14 de noviembre, dedica su presente edición a visibilizar la labor de la entidad, que cumple 35 años tras haber atendido a más de 30.000 jóvenes",
    "fecha": "2026-10-29T11:20:11+01:00",
    "titulo": "La Regata Sevilla - Betis se une a Proyecto Hombre para destacar su compromiso social",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/resistencia-caja-encuentra-premio-valioso-triunfo-menorca-20261031234026-nts.html": {
    "extracto": "Los verdirrojos se imponen en la cancha del colista en un partido que se resolvió en los últimos instantes",
    "fecha": "2026-10-31T23:40:26+01:00",
    "titulo": "La resistencia del Caja 87 encuentra premio con un valioso triunfo en Menorca (69-73)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/seleccion-andaluza-pickleball-debutara-campeonato-comunidades-autonomas-20261027164416-nts.html": {
    "extracto": "Andalucía participará los días 31 de octubre y 1 de noviembre en una cita histórica para la disciplina que acoge el Centro Municipal de Tennis Vall d",
    "fecha": "2026-10-27T16:44:16+01:00",
    "titulo": "La selección andaluza de pickleball debutará en el campeonato por comunidades autónomas",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/sevilla-cajasol-femenino-duerme-lider-liga-challenge-20261024224107-nts.html": {
    "extracto": "Con un parcial de 28-6 en el último cuarto, las hispalenses desarman al Melilla y siguen invictas tras cuatro jornadas",
    "fecha": "2026-10-24T22:41:07+02:00",
    "titulo": "El Sevilla Cajasol Femenino duerme líder de la Liga Challenge de baloncesto (73-53)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/sevilla-cajasol-gardestore-empieza-paso-firme-san-20261010220618-nts.html": {
    "extracto": "Las hispalenses, a través de la defensa y el control del rebote, superan al Fustecma Castelló y suman su segunda victoria en dos jornadas",
    "fecha": "2026-10-10T22:06:18+02:00",
    "titulo": "El Sevilla Cajasol Gardenstore empieza con paso firme en San Pablo (72-57)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/sevilla-convierte-capital-mundial-remo-veteranos-reuniendo-20261016180308-nts.html": {
    "extracto": "La Sevilla International Rowing Masters Regatta alcanza este fin de semana su novena edición con su centro neurálgico localizado en el CEAR de la Cartuja",
    "fecha": "2026-10-16T18:03:08+02:00",
    "titulo": "Sevilla se convierte en capital mundial del remo para veteranos reuniendo a 700 deportistas de 21 países",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/sevillano-javier-reja-amplia-coleccion-medallas-nueva-20261022132219-nts.html": {
    "extracto": "Reedita el subcampeonato mundial en la modalidad de maratón, esta vez en Gualeguaychú (Argentina), donde también compite en C2 juvenil Álvaro Pedrosa",
    "fecha": "2026-10-22T13:22:19+02:00",
    "titulo": "El sevillano Javier Reja amplía su colección de medallas: nueva plata mundial en paracanoa",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/tenis-toma-protagonismo-club-nautico-sevilla-memorial-20261008215123-nts.html": {
    "extracto": "El Open Sevilla, con una dotación en premios de 3.000 euros, se disputa en las instalaciones del club hispalense sobre tierra batida del 14 al 17 de octubre",
    "fecha": "2026-10-08T21:51:23+02:00",
    "titulo": "El tenis toma el protagonismo en el Club Náutico Sevilla con el Memorial Ricardo Villena",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/teya-sidberry-lidera-tercera-victoria-sevilla-cajasol-20261018113625-nts.html": {
    "extracto": "La ala-pívot estadounidense anotó 22 puntos y atrapó 7 rebotes en el triunfo hispalense en tierras insulares",
    "fecha": "2026-10-18T11:36:25+02:00",
    "titulo": "Teya Sidberry lidera la tercera victoria del Sevilla Cajasol Gardenstore Baloncesto (54-67)",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/torrelavega-examen-nivel-europeo-asobal-cajasol-sevilla-20261023181005-nts.html": {
    "extracto": "Los hispalenses, que suman cuatro puntos tras seis jornadas, visitan este domingo (18 horas) el pabellón Vicente Trueba, donde se medirán a uno de los mejores equipos de la competición",
    "fecha": "2026-10-23T18:10:05+02:00",
    "titulo": "Torrelavega, otro examen de nivel europeo en la Asobal para el Cajasol Sevilla Proin",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/triatleta-sevillana-cristina-jimenezorta-irrumpe-elite-internacional-20261103194601-nts.html": {
    "extracto": "La hispalense de 20 años logra su primera medalla en una prueba de la Copa de Europa en categoría absoluta",
    "fecha": "2026-11-03T19:46:01+01:00",
    "titulo": "La triatleta sevillana Cristina Jiménez-Orta irrumpe en la élite internacional con un bronce en Ibiza",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/deportes/sevilla/vuelta-andalucia-2027-arrancara-pueblo-sevilla-contrarreloj-20261007205830-nts.html": {
    "extracto": "La primera jornada de la prueba recorrerá los dos principales núcleos del municipio de La Rinconada",
    "fecha": "2026-10-07T20:58:30+02:00",
    "titulo": "La Vuelta a Andalucía 2027 arrancará en un pueblo de Sevilla: una contrarreloj a más de 70 km/h y Evenepoel como protagonista",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/economia/alfonso-munoz-funcionario-seguridad-social-adelanto-electoral-20261104054500-nt.html": {
    "extracto": "El especialista en pensiones informa que tras el anuncio del pasado 5 de octubre la propuesta vuelve al punto de partida hasta que haya nuevo Gobierno",
@@ -390,17 +420,41 @@
    "titulo": "Encuestas elecciones generales",
    "visto": "2026-11-04"
   },
+  "https://www.abc.es/espana/cataluna/joan-fontanero-sobre-ahorrar-calefaccion-purga-radiadores-20261105063000-nt.html": {
+   "extracto": "El profesional catalán explica tres sencillos trucos para mejorar el rendimiento de los radiadores y reducir el consumo de gas durante los meses de invierno",
+   "fecha": "2026-11-05T06:30:00+01:00",
+   "titulo": "Joan fontanero sobre ahorrar calefaccion purga radiadores",
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/espana/cataluna/jose-elias-empresario-catalan-repartidor-acabe-ganando-20261106070000-nt.html": {
+   "extracto": "El millonario cuestiona los salarios de los médicos españoles y critica las largas jornadas de guardia que deben afrontar algunos profesionales sanitarios",
+   "fecha": "2026-11-06T07:00:00+01:00",
+   "titulo": "Jose elias empresario catalan repartidor acabe ganando",
+   "visto": "2026-11-05"
+  },
   "https://www.abc.es/espana/cataluna/xavier-garcia-albiol-contundente-sobre-resultado-elecciones-20261104083147-nt.html": {
    "extracto": "El alcalde de Badalona celebra los últimos sondeos, que sitúan al PP a solo un diputado de ERC, y reivindica su papel en la futura ley contra la ocupación ilegal",
    "fecha": "2026-11-04T08:31:47+01:00",
    "titulo": "Xavier García Albiol",
    "visto": "2026-11-04"
   },
+  "https://www.abc.es/espana/comunidad-valenciana/arturo-valls-sobre-propiedades-inmobiliarias-inverti-inmuebles-20261105053000-nt.html": {
+   "extracto": "El presentador habló en una entrevista a",
+   "fecha": "2026-11-05T05:30:00+01:00",
+   "titulo": "Arturo valls sobre propiedades inmobiliarias inverti inmuebles",
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/espana/comunidad-valenciana/fabricante-chicles-mercadona-pulveriza-facturacion-tras-vender-20261105084311-nt.html": {
+   "extracto": "La firma valenciana Chickles Gum eleva su beneficio neto un 33% y mantiene un esfuerzo inversor de 4,7 millones de euros",
+   "fecha": "2026-11-05T08:43:11+01:00",
+   "titulo": "Fabricante chicles mercadona pulveriza facturacion tras vender",
+   "visto": "2026-11-05"
+  },
   "https://www.abc.es/espana/ultima-hora-accidente-tren-urda-directo-comparecencia-20261103110818-di.html": {
    "extracto": "Sigue en directo la última hora sobre el accidente de tren en Urda (Toledo), con todas las novedades sobre la investigación hoy",
    "fecha": "2026-11-03T11:08:18+01:00",
    "titulo": "Ultima hora accidente tren urda directo comparecencia",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/gente/karlos-arguinano-anos-sobre-trabajo-fabrica-trenes-20261104053000-nt.html": {
    "extracto": "Era chapista, pero una anécdota cambió su vida y pasó a dedicarse a la cocina",
@@ -426,6 +480,18 @@
    "titulo": "Llega netflix nueva pelicula mario casas blanca",
    "visto": "2026-11-04"
   },
+  "https://www.abc.es/play/television/noticias/gabriel-rufian-dice-sobre-pedro-sanchez-problema-20261105114822-nt.html": {
+   "extracto": "El político catalán analiza la posible solución a la crisis de la vivienda",
+   "fecha": "2026-11-05T11:48:22+01:00",
+   "titulo": "Gabriel rufian dice sobre pedro sanchez problema",
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/play/television/noticias/javier-ruiz-contemplaciones-mediaset-espana-programas-emite-20261105115211-nt.html": {
+   "extracto": "El periodista no ha se mordido la lengua al hablar sobre el programa de Cuatro, cadena en cuyos comienzos trabajó él",
+   "fecha": "2026-11-05T11:52:11+01:00",
+   "titulo": "Javier ruiz contemplaciones mediaset espana programas emite",
+   "visto": "2026-11-05"
+  },
   "https://www.abc.es/play/television/noticias/juan-val-oscar-puente-intentar-vestir-dimision-20261104113022-nt.html": {
    "extracto": "Este martes 3 de noviembre, tras cuatro horas de sesión en el Congreso de los Diputados, Óscar Puente ha anunciado lo que muchos venían pidiéndole desde la tragedia en Adamuz y ahora en Urda: su dimisión . «Un ministro no puede estar en el cargo con dos accidentes de esta gravedad en menos de un año» , ha explicado el político.",
    "fecha": "2026-11-04T11:30:22+01:00",
@@ -444,11 +510,29 @@
    "titulo": "Tomas gomez exsecretario psoe madrid contundente sobre",
    "visto": "2026-11-04"
   },
+  "https://www.abc.es/play/television/noticias/vicente-valles-pone-evidencia-gobierno-pedro-sanchez-20261105101042-nt.html": {
+   "extracto": "Óscar Puente ha anunciado lo que muchos venían pidiéndole desde la tragedia en Adamuz y ahora en Urda: su dimisión . Lo ha hecho este martes 3 de noviembre, después de cuatro horas de comparecencia en el Congreso de los Diputados.",
+   "fecha": "2026-11-05T10:10:42+01:00",
+   "titulo": "Vicente valles pone evidencia gobierno pedro sanchez",
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/recreo/gonzalo-bernardos-convencido-sustituto-pedro-sanchez-psoe-20261105114650-nt.html": {
+   "extracto": "El economista cree que el abrupto final del exministro de Transportes abre ahora una batalla en el partido por suceder al Presidente",
+   "fecha": "2026-11-05T11:46:50+01:00",
+   "titulo": "Gonzalo bernardos convencido sustituto pedro sanchez psoe",
+   "visto": "2026-11-05"
+  },
   "https://www.abc.es/recreo/jose-manuel-soto-dice-sobre-pedro-sanchez-20261104131159-nt.html": {
    "extracto": "El cantautor se pronuncia tras la dimisión del ministro de Transportes",
    "fecha": "2026-11-04T13:11:59+01:00",
-   "titulo": "José Manuel Soto",
-   "visto": "2026-11-04"
+   "titulo": "Jose manuel soto dice sobre pedro sanchez",
+   "visto": "2026-11-05"
+  },
+  "https://www.abc.es/recreo/manuela-carmena-sobre-problema-vivienda-espana-franco-20261105082641-nt.html": {
+   "extracto": "La que fuera alcaldesa de Madrid explicaba que en aquella época se tomaron medidas interesantes para paliar una crisis similar a la actual",
+   "fecha": "2026-11-05T08:26:41+01:00",
+   "titulo": "Manuela carmena sobre problema vivienda espana franco",
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/recreo/sandra-golpe-necesita-solo-frase-opinar-sobre-20261104145156-nt.html": {
    "extracto": "La periodista ha recordado los dos accidentes ferroviarios que se han dado mientras Puente estaba en el cargo",
@@ -460,13 +544,13 @@
    "extracto": "ABC de Sevilla celebra su centenario dentro de seis años y convoca diferentes mesas de trabajo para definir nuevas estrategias urbanas",
    "fecha": "2023-03-19T20:24:46+01:00",
    "titulo": "Propuestas abc definir sevilla pasado manana",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/sevilla/pasionensevilla/noticias-semana-santa-sevilla/programa-guia-semana-santa-sevilla-2026-20260306163925-nts.html": {
    "extracto": "Itinerarios, horarios, hermandades y todas las novedades de la Semana Santa de Sevilla 2026",
    "fecha": "2026-03-06T16:39:25+01:00",
    "titulo": "Semana Santa Sevilla",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.abc.es/sociedad/aemet-avisa-cambio-tiempo-espana-frio-tormentas-20261104053000-nt.html": {
    "extracto": "El organismo meteorológico indica que varias regiones del país se verán afectadas por las lluvias y por un descenso de las temperaturas a partir de este miércoles 4 de noviembre",
@@ -480,121 +564,121 @@
    "extracto": "El estreno del Cajasol Real Ciencias ante su afición, la defensa del pleno del GardenStore y la visita del Granada al Caja 87 destacan en una programación con vela en el Guadalquivir y exigentes desplazamientos para los equipos sevillanos Agenda Poli",
    "fecha": "2026-10-23T13:16:58+02:00",
    "titulo": "Una miscelánea de las diferentes competiciones del fin de semana.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/asi-es-agenda-polideportiva-sevilla-fin-de-semana-31-octubre_0_2008386565.html": {
    "extracto": "El GardenStore defiende su liderato ante el Unicaja Mijas, el Proin busca su primera victoria en Amate y el Sevilla Femenino recibe al Real Madrid en un fin de semana con exigentes desplazamientos para el Ciencias, las Cocos y el Esquimo Agenda Polid",
    "fecha": "2026-10-30T17:21:04+01:00",
    "titulo": "Un combinado de imágenes de las diferentes modalidades polideportivas en Sevilla.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/asi-fue-fin-de-semana-polideportivo-sevilla-resultados-24-octubre_0_2008336720.html": {
    "extracto": "La clara victoria del Cajasol Real Ciencias, el cuarto triunfo consecutivo del GardenStore y la remontada del Esquimo destacan en una jornada que también dejó empates para el Sevilla Femenino y el Nazareno y derrotas del Waterpolo Sevilla y las Guerr",
    "fecha": "2026-10-25T12:14:20+01:00",
    "titulo": "Un resumen del fin de semana en imágenes.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/asi-fue-fin-de-semana-polideportivo-sevilla-resultados-31-octubre-1-noviembre_0_2008405386.html": {
    "extracto": "El primer triunfo del Proin en Amate, el pleno de cinco victorias del GardenStore y el bronce de Cristina Jiménez-Orta en Ibiza encabezan una jornada con alegrías para el Caja 87, el Morón, el Ciencias, el Esquimo y las Guerreras Agenda Polideportiva",
    "fecha": "2026-11-02T10:18:29+01:00",
    "titulo": "Un compendio de algunas de las imágenes que deparó el fin de semana del polideportivo sevillano",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/asi-fue-fin-semana-polideportivo-sevilla-resultados_0_2008288029.html": {
    "extracto": "El pleno del Sevilla Cajasol GardenStore, la victoria del Waterpolo Sevilla y el título de Lorena Solar destacan en una jornada que también dejó derrotas ajustadas, remontadas incompletas y protagonismo sevillano en el Guadalquivir Así es la agenda p",
    "fecha": "2026-10-19T17:02:31+02:00",
    "titulo": "El fin de semana polideportivo en Sevilla, resumido en cinco imágenes.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/betis-baloncesto/caja-87-deja-escapar-13_0_2008274168.html": {
    "extracto": "El conjunto de Juani Díez llegó a disfrutar de una ventaja importante en el tercer cuarto, pero se bloqueó y acabó cayendo en el derbi tras una canasta de Nugu a dos décimas del final",
    "fecha": "2026-10-17T21:13:54+02:00",
    "titulo": "Ramón Vila y Bolavie intentan capturar un rebote.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/betis-baloncesto/caja-87-llevo-coviran-granada_0_2008337881.html": {
    "extracto": "El conjunto sevillano forzó el tiempo extra tras una gran reacción en la segunda mitad, pero acabó cediendo ante los nazarís liderados por Parham, que acabó con 21 puntos El Caja 87 quiere que San Pablo sea un fortín",
    "fecha": "2026-10-25T15:25:54+01:00",
    "titulo": "Bolavie, mejor jugador del Caja 87, lucha por un balón ante varios juigadores del Granada.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/betis-baloncesto/caja87-impone-superioridad-gerona-octavos-copa-espana-61-76_0_2008297857.html": {
    "extracto": "El conjunto sevillano supera al Sol Gironès Bisbal Bàsquet con una actuación sólida y el liderazgo ofensivo de Nedim Djedovic, autor de 20 puntos Los de Juani Díez controlaron el marcador desde el primer cuarto y esperan al vencedor del Valladolid-Fu",
    "fecha": "2026-10-20T22:35:20+02:00",
    "titulo": "El base Varela bota el balón en busca del pase más adecuado a un compañero.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/betis-baloncesto/sevilla-cajasol-gardenstore-defiende-condicion-invicto-melilla_0_2008319920.html": {
    "extracto": "Las sevillanas, segundas en la Liga Femenina Challenge con tres victorias en tres partidos, reciben este sábado a un rival situado en la quinta posición El equipo de Jaime Sañudo busca su cuarto triunfo consecutivo en San Pablo, donde tendrá que vigi",
    "fecha": "2026-10-23T09:59:39+02:00",
    "titulo": "Una imagen de un entrenamiento del Sevilla Cajasol GardenStore.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/caja-87-busca-saldar-cuentas-cordoba-derbi-primera-feb_0_2008268171.html": {
    "extracto": "El conjunto de Juani Díez visita este sábado Vista Alegre (18:30) tras encadenar dos victorias consecutivos, pero los tres precedentes oficiales entre ambos conjuntos terminaron con derrota del equipo sevillano El Caja 87 se hace grande en la Primera",
    "fecha": "2026-10-17T09:00:46+02:00",
    "titulo": "Webster lanza un triple en el enfrentamiento entre el Caja 87 y el Córdoba en la Copa de Andalucía.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/caja-87-confianzas-menorca-maxima-tension_0_2008388117.html": {
    "extracto": "El conjunto hispalense visita al colista de Primera FEB después de dos derrotas seguidas necesitado de volver a la senda triunfal para evitar que surjan dudas en el proyecto Derrota contra el Covirán Granada en la prórroga",
    "fecha": "2026-10-30T21:32:09+01:00",
    "titulo": "Djedovic trata de hacerse con el espacio para lanzar en el partido contra el Covirán Granada.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/caja87-caja-87-aprende-sufrir-ganar-menorca_0_2008393707.html": {
    "extracto": "En un duelo en el que cada equipo falló nueve tiros libros, el mayor acierto final del cuadro hispalense permitió a los de Juani Díez volver a la senda triunfal ante el colista en otro encuentro sin minutos para Franch",
    "fecha": "2026-10-31T22:22:43+01:00",
    "titulo": "El cajista Webster se dispone a lanzar en el partido contra el Menorca.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/cb-moron-busca-prolongar-pleno-alameda_0_2008376419.html": {
    "extracto": "El equipo de Francis Tomé, tras su último triunfo ante el Toledo Básket, recibe este sábado, a las 18:00, a un rival que viene de conseguir su primera victoria liguera Así es la agenda polideportiva en Sevilla en el fin de semana del 31 de octubre y",
    "fecha": "2026-10-30T13:43:15+01:00",
    "titulo": "Una imagen del último triunfo del CB Morón ante el Toledo Básket.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/dudas-coviran-granada-arma-doble-caja-87_0_2008326899.html": {
    "extracto": "San Pablo busca un nuevo récord de asistencia en el duelo regional en el que el técnico local cuenta con toda su plantilla y el visitante con varias incógnitas en un arranque que genera dudas en el proyecto Así es la agenda polideportiva en Sevilla e",
    "fecha": "2026-10-23T19:49:00+02:00",
    "titulo": "El cajista Moody trata de frenar a Nuga, jugador del Coto Córdoba.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/moron-da-sorpresa-carga-fiwbi-palma-primera-feb-seguir-copa-espana_0_2008305096.html": {
    "extracto": "El conjunto sevillano se medirá en octavos al ganador del Albacete Basket-Gran Canaria El Caja87 impone su superioridad en Gerona y avanza a octavos de la Copa España (61-76)",
    "fecha": "2026-10-21T09:36:31+02:00",
    "titulo": "Orozco lanza a triple en el encuentro ante el Fibwi Palma.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/sevilla-cajasol-gardenstore-defiende-liderato-primer-derbi-andaluz_0_2008375818.html": {
    "extracto": "Las sevillanas reciben este sábado al Unicaja Mijas en San Pablo con el objetivo de sumar su quinta victoria consecutiva en la Liga Femenina Challenge El club prepara una jornada especial de Halloween con entradas a cuatro euros y acceso gratuito par",
    "fecha": "2026-10-30T10:32:20+01:00",
    "titulo": "Una imagen del Sevilla Cajasol GardenStore-Unicaja de Mijas en las semifinales de la Copa de Andalucía.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/sevilla-cajasol-gardenstore-firma-tercera-54-67_0_2008274497.html": {
    "extracto": "Las sevillanas vencen al Spar Gran Canaria por 54-67, impulsadas por Teya Sidberry y una sólida primera mitad, y mantienen su pleno de triunfos en el arranque de la Liga Femenina Challenge El Sevilla Cajasol GardenStore impone su defensa y mantiene e",
    "fecha": "2026-10-17T22:57:24+02:00",
    "titulo": "El Sevilla Cajasol GardenStore celebra su triunfo en Canarias.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/sevilla-cajasol-gardenstore-no-freno-cinco-victorias-liderato_0_2008398324.html": {
    "extracto": "El conjunto de Jaime Sañudo supera al Unicaja Mijas por 73-64 en San Pablo y mantiene su condición de invicto en la Liga Femenina Challenge Davydova, con 17 puntos, lidera una victoria construida antes del descanso y sentenciada con dos triples de Ai",
    "fecha": "2026-11-01T10:16:02+01:00",
    "titulo": "Inés Giménez avanza con el balón en el partido contra Unicaja Mijas.",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/sevilla-cajasol-gardenstore-sigue-imparable-arrolla-melilla-73-53_0_2008333269.html": {
    "extracto": "Las jugadoras de Jaime Sañudo suman su cuarta victoria consecutiva después de llegar al último cuarto por debajo y mantienen su condición de invictas en la Liga Femenina Challenge Anna Prim, con 18 puntos y ocho asistencias, y Teya Sidberry, con 16 p",
    "fecha": "2026-10-24T21:59:31+02:00",
    "titulo": "Anna Prim, la mejor jugadora de partido, busca un pase para una de sus compañeras",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.diariodesevilla.es/deportes/starlabs-moron-aferra-epica-conquistar-victoria-prorroga-74-71_0_2008400342.html": {
    "extracto": "Un palmeo de Chabi Yo a menos de un segundo del final fuerza el tiempo extra ante el Spanish Basketball Academy y permite a los sevillanos imponerse por 74-71 Miguel Ayesa rescata al equipo con sus triples en el último cuarto y José Alberto Jiménez \"",
    "fecha": "2026-11-01T14:40:13+01:00",
    "titulo": "Pablo Sánchez conduce el balón en el partido ante el Spanish Basketball.jpg",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   }
  },
  "muchodeporte-com-deporte-andaluz": {
@@ -602,49 +686,55 @@
    "extracto": "El Jaén Paraíso Interior FS perdió su imbatibilidad tras caer por 5-2 ante O Parrulo Ferrol en A Malata. El conjunto amarillo se encontró con un rival muy intenso, que supo aprovechar el empuje de su afición y firmó una gran primera mitad para llevarse los tres puntos y cortar su racha de victorias.",
    "fecha": "2026-10-25T12:00:00+00:00",
    "titulo": "5-2: O Parrulo pone fin a la imbatibilidad del Jaén FS",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/81-84-coviran-granada-vence-al-caja-87-en-la-prorroga-y-se-lleva-el-derbi-andaluz-de-primera-feb/": {
    "extracto": "El Covirán Granada se llevó el derbi andaluz ante el Insolac Caja 87 por 81-84 en la prórroga . El conjunto sevillano logró recuperar terreno después de un inicio favorable a los visitantes y llevó el partido hasta el tiempo extra, donde el equipo granadino terminó decidiendo el resultado. El derbi se disputó en un Palacio de los Deportes de San Pablo vibrante, que dio cita a unos 4.500 espectadores .",
    "fecha": "2026-10-25T12:00:00+00:00",
    "titulo": "81-84: Covirán Granada vence al Caja 87 en la prórroga y se lleva el derbi andaluz de Primera FEB",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/alejandro-davidovich-se-borra-del-masters-1000-de-paris-y-centra-sus-esfuerzos-en-la-copa-davis/": {
    "extracto": "Nuevo contratiempo para Alejandro Davidovich en el tramo final de la temporada. El tenista del Rincón de la Victoria se ha retirado del Masters 1000 de París antes de disputar su partido de primera ronda frente al francés Moise Kouamé. Según informa MARCA, el malagueño sufre molestias en la espalda que le han impedido competir en la capital francesa.",
    "fecha": "2026-11-03T12:00:00+00:00",
    "titulo": "Alejandro Davidovich se cae de París y centra sus esfuerzos en la Copa Davis",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/alejandro-fresneda-y-maria-lamothe-se-coronan-en-el-campeonato-de-espana-de-snipe-master-en-motril/": {
    "extracto": "La vela andaluza ha vuelto a demostrar su hegemonía en el ámbito nacional. Alejandro Fresneda (CM Almería) y María Lamothe (RCN Madrid) se han proclamado campeones de España de la clase Snipe Máster tras imponerse en la competición celebrada en aguas de Motril, que concluyó este lunes tras la disputa de cinco regatas.",
    "fecha": "2026-11-04T12:00:00+00:00",
    "titulo": "Alejandro Fresneda y María Lamothe se coronan en el Campeonato de España de Snipe Máster en Motril",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
+  },
+  "https://www.muchodeporte.com/deporte-andaluz/andalucia-logra-el-podio-nacional-en-el-campeonato-de-espana-de-motocross-por-autonomias/": {
+   "extracto": "La selección andaluza de motocross ha completado una destacada actuación en el Campeonato de España de Motocross por Autonomías tras subirse al podio nacional en la tercera posición de la clasificación absoluta. El circuito El Pinillo 2, en el municipio cordobés de Almodóvar del Río, acogió entre el 31 de octubre y el 1 de noviembre esta cita que reunió a cinco selecciones autonómicas en las categorías Élite y MX85.",
+   "fecha": "2026-11-04T12:00:00+00:00",
+   "titulo": "Andalucía logra el podio nacional en el Campeonato de España de Motocross por Autonomías",
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/arranca-la-xiv-copa-de-andalucia-absoluta-de-clubes-de-natacion/": {
    "extracto": "La natación andaluza vuelve a estar de enhorabuena con el pistoletazo de salida hoy de la XIV Copa de Andalucía Absoluta de Clubes, un evento organizado por la Federación Andaluza de Natación (FAN) que se consolida como una de las citas imprescindibles del calendario autonómico. La competición destaca un año más por su firme apuesta por el deporte inclusivo, contando con la participación de deportistas integrados y un Comité Andaluz de Árbitros específicamente formado para garantizar esta vocación.",
    "fecha": "2026-10-31T12:00:00+00:00",
    "titulo": "Arranca la XIV Copa de Andalucía Absoluta de Clubes de Natación",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/benji-winter-irrumpe-en-la-elite-del-dobles-y-llama-a-la-puerta-de-la-copa-davis/": {
    "extracto": "El tenis almeriense tiene un nuevo motivo para mirar hacia arriba. Benji Winter atraviesa uno de los mejores momentos de su trayectoria en dobles después de conquistar el Challenger 100 de Lisboa junto al portugués Tiago Pereira, apenas una semana después de disputar la final del torneo de Maia. Dos semanas consecutivas peleando por el título que consolidan su progresión en el circuito y refuerzan sus aspiraciones de dar el salto a la selección española.",
    "fecha": "2026-10-26T12:00:00+00:00",
    "titulo": "Benji Winter irrumpe en la élite del dobles y llama a la puerta de la Copa Davis",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/benji-winter-subcampeon-de-dobles-en-el-challenger-100-de-maia/": {
    "extracto": "El tenis almeriense continúa sumando grandes noticias en el circuito internacional de la mano de Benji Winter. El jugador andaluz ha completado una semana de gran nivel tras proclamarse subcampeón de dobles en el Challenger 100 de Maia (Portugal) junto al tenista local Tiago Pereira, un resultado que confirma el excelente momento de forma que atraviesa la pareja hispano-lusa.",
    "fecha": "2026-10-23T12:00:00+00:00",
    "titulo": "Benji Winter, subcampeón de dobles en el Challenger 100 de Maia",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/bormujos-reune-este-sabado-a-la-doma-clasica-andaluza-con-la-xii-copa-de-andalucia/": {
    "extracto": "La hípica andaluza tiene una nueva cita este sábado en la provincia de Sevilla. El Centro Hípico El Galapagar, situado en Bormujos, será el escenario del CDT XII Copa de Andalucía de Doma Clásica, Paralímpica, Ponis y Amazonas, una competición que reunirá distintas categorías de esta disciplina ecuestre.",
    "fecha": "2026-10-24T12:00:00+00:00",
    "titulo": "Bormujos reúne este sábado a la doma clásica andaluza con la XII Copa de Andalucía",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/cadiz-convierte-sus-pistas-en-el-epicentro-del-baloncesto-infantil-femenino-andaluz/": {
    "extracto": "La capital gaditana se prepara para albergar este fin de semana una de las citas más esperadas del baloncesto de formación en la comunidad autónoma: el Campeonato de Andalucía de Selecciones Provinciales A8 Infantil Femenino 2026. Desde el viernes 23 hasta el domingo 25 de octubre, las mejores promesas del baloncesto autonómico se darán cita para disputar el título regional.",
@@ -656,61 +746,73 @@
    "extracto": "Casabermeja se convierte este sábado en uno de los focos del automovilismo andaluz con la celebración del 6º Slalom de Casabermeja, una cita organizada por el club 103 Octanos con la colaboración de la Federación Andaluza de Automovilismo y el Ayuntamiento de la localidad malagueña.",
    "fecha": "2026-10-31T12:00:00+00:00",
    "titulo": "Casabermeja acoge el sexto Slalom puntuable para los campeonatos andaluces",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
+  },
+  "https://www.muchodeporte.com/deporte-andaluz/cordoba-encumbra-a-las-jovenes-promesas-del-tenis-andaluz/": {
+   "extracto": "Las pistas del complejo Open Arena de Córdoba se convirtieron entre el 31 de octubre y el 4 de noviembre en el epicentro del tenis de formación andaluz. Durante cinco intensas jornadas, 185 jóvenes promesas procedentes de las ocho provincias de la comunidad autónoma se disputaron los títulos del Campeonato de Andalucía en las categorías sub-9, sub-11, sub-13 y sub-15. La cita dejó un espectacular balance de 220 partidos de alto nivel competitivo en las modalidades individual y dobles, sirviendo además como punto de encuentro, convivencia y aprendizaje para jugadores, familias y clubes.",
+   "fecha": "2026-11-05T12:00:00+00:00",
+   "titulo": "Córdoba encumbra a las jóvenes promesas del tenis andaluz",
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/cordoba-se-convierte-en-la-capital-del-karate-nacional-con-mas-de-600-deportistas-este-fin-de-semana/": {
    "extracto": "El Palacio Municipal de Deportes Vista Alegre de Córdoba se prepara para acoger este próximo fin de semana, los días 31 de octubre y 1 de noviembre, la Segunda Ronda de la Liga Nacional de Karate en las modalidades de Equipos y Máster. El evento reunirá a más de 600 competidores procedentes de clubes de toda España.",
    "fecha": "2026-10-28T12:00:00+00:00",
    "titulo": "Córdoba se convierte en la capital del karate nacional con más de 600 deportistas este fin de semana",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/cordoba-y-san-jose-de-la-rinconada-se-convierten-este-sabado-en-el-epicentro-del-badminton-andaluz/": {
    "extracto": "Fin de semana de máxima exigencia para el bádminton base en Andalucía. La ciudad de Córdoba y el municipio sevillano de San José de la Rinconada acogerán de forma simultánea este sábado dos de las citas clave del calendario autonómico: la cuarta prueba del TOP TTR Sub-15 y Sub-19 y la fase final del Campeonato de Andalucía de Clubes 'Se Busca Campeón' (SBC).",
    "fecha": "2026-10-23T12:00:00+00:00",
    "titulo": "Córdoba y San José de la Rinconada se convierten este sábado en el epicentro del bádminton andaluz",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/coria-del-rio-se-convierte-en-el-epicentro-nacional-de-la-doma-vaquera-con-el-campeonato-de-espana-de-caballos-jovenes/": {
    "extracto": "La doma vaquera nacional mira este fin de semana a la provincia de Sevilla. Coria del Río acoge del 23 al 25 de octubre el Campeonato de España de Caballos Jóvenes de Doma Vaquera, una de las citas destacadas del calendario hípico, destinada a evaluar la formación y las cualidades deportivas de los ejemplares llamados a marcar el futuro de esta disciplina.",
    "fecha": "2026-10-22T12:00:00+00:00",
    "titulo": "Coria del Río se convierte en el epicentro nacional de la doma vaquera con el Campeonato de España de Caballos Jóvenes",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
+  },
+  "https://www.muchodeporte.com/deporte-andaluz/cuatro-andaluces-convocados-con-espana-para-buscar-el-billete-al-europeo-de-badminton-por-equipos-mixtos-2027/": {
+   "extracto": "El bádminton andaluz volverá a tener un papel destacado en el panorama internacional. Cuatro deportistas de la comunidad han sido convocados por la Federación Española de Bádminton para disputar la fase clasificatoria del Campeonato de Europa por Equipos Mixtos 2027, que se celebrará del 2 al 6 de diciembre en la localidad polaca de Bierun.",
+   "fecha": "2026-11-05T12:00:00+00:00",
+   "titulo": "Cuatro andaluces, convocados con España para buscar el billete al Europeo de Bádminton por Equipos Mixtos 2027",
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/cuatro-andaluces-participan-en-la-concentracion-nacional-de-tecnificacion-sub-15-y-sub-17/": {
    "extracto": "El bádminton andaluz sigue ganando presencia en los programas nacionales de formación. Cuatro jóvenes jugadores de la comunidad han participado en la Concentración Nacional de Tecnificación de las categorías Sub-15 y Sub-17, celebrada en Madrid desde el pasado sábado 24 hasta este martes 27 de octubre.",
    "fecha": "2026-10-28T12:00:00+00:00",
    "titulo": "Cuatro andaluces participan en la Concentración Nacional de Tecnificación Sub-15 y Sub-17",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/david-gonzalez-da-el-salto-al-mundial-de-moto3-con-leopard-racing-para-la-temporada-2027/": {
    "extracto": "El motociclismo gaditano tendrá un nuevo representante en el Campeonato del Mundo de Moto3. David González, piloto de Medina Sidonia de 18 años, ha firmado con Leopard Racing para competir en la temporada 2027, dando así el paso más importante de su carrera deportiva hasta la fecha.",
    "fecha": "2026-10-31T12:00:00+00:00",
    "titulo": "David González da el salto al Mundial de Moto3 con Leopard Racing para la temporada 2027",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/davidovich-convocado-por-david-ferrer-para-la-final-de-bolonia/": {
    "extracto": "Fin del culebrón. David Ferrer destensa la cuerda y convoca a Davidovich después de tres años, ya que la última aparición del malagueño con el combinado nacional fue en 2023, donde la Armada cayó ante República Checa. Ambos han limado asperezas en los últimos días con conversaciones que han acercado posturas tras tres años de numerosos desencuentros tanto del capitán como del tenista.",
    "fecha": "2026-10-26T12:00:00+00:00",
    "titulo": "Davidovich convocado por David Ferrer para la Final de Bolonia",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/dos-hermanas-se-prepara-para-una-noche-historica-de-champions-con-el-fundacion-cajasol-andalucia/": {
    "extracto": "Dos Hermanas se prepara para vivir una de esas noches que dejan huella en el deporte local. El Fundación Cajasol Andalucía afronta este miércoles una cita histórica con la vuelta de la eliminatoria previa de la CEV Champions League, la máxima competición europea de clubes. Las nazarenas reciben al FC Oporto a las 19:00 horas en el Complejo Deportivo de Montequinto, donde buscarán remontar el 3-1 encajado en Portugal y prolongar su aventura continental.",
    "fecha": "2026-10-28T12:00:00+00:00",
    "titulo": "Dos Hermanas se prepara para una noche histórica de Champions con el Fundación Cajasol Andalucía",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-altarik-iv-y-el-aqua-44-se-coronan-en-la-copa-ubago-de-vela/": {
    "extracto": "Las embarcaciones Altarik IV y Aqua 44 se han proclamado vencedoras de la última edición de la Copa Ubago, una exigente prueba de vela costera que ha reunido a cerca de 80 regatistas procedentes de España, Gibraltar y Ceuta. La travesía, organizada por el Real Club Náutico de La Línea de la Concepción (RCNLL), estuvo marcada por la dificultad táctica que impusieron las condiciones meteorológicas y las corrientes del Estrecho.",
    "fecha": "2026-10-30T12:00:00+00:00",
    "titulo": "El Altarik IV y el Aqua 44 se coronan en la Copa Ubago de vela",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-club-badminton-rute-conquista-su-tercer-titulo-consecutivo-en-el-campeonato-de-andalucia-de-clubes/": {
    "extracto": "El Club Bádminton Rute sigue haciendo historia en el bádminton andaluz. El conjunto cordobés se proclamó campeón del Campeonato de Andalucía de Clubes «Se Busca Campeón» por tercer año consecutivo tras imponerse al Arjonilla en la final de la competición, celebrada el pasado sábado en el Pabellón Cubierto Fernando Martín de San José de la Rinconada (Sevilla).",
    "fecha": "2026-10-27T12:00:00+00:00",
    "titulo": "El Club Bádminton Rute conquista su tercer título consecutivo en el Campeonato de Andalucía de Clubes",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-costa-del-sol-malaga-ya-conoce-los-horarios-para-la-eliminatoria-decisiva-de-la-ehf-european-league-ante-el-vfl-oldenburg/": {
    "extracto": "El Costa del Sol Málaga ya tiene hoja de ruta para uno de los grandes retos de su temporada. El conjunto malagueño disputará en poco más de dos semanas la tercera ronda eliminatoria de la EHF European League frente al VfL Oldenburg alemán, con el objetivo de lograr el billete para la ansiada fase de grupos de la segunda competición continental, un hito que el club solo ha alcanzado en una ocasión.",
@@ -722,85 +824,85 @@
    "extracto": "El Fundación Cajasol Andalucía puso fin a su participación en la CEV Champions League tras caer por 0-3 ante el FC Porto. El equipo de Ricardo Torronteras acusó la superioridad física de las portuguesas, especialmente en los dos primeros sets, aunque reaccionó en el tercero y llegó a disponer de una bola para prolongar el encuentro. La derrota, sin embargo, no supone el final de su aventura europea, ya que el conjunto nazareno continuará compitiendo en la CEV Cup.",
    "fecha": "2026-10-29T12:00:00+00:00",
    "titulo": "El Fundación Cajasol Andalucía se despide de la Champions, pero seguirá compitiendo en Europa",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-fundacion-cajasol-andalucia-toma-impulso-ante-las-lagunas-3-1-antes-de-su-gran-estreno-en-champions/": {
    "extracto": "El Fundación Cajasol Andalucía sumó una importante victoria en la cuarta jornada de la Liga Iberdrola al imponerse por 3-1 al Fedes Ascensores La Laguna en el Pabellón Los Montecillos. El conjunto nazareno, vigente campeón de la competición, supo reaccionar tras ceder el primer set y fue creciendo con el paso de los minutos hasta certificar la remontada ante su afición. Así, se hizo con un triunfo que refuerza las buenas sensaciones del equipo en la previa de la vuelta en Champions League frente al Oporto en Dos Hermanas.",
    "fecha": "2026-10-25T12:00:00+00:00",
    "titulo": "El Fundación Cajasol Andalucía toma impulso ante Las Lagunas (3-1) antes de su gran noche de Champions",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-genio-de-la-rambla-agiganta-su-leyenda-alfonso-cabello-conquista-su-octavo-mundial-en-apeldoorn/": {
    "extracto": "Hay gestas que ya forman parte de la historia del deporte andaluz, y lo de Alfonso Cabello en el velódromo roza el mito. El ciclista de La Rambla (Córdoba) ha vuelto a demostrar que no tiene rival en su prueba reina y se ha coronado campeón del mundo por octava vez en el Kilómetro CRI C5, arrancando de la mejor manera posible el Mundial de pista en Apeldoorn (Países Bajos).",
    "fecha": "2026-10-30T12:00:00+00:00",
    "titulo": "El genio de La Rambla agiganta su leyenda: Alfonso Cabello conquista su octavo Mundial en Apeldoorn",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-karate-cordobes-triunfa-en-casa-el-shotokan-villoslada-firma-un-oro-y-un-bronce-en-la-liga-nacional/": {
    "extracto": "El Palacio Municipal de Deportes Vista Alegre de la capital cordobesa volvió a convertirse durante los días 31 de octubre y 1 de noviembre en el epicentro del karate nacional. La celebración de la Segunda Ronda de la Liga Nacional de Karate, en las modalidades de Equipos y Máster, reunió a destacados clubes y competidores de toda España, dejando un balance de gran nivel técnico e importante presencia local, donde sobresalió la actuación del Club Shotokan Villoslada de Priego de Córdoba tras conquistar dos medallas.",
    "fecha": "2026-11-03T12:00:00+00:00",
    "titulo": "El karate cordobés triunfa en casa: el Shotokan Villoslada firma un oro y un bronce en la Liga Nacional",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-malagueno-jairo-bautista-conquista-el-fip-gold-de-melilla-2026-10-25/": {
    "extracto": "El malagueño Jairo Bautista se ha proclamado campeón del FIP Gold de Melilla 2026 junto al brasileño Lucas Bergamini tras completar un gran torneo y superar en la final a Juan Tello y Maxi Arce, cabeza de serie 1 del torneo, por un contundente 6-1 y 6-4 . La pareja se hizo con el título en una cita celebrada en la ciudad autónoma, habiendo cedido un único set a lo largo del todo el torneo.",
    "fecha": "2026-10-25T12:00:00+00:00",
    "titulo": "El malagueño Jairo Bautista conquista el FIP Gold de Melilla",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-norte-de-cordoba-se-convierte-en-el-epicentro-del-motor-con-el-v-rallye-valle-del-guadiato/": {
    "extracto": "El automovilismo regresa con fuerza al norte de la provincia de Córdoba. Este fin de semana, 30 y 31 de octubre, se celebra la quinta edición del Rallye Valle del Guadiato, una cita clave en el calendario del motor que reunirá a 73 equipos inscritos y que será puntuable para los campeonatos autonómicos de Andalucía y Extremadura.",
    "fecha": "2026-10-30T12:00:00+00:00",
    "titulo": "El norte de Córdoba se convierte en el epicentro del motor con el V Rallye Valle del Guadiato",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-open-arena-de-cordoba-coronara-a-las-promesas-del-tenis-andaluz/": {
    "extracto": "La provincia cordobesa acogerá a las jóvenes promesas del tenis postureo y de formación regional. Las instalaciones del Open Arena de Córdoba se convertirán, del 31 de octubre al 4 de noviembre, en la sede única de los Campeonatos de Andalucía en las categorías Sub 9, Sub 11, Sub 13 y Sub 15.",
    "fecha": "2026-10-24T12:00:00+00:00",
    "titulo": "El Open Arena de Córdoba coronará a las promesas del tenis andaluz",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-real-club-mediterraneo-domina-el-inicio-de-la-xiii-liga-andaluza-de-remo-en-banco-fijo/": {
    "extracto": "El remo andaluz ha dado el pistoletazo de salida a la temporada 2026/2027 con la celebración de la primera regata de la XIII Liga Andaluza de banco fijo en llaut. El evento, celebrado este pasado fin de semana en las aguas de El Palo, reunió a 400 deportistas pertenecientes a 11 clubes de las provincias de Málaga y Cádiz, en una jornada donde el Real Club Mediterráneo se coronó como el gran dominador de la prueba.",
    "fecha": "2026-10-26T12:00:00+00:00",
    "titulo": "El Real Club Mediterráneo domina el inicio de la XIII Liga Andaluza de remo en banco fijo",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-real-club-nautico-de-cadiz-rinde-emotivo-homenaje-a-javier-vallejo-mazinger-en-la-iii-regata-timon-de-roche/": {
    "extracto": "Las aguas del Real Club Náutico de Cádiz acogieron el pasado fin de semana la tercera edición de la Gran Regata Timón de Roche, una cita de la clase DF65 de vela radiocontrol marcada por la deportividad y la emoción. Este año, el torneo adquirió un significado especial al convertirse en el Memorial Javier Vallejo «Mazinger», en recuerdo y tributo al recientemente fallecido navegante gaditano.",
    "fecha": "2026-10-23T12:00:00+00:00",
    "titulo": "El Real Club Náutico de Cádiz rinde emotivo homenaje a Javier Vallejo «Mazinger» en la III Regata Timón de Roche",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-recreativo-ies-la-orden-asalta-arjonilla-y-se-coloca-lider-del-top-10-iberdrola/": {
    "extracto": "El bádminton andaluz ha contado este pasado sábado con tres representantes entre los protagonistas del TOP-10 Iberdrola, en una jornada marcada por el derbi autonómico entre el Arjonilla y el Recreativo IES La Orden. El conjunto onubense se llevó el triunfo a domicilio por un contundente 1-6, un resultado que le permite situarse en lo más alto de la clasificación. Por su parte, el CDB Huelva no pudo hacerse fuerte en casa y cedió ante el CB Pitiús por 2-5.",
    "fecha": "2026-11-03T12:00:00+00:00",
    "titulo": "El Recreativo IES La Orden asalta Arjonilla y se coloca líder del TOP-10 Iberdrola",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-rio-guadalquivir-y-la-costa-de-motril-se-convierten-en-la-capital-de-la-vela-andaluza-este-fin-de-semana/": {
    "extracto": "La vela andaluza vivirá este fin de semana del 24 y 25 de octubre una intensa doble jornada de competición autonómica. El río Guadalquivir y la costa granadina serán los escenarios principales de dos de las grandes citas del calendario regional: el Campeonato de Andalucía de Aguas Interiores para la clase Optimist y la Copa de Andalucía de la clase Snipe.",
    "fecha": "2026-10-24T12:00:00+00:00",
    "titulo": "El río Guadalquivir y la costa de Motril se convierten en la capital de la vela andaluza este fin de semana",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-sevillano-alfonso-murube-roza-el-podio-sub16-en-la-copa-de-espana-de-ilca-4/": {
    "extracto": "El regatista andaluz Alfonso Murube, perteneciente a la disciplina del Real Club Náutico de Sevilla, cerró una destacada actuación en la Copa de España de la clase ILCA 4, celebrada este fin de semana en aguas de Mallorca bajo la organización del Reial Club Nàutic Port de Pollença. Murube concluyó en una meritoria sexta posición absoluta y rozó el podio en la categoría Sub16 masculino, donde finalizó cuarto a tan solo un punto del tercer cajón.",
    "fecha": "2026-11-04T12:00:00+00:00",
    "titulo": "El sevillano Alfonso Murube roza el podio Sub16 en la Copa de España de ILCA 4",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-trial-andaluz-brilla-en-el-campeonato-de-espana-disputado-en-ripoll/": {
    "extracto": "La expedición andaluza completó este fin de semana una actuación sobresaliente en la prueba del Campeonato de España de Trial celebrada en Ripoll (Girona). A lo largo de las dos jornadas de dura competición nacional, los pilotos de la comunidad sumaron podios y victorias en varias categorías, situando al trial autonómico entre los grandes protagonistas de la cita.",
    "fecha": "2026-10-29T12:00:00+00:00",
    "titulo": "El trial andaluz brilla en el Campeonato de España disputado en Ripoll",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/el-trops-cueva-de-nerja-arrasa-bajo-la-lluvia-en-el-campeonato-de-andalucia-de-campo-a-traves-en-cartama/": {
    "extracto": "El circuito de El Higuerón de Cártama amaneció el pasado fin de semana marcado por la adversidad meteorológica, pero ni la intensa tromba de agua ni el consiguiente barro lograron frenar la emoción del Campeonato de Andalucía de Campo a Través por Clubes. La cita congregó a más de 1.000 atletas inscritos, quienes no solo compitieron por los codiciados metales autonómicos, sino también por una plaza para el prestigioso Campeonato de España de Atapuerca.",
    "fecha": "2026-11-03T12:00:00+00:00",
    "titulo": "El Trops-Cueva de Nerja arrasa bajo la lluvia en el Campeonato de Andalucía de Campo a Través en Cártama",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/espana-firma-un-historico-subcampeonato-mundial-en-qingdao-con-dos-oros-y-un-bronce/": {
    "extracto": "La selección española de remo de la modalidad olímpica beach sprint ha cerrado este martes con un balance histórico su participación en el Campeonato del Mundo celebrado en las aguas del Mar Amarillo, en la Playa Dorada de Qingdao. El equipo nacional ha conquistado el subcampeonato mundial absoluto tras cosechar dos medallas de oro y una de bronce, resultado que solo superó la delegación anfitriona, China.",
@@ -812,43 +914,43 @@
    "extracto": "Huelva acoge desde el 31 de octubre hasta el 1 de noviembre una de las citas más destacadas del calendario nacional de bádminton: el Máster n4 Sub-15 y Sub-19 «Ciudad de Huelva». La competición, que reúne a las jóvenes promesas de este deporte, cuenta con el respaldo organizativo de la Federación Española y la Andaluza de Bádminton, así como con el patrocinio institucional de la Junta de Andalucía, el Ayuntamiento de Huelva y la Diputación Provincial.",
    "fecha": "2026-10-29T12:00:00+00:00",
    "titulo": "Huelva se convierte en el epicentro nacional del bádminton base con la celebración del Máster n4 Sub-15 y Sub-19",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/jaen-corona-a-los-primeros-campeones-de-la-liga-hibrida-andalucia-by-ruster/": {
    "extracto": "La competición, impulsada por RUSTER y con la dirección técnica de Training For Gold, dirigido por Blanca Manchón y Manuel Halcón, ha recorrido Sevilla, Málaga y Córdoba antes de llegar a su desenlace en Jaén. El circuito combina carreras con ejercicios de fuerza y resistencia, y cuenta con modalidades individuales, por parejas y relevos. Además de los títulos individuales, Carla Monguió y Vanessa Sanchidrián ganaron en parejas femeninas; Miguel Ángel Muñoz y Samuel Lay, en parejas masculinas; Jesús Prieto e Inés Castaño, en parejas mixtas, y el equipo Full Hybrid se impuso en relevos. TFG obtuvo la mejor puntuación por box.",
    "fecha": "2026-10-27T12:00:00+00:00",
    "titulo": "Jaén corona a los primeros campeones de la Liga Híbrida Andalucía by RUSTER",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/jerez-decide-los-nuevos-campeones-en-el-final-de-temporada-del-esbk/": {
    "extracto": "El Circuito de Jerez Ángel Nieto se convierte este fin de semana en el epicentro del motociclismo nacional al acoger, el sábado 31 de octubre y el domingo 1 de noviembre, la gran cita final del Campeonato de España de Superbike. Organizada por la Real Federación Motociclista Española, esta séptima y última prueba del certamen llega al trazado andaluz para proclamar a los campeones de las categorías que aún permanecen abiertas tras una temporada disputada en trazados como Navarra, Estoril, MotorLand Aragón y Valencia.",
    "fecha": "2026-10-31T12:00:00+00:00",
    "titulo": "Jerez decide los nuevos campeones en el final de temporada del ESBK",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/jesus-rios-da-el-salto-al-intact-gp-para-disputar-el-mundial-de-moto3-en-2027/": {
    "extracto": "El mercado de fichajes del Campeonato del Mundo de Moto3 sigue moviéndose de cara a la temporada 2027. El joven piloto andaluz Jesús Ríos dará un salto cualitativo en su carrera deportiva tras confirmarse su incorporación al LIQUI MOLY Dynavolt Intact GP, uno de los equipos de referencia de la categoría pequeña del Mundial.",
    "fecha": "2026-10-24T12:00:00+00:00",
    "titulo": "Jesús Ríos da el salto al Intact GP para disputar el Mundial de Moto3 en 2027",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/jose-de-linares-y-jimena-colon-se-coronan-campeones-de-andalucia-de-aguas-interiores-en-el-guadalquivir/": {
    "extracto": "El río Guadalquivir a su paso por la capital hispalense fue el escenario este fin de semana del Campeonato de Andalucía de Aguas Interiores de la clase Optimist, una cita marcada por la escasez de viento que obligó a exprimir al máximo cada racha para proclamar a los nuevos campeones autonómicos: José de Linares (RC El Candado) y Jimena Colón (RCN de Sanlúcar de Barrameda).",
    "fecha": "2026-10-27T12:00:00+00:00",
    "titulo": "José de Linares y Jimena Colón se coronan campeones de Andalucía de Aguas Interiores en el Guadalquivir",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/juan-alberto-munoz-firma-la-mejor-tarjeta-en-el-pequecircuito-de-andalucia-en-la-envia/": {
    "extracto": "El campo de La Envía Golf acogió una nueva jornada del Pequecircuito de Andalucía 2026, correspondiente a la Zona E. Una treintena de jóvenes golfistas se dieron cita en el trazado almeriense en un torneo que busca consolidar el aprendizaje y fomentar la práctica competitiva entre las categorías de formación del golf autonómico.",
    "fecha": "2026-10-30T12:00:00+00:00",
    "titulo": "Juan Alberto Muñoz firma la mejor tarjeta en el Pequecircuito de Andalucía en La Envía",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/la-federacion-andaluza-de-taekwondo-convoca-a-sus-jovenes-talentos-para-preparar-el-campeonato-de-espana-infantil-de-poomsae/": {
    "extracto": "La Federación Andaluza de Taekwondo ha convocado a un grupo de jóvenes deportistas para participar en una concentración de entrenamiento de Poomsae de categoría infantil, dentro de la preparación para el Campeonato de España.",
    "fecha": "2026-10-29T12:00:00+00:00",
    "titulo": "La Federación Andaluza de Taekwondo convoca a sus jóvenes talentos para preparar el Campeonato de España Infantil de Poomsae",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/la-regata-sevilla-betis-prepara-su-60-edicion-con-llegada-a-la-torre-del-oro-y-retransmision-en-directo/": {
    "extracto": "La Regata Sevilla-Betis ya ha comenzado a calentar motores para una edición especial. La histórica prueba de remo ha presentado este miércoles el cartel de su 60ª edición, que se disputará el próximo 14 de noviembre y volverá a tener la Torre del Oro como punto de llegada. El derbi del Guadalquivir mantendrá su formato de seis regatas clásicas y contará con retransmisión en directo de Televisión Española y Canal Sur.",
@@ -860,31 +962,37 @@
    "extracto": "El pickleball español vivirá un hito histórico este fin de semana con la celebración del primer Campeonato de España por Selecciones Autonómicas. Andalucía formará parte de esta cita pionera que se disputará los días 31 de octubre y 1 de noviembre en las instalaciones del Centro Municipal de Tennis Vall d’Hebron, en Barcelona.",
    "fecha": "2026-10-27T12:00:00+00:00",
    "titulo": "La selección andaluza de pickleball hace historia y debutará en el primer Campeonato por Selecciones Autonómicas",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/los-andaluces-pedro-nieto-y-javi-martinez-conquistan-la-copa-potter-45-con-espana/": {
    "extracto": "El tenis andaluz vuelve a estar de enhorabuena en el plano internacional. Los jugadores Pedro Nieto y Javi Martínez se han proclamado campeones de la 53ª edición de la Copa Potter +45 como integrantes de la selección del IC España, tras imponerse a Italia por un claro 4-1 en la gran final disputada en el Real Club de Polo de Barcelona.",
    "fecha": "2026-10-26T12:00:00+00:00",
    "titulo": "Los andaluces Pedro Nieto y Javi Martínez conquistan la Copa Potter +45 con España",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
+  },
+  "https://www.muchodeporte.com/deporte-andaluz/madrid-impone-su-eficacia-ante-una-andalucia-m17-que-peleo-hasta-el-final-en-la-cartuja-17-29/": {
+   "extracto": "La selección madrileña femenina sub-17 de rugby XV impuso su pegada en las Instalaciones Deportivas La Cartuja tras vencer por 17-29 a la selección andaluza en la fase principal del Campeonato de España de Selecciones Autonómicas (CESA). Pese al empuje final del conjunto anfitrión, respaldado en el campo B por cerca de 200 espectadores, la brillante actuación de Daniela Segura, autora de un hat-trick de ensayos, terminó por desequilibrar el choque a favor de las visitantes.",
+   "fecha": "2026-11-05T12:00:00+00:00",
+   "titulo": "Madrid impone su eficacia ante una Andalucía M17 que peleó hasta el final en La Cartuja (17-29)",
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/malaga-acoge-el-inicio-de-la-xiii-liga-andaluza-de-remo-en-banco-fijo-con-400-participantes/": {
    "extracto": "El remo en banco fijo andaluz vuelve a la competición este fin de semana con el arranque del circuito autonómico 2026/2027. La XIII edición de la Liga Andaluza de llaut arrancará este sábado en la Playa de El Palo (Málaga), donde se citarán 400 deportistas pertenecientes a 11 clubes de las provincias de Málaga y Cádiz.",
    "fecha": "2026-10-23T12:00:00+00:00",
    "titulo": "Málaga acoge el inicio de la XIII Liga Andaluza de remo en banco fijo con 400 participantes",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/sara-guerrero-y-cristina-jimenez-orta-firman-un-doble-podio-espanol-en-la-copa-de-europa-de-triatlon-de-ibiza/": {
    "extracto": "El triatlón español femenino ha cerrado con grandes resultados su participación en la Copa de Europa de Santa Eulària des Riu (Ibiza). La competición, última prueba del circuito internacional celebrada en España en 2026, ha dejado un doble podio nacional gracias a las actuaciones de Sara Guerrero Manso, medalla de plata, y la sevillana Cristina Jiménez-Orta Guerrero, que ha conseguido el bronce. La victoria ha sido para la checa Heidi Juránková, con un tiempo de 57:13.",
    "fecha": "2026-11-03T12:00:00+00:00",
    "titulo": "Sara Guerrero y Cristina Jiménez-Orta firman un doble podio español en la Copa de Europa de Triatlón de Ibiza",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   },
   "https://www.muchodeporte.com/deporte-andaluz/sevilla-lidera-el-plan-andalucia-olimpica-2026-con-105-premios-para-impulsar-el-deporte-de-rendimiento/": {
    "extracto": "El deporte sevillano vuelve a demostrar su peso dentro del panorama andaluz. La provincia de Sevilla encabeza la distribución territorial del Plan Andalucía Olímpica 2026, con un total de 105 premios, la cifra más elevada de toda la comunidad. Una convocatoria que refuerza el apoyo al deporte de alto rendimiento y que tiene como principal horizonte los Juegos Olímpicos y Paralímpicos de Los Ángeles 2028.",
    "fecha": "2026-11-04T12:00:00+00:00",
    "titulo": "Sevilla lidera el Plan Andalucía Olímpica 2026 con 105 premios para impulsar el deporte de rendimiento",
-   "visto": "2026-11-04"
+   "visto": "2026-11-05"
   }
  }
 }
