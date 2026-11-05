@@ -45,7 +45,9 @@
   details.tarjeta summary { cursor: pointer; font-weight: 600; }
   #formulario-token { margin-top: 8px; }
   #formulario-combinar { flex-direction: column; align-items: stretch; }
-  #direcciones-combinado { resize: vertical; min-height: 5.5em; }
+  /* En una columna, «flex: 1 1 280px» fijaría la ALTURA a 280 px: aquí cada campo mide lo que le corresponde. */
+  #formulario-combinar input[type=text], #direcciones-combinado { flex: 0 0 auto; padding: 8px 12px; }
+  #direcciones-combinado { resize: none; }
   #bloque-feeds-existentes h3 { font-size: .9rem; margin: 8px 0 0; }
   .lista-combinar { display: flex; flex-direction: column; gap: 6px; max-height: 260px; overflow: auto;
                     padding: 8px 0; }
@@ -105,9 +107,9 @@
       solo pasan las entradas cuyo título, extracto o dirección contienen alguna de las palabras (completas: «caja» no
       coincide con «Cajasol»).</p>
     <form id="formulario-combinar">
-      <textarea id="direcciones-combinado" rows="4" maxlength="1500" autocomplete="off" autocapitalize="off"
-                spellcheck="false" aria-label="Direcciones de las webs, una por línea"
-                placeholder="https://www.abc.es/deportes/sevilla/&#10;https://www.muchodeporte.com/deporte-andaluz/"></textarea>
+      <textarea id="direcciones-combinado" rows="5" maxlength="1500" autocomplete="off" autocapitalize="off"
+                spellcheck="false" aria-label="Direcciones de las webs, una por línea (de 2 a 5)"
+                placeholder="Haz clic aquí para escribir tus direcciones (una por línea, de 2 a 5)"></textarea>
       <div id="bloque-feeds-existentes" hidden>
         <h3>O suma feeds que ya tienes en «Mis feeds»</h3>
         <div id="lista-combinar" class="lista-combinar"></div>
