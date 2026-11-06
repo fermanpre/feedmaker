@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-06T15:20:01+00:00",
- "llamadas_ia": 2,
+ "generado": "2026-11-06T18:32:09+00:00",
+ "llamadas_ia": 0,
  "sitios": [
   {
-   "actualizado": "2026-11-06T15:19:43+00:00",
+   "actualizado": "2026-11-06T18:31:53+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -14,7 +14,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-06T15:19:47+00:00",
+   "actualizado": "2026-11-06T18:31:57+00:00",
    "con_texto_completo": 44,
    "detalle": "con IA",
    "entradas": 44,
@@ -26,7 +26,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-06T15:19:54+00:00",
+   "actualizado": "2026-11-06T18:32:00+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -34,6 +34,17 @@
    "id": "xataka-com",
    "nombre": "www.xataka.com",
    "url": "https://www.xataka.com",
+   "user_agent": "feedmaker"
+  },
+  {
+   "actualizado": "2026-11-06T18:32:06+00:00",
+   "detalle": "la web ya tiene feed: suscríbete a ese",
+   "entradas": 0,
+   "estado": "feed_propio",
+   "feed_propio": "https://www.abc.es/rss/2.0/sevilla/",
+   "id": "abc-es-sevilla-ciudad",
+   "nombre": "www.abc.es/sevilla/ciudad",
+   "url": "https://www.abc.es/sevilla/ciudad",
    "user_agent": "feedmaker"
   }
  ]

@@ -16,5 +16,11 @@
     "nombre": "www.xataka.com",
     "url": "https://www.xataka.com",
     "texto_completo": true
+  },
+  {
+    "id": "abc-es-sevilla-ciudad",
+    "nombre": "www.abc.es/sevilla/ciudad",
+    "url": "https://www.abc.es/sevilla/ciudad",
+    "texto_completo": true
   }
 ]
