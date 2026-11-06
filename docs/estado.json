@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-06T15:19:26+00:00",
- "llamadas_ia": 1,
+ "generado": "2026-11-06T15:20:01+00:00",
+ "llamadas_ia": 2,
  "sitios": [
   {
-   "actualizado": "2026-11-06T15:18:28+00:00",
+   "actualizado": "2026-11-06T15:19:43+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -14,15 +14,26 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-06T15:18:32+00:00",
-   "con_texto_completo": 43,
-   "detalle": "con IA; listado por enlaces (las tarjetas no daban nada)",
-   "entradas": 43,
+   "actualizado": "2026-11-06T15:19:47+00:00",
+   "con_texto_completo": 44,
+   "detalle": "con IA",
+   "entradas": 44,
    "estado": "ok",
    "feed_propio": "",
    "id": "muchodeporte-com",
    "nombre": "muchodeporte.com",
    "url": "https://muchodeporte.com",
+   "user_agent": "feedmaker"
+  },
+  {
+   "actualizado": "2026-11-06T15:19:54+00:00",
+   "detalle": "la web ya tiene feed: suscríbete a ese",
+   "entradas": 0,
+   "estado": "feed_propio",
+   "feed_propio": "https://www.xataka.com/feedburner.xml",
+   "id": "xataka-com",
+   "nombre": "www.xataka.com",
+   "url": "https://www.xataka.com",
    "user_agent": "feedmaker"
   }
  ]

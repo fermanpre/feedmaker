@@ -10,5 +10,11 @@
     "nombre": "muchodeporte.com",
     "url": "https://muchodeporte.com",
     "texto_completo": true
+  },
+  {
+    "id": "xataka-com",
+    "nombre": "www.xataka.com",
+    "url": "https://www.xataka.com",
+    "texto_completo": true
   }
 ]

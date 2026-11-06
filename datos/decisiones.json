@@ -2,5 +2,19 @@
  "elpais-com": {
   "feed_generico": false
  },
- "muchodeporte-com": {}
+ "muchodeporte-com": {
+  "enlaces": {
+   "https://www.muchodeporte.com/agenda/60-regata-sevilla-betis/": "ok",
+   "https://www.muchodeporte.com/agenda/ii-edicion-evento-solidario-infantil-aspace-sevilla/": "ok",
+   "https://www.muchodeporte.com/agenda/viii-carrera-solidaria-crecer-con-futuro-2026-10-15/": "ok",
+   "https://www.muchodeporte.com/agenda/xix-carrera-de-la-mujer-central-lechera-asturiana-de-sevilla/": "ok",
+   "https://www.muchodeporte.com/agenda/xliv-cross-internacional-de-italica/": "ok",
+   "https://www.muchodeporte.com/agenda/xxx-memorial-miguel-angel-gomez-campuzano/": "ok",
+   "https://www.muchodeporte.com/hoy-es-noticia/cambio-de-fecha-la-media-maraton-sevilla-los-palacios-se-celebrara-finalmente-el-domingo-20-de-diciembre/": "ok"
+  },
+  "firma": "div.draggable.slick-list > article.NOTICIA"
+ },
+ "xataka-com": {
+  "feed_generico": false
+ }
 }
