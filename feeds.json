@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": "elpais-com",
+    "nombre": "www.elpais.com",
+    "url": "https://www.elpais.com",
+    "texto_completo": true
+  }
+]
