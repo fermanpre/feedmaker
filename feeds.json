@@ -4,5 +4,11 @@
     "nombre": "www.elpais.com",
     "url": "https://www.elpais.com",
     "texto_completo": true
+  },
+  {
+    "id": "muchodeporte-com",
+    "nombre": "muchodeporte.com",
+    "url": "https://muchodeporte.com",
+    "texto_completo": true
   }
 ]

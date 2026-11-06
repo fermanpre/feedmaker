@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-06T15:16:58+00:00",
- "llamadas_ia": 0,
+ "generado": "2026-11-06T15:19:26+00:00",
+ "llamadas_ia": 1,
  "sitios": [
   {
-   "actualizado": "2026-11-06T15:16:54+00:00",
+   "actualizado": "2026-11-06T15:18:28+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -11,7 +11,19 @@
    "id": "elpais-com",
    "nombre": "www.elpais.com",
    "url": "https://www.elpais.com",
-   "user_agent": "navegador"
+   "user_agent": "feedmaker"
+  },
+  {
+   "actualizado": "2026-11-06T15:18:32+00:00",
+   "con_texto_completo": 43,
+   "detalle": "con IA; listado por enlaces (las tarjetas no daban nada)",
+   "entradas": 43,
+   "estado": "ok",
+   "feed_propio": "",
+   "id": "muchodeporte-com",
+   "nombre": "muchodeporte.com",
+   "url": "https://muchodeporte.com",
+   "user_agent": "feedmaker"
   }
  ]
 }
