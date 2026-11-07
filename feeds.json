@@ -22,5 +22,11 @@
     "nombre": "www.abc.es/sevilla/ciudad",
     "url": "https://www.abc.es/sevilla/ciudad",
     "texto_completo": true
+  },
+  {
+    "id": "elpais-com-espana",
+    "nombre": "elpais.com/espana",
+    "url": "https://elpais.com/espana",
+    "texto_completo": true
   }
 ]
