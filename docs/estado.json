@@ -1,20 +1,20 @@
 {
- "generado": "2026-11-07T10:30:18+00:00",
+ "generado": "2026-11-07T11:48:03+00:00",
  "llamadas_ia": 0,
  "sitios": [
   {
-   "actualizado": "2026-11-07T10:29:00+00:00",
-   "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
+   "actualizado": "2026-11-07T11:47:44+00:00",
+   "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
-   "estado": "error",
-   "feed_propio": "",
+   "estado": "feed_propio",
+   "feed_propio": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/us/portada",
    "id": "elpais-com",
    "nombre": "www.elpais.com",
    "url": "https://www.elpais.com",
    "user_agent": "navegador"
   },
   {
-   "actualizado": "2026-11-07T10:29:22+00:00",
+   "actualizado": "2026-11-07T11:47:48+00:00",
    "con_texto_completo": 44,
    "detalle": "con IA",
    "entradas": 44,
@@ -26,7 +26,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-07T10:29:25+00:00",
+   "actualizado": "2026-11-07T11:47:51+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -37,7 +37,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-07T10:29:32+00:00",
+   "actualizado": "2026-11-07T11:47:57+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -48,29 +48,33 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-07T10:29:34+00:00",
-   "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
+   "actualizado": "2026-11-07T11:48:00+00:00",
+   "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
-   "estado": "error",
-   "feed_propio": "",
+   "estado": "feed_propio",
+   "feed_propio": "https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/section/espana",
    "id": "elpais-com-espana",
    "nombre": "elpais.com/espana",
    "url": "https://elpais.com/espana",
-   "user_agent": "navegador"
+   "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-07T10:29:56+00:00",
-   "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
+   "actualizado": "2026-11-07T11:48:02+00:00",
+   "detalle": "esta dirección es un artículo suelto, no un listado de noticias: prueba con la sección o la etiqueta que lo contiene",
    "entradas": 0,
+   "es_articulo": true,
    "estado": "error",
    "feed_propio": "",
    "id": "elpais-com-espana-2026-11-07-se-mueven-las-encuest",
    "nombre": "elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
+   "sugerencias": [
+    "https://elpais.com/espana/"
+   ],
    "url": "https://elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
-   "user_agent": "navegador"
+   "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-07T10:30:18+00:00",
+   "actualizado": "2026-11-07T11:48:03+00:00",
    "detalle": "no se ha podido leer el robots.txt de la web (error de red, de certificado o del servidor): por precaución no se descarga",
    "entradas": 0,
    "estado": "error",
