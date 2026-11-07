@@ -28,5 +28,11 @@
     "nombre": "elpais.com/espana",
     "url": "https://elpais.com/espana",
     "texto_completo": true
+  },
+  {
+    "id": "elpais-com-espana-2026-11-07-se-mueven-las-encuest",
+    "nombre": "elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
+    "url": "https://elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
+    "texto_completo": true
   }
 ]
