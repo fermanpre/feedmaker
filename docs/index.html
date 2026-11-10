@@ -447,11 +447,57 @@
     return "https://" + texto.replace(/^\/+/, "");
   }
 
+  // Búsqueda de Google Noticias (google.com/search?tbm=nws&q=… o news.google.com/search?q=…): Google prohíbe en su robots.txt
+  // rastrear /search, así que Feedmaker no la lee; pero Google publica el feed de esa misma búsqueda. Aquí solo se construye
+  // la dirección (no se descarga nada): quien la use la pega en su lector. Devuelve "" si no es una búsqueda de noticias.
+  function feedDeGoogleNoticias(texto) {
+    var direccion;
+    try { direccion = new URL(texto); } catch (error) { return ""; }
+    var anfitrion = direccion.hostname.toLowerCase();
+    var esGoogle = /^(www\.)?google\.[a-z]{2,3}(\.[a-z]{2})?$/.test(anfitrion);
+    var esNoticias = anfitrion === "news.google.com";
+    if (!(esGoogle && direccion.pathname === "/search" && direccion.searchParams.get("tbm") === "nws") &&
+        !(esNoticias && direccion.pathname === "/search")) { return ""; }
+    var busqueda = (direccion.searchParams.get("q") || "").trim();
+    if (!busqueda) { return ""; }
+    var idioma = direccion.searchParams.get("hl") || "es";
+    var pais = direccion.searchParams.get("gl") || "ES";
+    var edicion = direccion.searchParams.get("ceid") || (pais.toUpperCase() + ":" + idioma.split("-")[0].toLowerCase());
+    return "https://news.google.com/rss/search?q=" + encodeURIComponent(busqueda).replace(/%20/g, "+") +
+           "&hl=" + encodeURIComponent(idioma) + "&gl=" + encodeURIComponent(pais) + "&ceid=" + encodeURIComponent(edicion).replace(/%3A/gi, ":");
+  }
+
+  function mostrarFeedDeGoogleNoticias(urlDelFeed) {
+    resultado.textContent = "";
+    var tarjeta = crearElemento("div", "", "tarjeta");
+    tarjeta.appendChild(crearElemento("div", "Búsqueda de Google Noticias", ""));
+    tarjeta.firstChild.style.fontWeight = "600";
+    tarjeta.appendChild(crearElemento("div", "Feedmaker no puede leer esta dirección, porque Google no permite que un programa " +
+      "rastree sus búsquedas. Pero Google publica un feed para esa misma búsqueda: pégalo tal cual en tu lector (o usa el botón).",
+      "meta estado-aviso"));
+    tarjeta.appendChild(crearElemento("code", urlDelFeed));
+    var acciones = crearElemento("div", "", "acciones");
+    var enlace = crearElemento("a", "Añadir a Feedly", "boton");
+    enlace.href = enlaceFeedly(urlDelFeed);
+    enlace.target = "_blank";
+    enlace.rel = "noopener";
+    acciones.appendChild(enlace);
+    acciones.appendChild(botonCopiar(urlDelFeed));
+    tarjeta.appendChild(acciones);
+    resultado.appendChild(tarjeta);
+  }
+
   document.getElementById("formulario").addEventListener("submit", function (evento) {
     evento.preventDefault();
     var url = completarEsquema(campoUrl.value.trim());
     if (!urlValida(url)) {
       mensaje.textContent = "La URL debe empezar por https:// y ser una dirección web normal (sin IP ni puerto).";
+      return;
+    }
+    var feedDeGoogle = feedDeGoogleNoticias(url);
+    if (feedDeGoogle) {
+      mensaje.textContent = "";
+      mostrarFeedDeGoogleNoticias(feedDeGoogle);
       return;
     }
     resultado.textContent = "";
@@ -601,6 +647,10 @@
       var direccion = completarEsquema(trozos[i]);
       if (!urlValida(direccion)) {
         return { error: "«" + trozos[i].slice(0, 60) + "» no es una dirección válida: debe ser https:// y una web normal (sin IP ni puerto)." };
+      }
+      if (feedDeGoogleNoticias(direccion)) {
+        return { error: "«" + trozos[i].slice(0, 60) + "» es una búsqueda de Google Noticias y no se puede combinar. " +
+                        "Quítala de aquí y pega este feed directamente en tu lector: " + feedDeGoogleNoticias(direccion) };
       }
       if (!vistas[normalizarUrl(direccion)]) {
         vistas[normalizarUrl(direccion)] = true;

@@ -141,6 +141,15 @@ noticias relacionadas. Se avisa y se sugieren los listados que enlaza (la carpet
 un botón «Usar esta» en la página. En una muestra de 88 listados no marcó ninguno por error, pero no detecta todos los
 artículos (los que no traen ninguna marca estándar siguen como antes). `es_listado: true` en `feeds.json` desactiva el aviso.
 
+## Búsquedas de Google Noticias
+
+Google prohíbe en su `robots.txt` rastrear `/search`, así que Feedmaker no lee una búsqueda de Google Noticias
+(`google.com/search?q=…&tbm=nws`, o `news.google.com/search?q=…`). En lugar de dar de alta una web que acabaría en error, la
+página reconoce la dirección en el navegador (sin descargar nada) y enseña el feed que Google publica para esa misma búsqueda,
+`https://news.google.com/rss/search?q=…&hl=es&gl=ES&ceid=ES:es`, con un botón de Feedly y otro para copiarlo. Respeta `hl`, `gl` y
+`ceid` si el enlace los trae. Ese feed no pasa por Feedmaker: no tiene historial propio ni texto completo, y no se puede incluir en
+un combinado (la página lo avisa).
+
 ## Fechas que faltan
 
 Si a menos del 60 % de las entradas de una web les consta la fecha, se busca entrando en cada artículo (una descarga por
