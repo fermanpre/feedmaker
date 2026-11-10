@@ -3,17 +3,6 @@
  "llamadas_ia": 0,
  "sitios": [
   {
-   "actualizado": "2026-11-10T13:34:39+00:00",
-   "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
-   "entradas": 0,
-   "estado": "error",
-   "feed_propio": "",
-   "id": "elpais-com",
-   "nombre": "www.elpais.com",
-   "url": "https://www.elpais.com",
-   "user_agent": "navegador"
-  },
-  {
    "actualizado": "2026-11-10T13:35:02+00:00",
    "con_texto_completo": 44,
    "detalle": "con IA",
@@ -45,50 +34,6 @@
    "id": "abc-es-sevilla-ciudad",
    "nombre": "www.abc.es/sevilla/ciudad",
    "url": "https://www.abc.es/sevilla/ciudad",
-   "user_agent": "feedmaker"
-  },
-  {
-   "actualizado": "2026-11-10T13:35:15+00:00",
-   "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
-   "entradas": 0,
-   "estado": "error",
-   "feed_propio": "",
-   "id": "elpais-com-espana",
-   "nombre": "elpais.com/espana",
-   "url": "https://elpais.com/espana",
-   "user_agent": "navegador"
-  },
-  {
-   "actualizado": "2026-11-10T13:35:37+00:00",
-   "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
-   "entradas": 0,
-   "estado": "error",
-   "feed_propio": "",
-   "id": "elpais-com-espana-2026-11-07-se-mueven-las-encuest",
-   "nombre": "elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
-   "url": "https://elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
-   "user_agent": "navegador"
-  },
-  {
-   "actualizado": "2026-11-10T13:35:59+00:00",
-   "detalle": "no se ha podido leer el robots.txt de la web (error de red, de certificado o del servidor): por precaución no se descarga",
-   "entradas": 0,
-   "estado": "error",
-   "feed_propio": "",
-   "id": "silverbulletin-net",
-   "nombre": "silverbulletin.net",
-   "url": "https://silverbulletin.net",
-   "user_agent": "feedmaker"
-  },
-  {
-   "actualizado": "2026-11-10T13:36:00+00:00",
-   "detalle": "robots.txt lo prohíbe",
-   "entradas": 0,
-   "estado": "error",
-   "feed_propio": "",
-   "id": "google-com-search",
-   "nombre": "www.google.com/search",
-   "url": "https://www.google.com/search?client=ms-android-samsung-ss&hs=KUyq&sca_esv=65004a4481887a1a&sxsrf=AKL5yDjLsSiWOYRyeIvwfW7ur9J8UTZZZA:1794299720461&q=accem&tbm=nws&source=lnms&fbs=ACAhTvxDTS-ni9snbvXAFbgMPtDHHUOrMMD94RIopvocq8JOAcjjyZbraCz2xDofa-xAfvFgr1Xc_n1ytVd_E6ugZQbLJ8u_gG4D1cgwIDh9cNuiH3FEyV5WR23K73FShi1htzn8pmJc8UJNPSPefHsugMycdjtOzLK9t3l2ZsiXMW5-iZFRyns0GeeT7U_lsTPu6mmmkX6o&sa=X&ved=2ahUKEwjrpNWr__yXAxXd1AIHHeNaBvgQ0pQJegQIHhAB&biw=411&bih=776&dpr=2.63",
    "user_agent": "feedmaker"
   }
  ]

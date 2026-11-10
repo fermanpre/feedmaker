@@ -1,11 +1,5 @@
 [
   {
-    "id": "elpais-com",
-    "nombre": "www.elpais.com",
-    "url": "https://www.elpais.com",
-    "texto_completo": true
-  },
-  {
     "id": "muchodeporte-com",
     "nombre": "muchodeporte.com",
     "url": "https://muchodeporte.com",
@@ -21,30 +15,6 @@
     "id": "abc-es-sevilla-ciudad",
     "nombre": "www.abc.es/sevilla/ciudad",
     "url": "https://www.abc.es/sevilla/ciudad",
-    "texto_completo": true
-  },
-  {
-    "id": "elpais-com-espana",
-    "nombre": "elpais.com/espana",
-    "url": "https://elpais.com/espana",
-    "texto_completo": true
-  },
-  {
-    "id": "elpais-com-espana-2026-11-07-se-mueven-las-encuest",
-    "nombre": "elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
-    "url": "https://elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
-    "texto_completo": true
-  },
-  {
-    "id": "silverbulletin-net",
-    "nombre": "silverbulletin.net",
-    "url": "https://silverbulletin.net",
-    "texto_completo": true
-  },
-  {
-    "id": "google-com-search",
-    "nombre": "www.google.com/search",
-    "url": "https://www.google.com/search?client=ms-android-samsung-ss&hs=KUyq&sca_esv=65004a4481887a1a&sxsrf=AKL5yDjLsSiWOYRyeIvwfW7ur9J8UTZZZA:1794299720461&q=accem&tbm=nws&source=lnms&fbs=ACAhTvxDTS-ni9snbvXAFbgMPtDHHUOrMMD94RIopvocq8JOAcjjyZbraCz2xDofa-xAfvFgr1Xc_n1ytVd_E6ugZQbLJ8u_gG4D1cgwIDh9cNuiH3FEyV5WR23K73FShi1htzn8pmJc8UJNPSPefHsugMycdjtOzLK9t3l2ZsiXMW5-iZFRyns0GeeT7U_lsTPu6mmmkX6o&sa=X&ved=2ahUKEwjrpNWr__yXAxXd1AIHHeNaBvgQ0pQJegQIHhAB&biw=411&bih=776&dpr=2.63",
     "texto_completo": true
   }
 ]

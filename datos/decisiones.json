@@ -2,12 +2,6 @@
  "abc-es-sevilla-ciudad": {
   "feed_generico": false
  },
- "elpais-com": {
-  "feed_generico": false
- },
- "elpais-com-espana": {
-  "feed_generico": false
- },
  "muchodeporte-com": {
   "enlaces": {
    "https://www.muchodeporte.com/agenda/60-regata-sevilla-betis/": "ok",
