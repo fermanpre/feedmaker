@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-10T13:32:33+00:00",
+ "generado": "2026-11-10T13:36:00+00:00",
  "llamadas_ia": 0,
  "sitios": [
   {
-   "actualizado": "2026-11-10T13:31:29+00:00",
+   "actualizado": "2026-11-10T13:34:39+00:00",
    "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
    "entradas": 0,
    "estado": "error",
@@ -14,7 +14,7 @@
    "user_agent": "navegador"
   },
   {
-   "actualizado": "2026-11-10T13:31:52+00:00",
+   "actualizado": "2026-11-10T13:35:02+00:00",
    "con_texto_completo": 44,
    "detalle": "con IA",
    "entradas": 44,
@@ -26,7 +26,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-10T13:31:55+00:00",
+   "actualizado": "2026-11-10T13:35:06+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -37,7 +37,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-10T13:32:01+00:00",
+   "actualizado": "2026-11-10T13:35:13+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -48,33 +48,29 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-10T13:32:03+00:00",
-   "detalle": "la web ya tiene feed: suscríbete a ese",
+   "actualizado": "2026-11-10T13:35:15+00:00",
+   "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
    "entradas": 0,
-   "estado": "feed_propio",
-   "feed_propio": "https://feeds.elpais.com/mrss-s/list/ep/site/elpais.com/section/espana",
+   "estado": "error",
+   "feed_propio": "",
    "id": "elpais-com-espana",
    "nombre": "elpais.com/espana",
    "url": "https://elpais.com/espana",
    "user_agent": "navegador"
   },
   {
-   "actualizado": "2026-11-10T13:32:29+00:00",
-   "detalle": "esta dirección es un artículo suelto, no un listado de noticias: prueba con la sección o la etiqueta que lo contiene",
+   "actualizado": "2026-11-10T13:35:37+00:00",
+   "detalle": "HTTP 403: la web rechaza la petición (suele ser un bloqueo a las conexiones automáticas desde servidores como los de GitHub)",
    "entradas": 0,
-   "es_articulo": true,
    "estado": "error",
    "feed_propio": "",
    "id": "elpais-com-espana-2026-11-07-se-mueven-las-encuest",
    "nombre": "elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
-   "sugerencias": [
-    "https://elpais.com/espana/"
-   ],
    "url": "https://elpais.com/espana/2026-11-07/se-mueven-las-encuestas-que-ha-cambiado-desde-la-convocatoria-y-tras-el-accidente-de-tren.html",
    "user_agent": "navegador"
   },
   {
-   "actualizado": "2026-11-10T13:32:33+00:00",
+   "actualizado": "2026-11-10T13:35:59+00:00",
    "detalle": "no se ha podido leer el robots.txt de la web (error de red, de certificado o del servidor): por precaución no se descarga",
    "entradas": 0,
    "estado": "error",
@@ -85,7 +81,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-10T13:32:33+00:00",
+   "actualizado": "2026-11-10T13:36:00+00:00",
    "detalle": "robots.txt lo prohíbe",
    "entradas": 0,
    "estado": "error",
