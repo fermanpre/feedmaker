@@ -1,9 +1,9 @@
 {
- "generado": "2026-11-11T12:48:14+00:00",
+ "generado": "2026-11-12T13:50:41+00:00",
  "llamadas_ia": 0,
  "sitios": [
   {
-   "actualizado": "2026-11-11T12:48:03+00:00",
+   "actualizado": "2026-11-12T13:50:30+00:00",
    "con_texto_completo": 44,
    "detalle": "con IA",
    "entradas": 44,
@@ -15,7 +15,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-11T12:48:06+00:00",
+   "actualizado": "2026-11-12T13:50:33+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -26,7 +26,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-11T12:48:12+00:00",
+   "actualizado": "2026-11-12T13:50:39+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
