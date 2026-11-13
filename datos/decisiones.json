@@ -10,9 +10,18 @@
    "https://www.muchodeporte.com/agenda/xix-carrera-de-la-mujer-central-lechera-asturiana-de-sevilla/": "ok",
    "https://www.muchodeporte.com/agenda/xliv-cross-internacional-de-italica/": "ok",
    "https://www.muchodeporte.com/agenda/xxx-memorial-miguel-angel-gomez-campuzano/": "ok",
-   "https://www.muchodeporte.com/hoy-es-noticia/cambio-de-fecha-la-media-maraton-sevilla-los-palacios-se-celebrara-finalmente-el-domingo-20-de-diciembre/": "ok"
+   "https://www.muchodeporte.com/cabildo/sevilla-con-nombre-de-mujer-una-mirada-artistica-a-las-mujeres-que/": "ok",
+   "https://www.muchodeporte.com/club-muchodeporte/dos-hermanas-nazareno-fs/el-ts-nazareno-dos-hermanas-busca-despertar-ante-el-jimbee-cartagena-b-para-recuperar-terreno-en-la-clasificacion/": "ok",
+   "https://www.muchodeporte.com/comunica-y-vende/estadisticas-de-la-tasa-de-ganancias-con-que-frecuencia-obtienen-beneficios-los-jugadores-realmente/": "ok",
+   "https://www.muchodeporte.com/deporte-andaluz/la-sevillana-olivia-sanchez-conquista-la-medalla-de-plata-en-vela-en-los-juegos-olimpicos-de-la-juventud-de-dakar/": "ok",
+   "https://www.muchodeporte.com/hoy-es-noticia/cambio-de-fecha-la-media-maraton-sevilla-los-palacios-se-celebrara-finalmente-el-domingo-20-de-diciembre/": "ok",
+   "https://www.muchodeporte.com/hoy-es-noticia/la-caida-mundial-de-microsoft-365-deja-a-outlook-teams-y-otros-servicios-con-problemas-de-funcionamiento/": "ok",
+   "https://www.muchodeporte.com/opinion/lo-de-broncano/": "ok",
+   "https://www.muchodeporte.com/polideportivo/cajasol-sevilla-bm-proin-se-cita-con-la-historia-en-el-palau-y-abre-una-exigente-trilogia-a-domicilio/": "ok",
+   "https://www.muchodeporte.com/real-betis/asi-jugaron/asi-jugaron-los-futbolistas-del-betis-ante-el-navalcarnero/": "ok",
+   "https://www.muchodeporte.com/sevilla-fc/la-grave-lesion-de-alfon-abre-algo-de-margen-salarial-para-fichar/": "ok"
   },
-  "firma": "div.draggable.slick-list > article.NOTICIA"
+  "firma": "div.wrap-SUPERIOR > div.container-mega"
  },
  "xataka-com": {
   "feed_generico": false
