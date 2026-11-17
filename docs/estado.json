@@ -1,12 +1,12 @@
 {
- "generado": "2026-11-16T13:46:03+00:00",
+ "generado": "2026-11-17T14:37:06+00:00",
  "llamadas_ia": 1,
  "sitios": [
   {
-   "actualizado": "2026-11-16T13:45:47+00:00",
-   "con_texto_completo": 62,
+   "actualizado": "2026-11-17T14:36:50+00:00",
+   "con_texto_completo": 65,
    "detalle": "con IA",
-   "entradas": 63,
+   "entradas": 66,
    "estado": "ok",
    "feed_propio": "",
    "id": "muchodeporte-com",
@@ -15,7 +15,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-16T13:45:55+00:00",
+   "actualizado": "2026-11-17T14:36:57+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
@@ -26,7 +26,7 @@
    "user_agent": "feedmaker"
   },
   {
-   "actualizado": "2026-11-16T13:46:01+00:00",
+   "actualizado": "2026-11-17T14:37:03+00:00",
    "detalle": "la web ya tiene feed: suscríbete a ese",
    "entradas": 0,
    "estado": "feed_propio",
