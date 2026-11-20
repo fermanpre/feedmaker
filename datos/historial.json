@@ -1,10 +1,10 @@
 {
  "muchodeporte-com": {
   "https://www.interwetten.es/es/apuestas-deportivas": {
-   "extracto": "En una parte destacada de la entrevista concedida por Fofana a Muchodeporte , el '24' nervionense fue cuestionado por su cesión a las 23:53 horas del último día del mercado de fichajes y por la opción, según reconoce en esta pieza el propio protagonista, de recalar en el Real Betis Balompié . José Ignacio Navarro, con la insistencia de José María del Nido Carrasco , consiguió la firma del francés a escasos minutos del cierre del mercado, después de que se frustrara su incorporación al Olympique de Lyon.",
-   "fecha": "1999-01-10T12:00:00+00:00",
-   "titulo": "Sevilla FC Patrocinado por:",
-   "visto": "2026-11-19"
+   "extracto": "El Real Betis ha hecho pública la convocatoria de veintitrés jugadores para el derbi ante el Sevilla, que se disputa este sábado, a las 18:30 horas, en el Ramón Sánchez-Pizjuán. Manuel Pellegrini no podrá contar con Dani Ceballos ni con Morante , ambos lesionados, y recupera a Cucho Hernández y a Facundo Bernal .",
+   "fecha": "2026-11-20T12:00:00+00:00",
+   "titulo": "Real Betis Patrocinado por:",
+   "visto": "2026-11-20"
   },
   "https://www.muchodeporte.com/agenda/60-regata-sevilla-betis/": {
    "extracto": "El emblemático río Guadalquivir se prepara para acoger una nueva edición del derbi más tradicional y apasionante del deporte sevillano. La 60ª Regata Sevilla-Betis , que enfrenta anualmente a los equipos de remo del Sevilla FC y del Real Betis Balompié desde 1960, calienta motores para ofrecer una jornada inolvidable tanto a pie de dársena como a través de las pantallas.",
@@ -22,7 +22,7 @@
    "extracto": "El rugby internacional tendrá una parada destacada este fin de semana en Andalucía. Málaga será escenario del enfrentamiento entre España y Samoa, correspondiente a la última jornada de la fase de grupos de la World Rugby Nations Cup. El encuentro se disputará el sábado 21 de noviembre, a las 17:00 horas, en el Estadio Ciudad de Málaga.",
    "fecha": "2026-11-21T12:00:00+00:00",
    "titulo": "Agenda Polideportiva",
-   "visto": "2026-11-19"
+   "visto": "2026-11-20"
   },
   "https://www.muchodeporte.com/agenda/viii-carrera-solidaria-crecer-con-futuro-2026-10-15/": {
    "extracto": "La ONG Crecer con Futuro ha abierto el plazo de inscripción para la VIII edición de su Carrera Solidaria por los Derechos de la Infancia, un evento deportivo y benéfico que se celebrará en el marco natural del Parque de la Dehesa de Doña María.",
@@ -64,7 +64,7 @@
    "extracto": "El Círculo Mercantil e Industrial de Sevilla, en su sede de la calle Sierpes 65, acogerá del 1 al 11 de octubre la exposición colectiva ‘Sevilla con nombre de mujer’, una propuesta que reúne diferentes miradas artísticas sobre mujeres vinculadas a la historia, la cultura y la identidad de Sevilla.",
    "fecha": "2026-10-11T12:00:00+00:00",
    "titulo": "El Cabildo",
-   "visto": "2026-11-19"
+   "visto": "2026-11-20"
   },
   "https://www.muchodeporte.com/club-muchodeporte/coto-crdoba/el-cajasol-coto-cordoba-se-mide-hoy-al-partizan-fuenlabrada-en-vista-alegre-con-el-objetivo-de-transformar-su-solidez-en-puntos/": {
    "extracto": "El Cajasol Coto Córdoba CB afronta hoy en el Palacio Municipal de Deportes Vista Alegre una exigente prueba ante el Partizán Fuenlabrada, uno de los históricos del baloncesto español. En la previa del choque, el técnico local, Gonzalo Rodríguez Palmeiro, ha puesto en valor el crecimiento semanal de su equipo, aunque ha advertido que necesitarán máxima eficacia de cara al aro para doblegar a un adversario de gran oficio.",
@@ -106,13 +106,13 @@
    "extracto": "El nombre GHK-Cu ha dejado de ser una sigla solo para especialistas. Aparece en fichas de ingredientes cosméticos, en foros y, cada vez más, en búsquedas hechas desde ciudades que no son grandes centros universitarios. En las etiquetas de algunas cremas figura como Copper Tripeptide-1; en las revistas científicas, como GHK-Cu. Es la misma molécula: un tripéptido unido a un ion de cobre, estudiado desde los años setenta. La pregunta útil no es si \"funciona\" en abstracto, sino qué se ha medido de verdad, en qué modelos y con qué límites.",
    "fecha": "2026-11-24T12:00:00+00:00",
    "titulo": "GHK-Cu: qué se sabe del péptido de cobre que aparece en cremas y en los laboratorios",
-   "visto": "2026-11-19"
+   "visto": "2026-11-20"
   },
   "https://www.muchodeporte.com/comunica-y-vende/la-importancia-de-la-prevencion-en-las-lesiones-articulares/": {
    "extracto": "Las molestias en la rodilla, el hombro o la cadera no deben pasar desapercibidas. Un diagnóstico temprano y un tratamiento adecuado pueden evitar que una lesión evolucione y condicione la movilidad y la calidad de vida.",
-   "fecha": "2026-11-19T12:00:00+00:00",
+   "fecha": "2026-11-20T12:00:00+00:00",
    "titulo": "Comunica y Vende",
-   "visto": "2026-11-19"
+   "visto": "2026-11-20"
   },
   "https://www.muchodeporte.com/comunica-y-vende/que-es-una-value-bet-y-por-que-acertar-el-resultado-no-significa-haber-decidido-bien/": {
    "extracto": "En el mundo de las apuestas deportivas hay un término en inglés que se repite cada vez más: «value bet», o apuesta de valor. Suena a truco para ganar, pero en realidad describe algo mucho más modesto: una cuota que parece pagar más de lo que vale un resultado. Entender el concepto ayuda a leer las cuotas con otros ojos, sobre todo porque desmonta una idea muy extendida entre los aficionados: que a",
@@ -162,6 +162,12 @@
    "titulo": "Cambio de fecha: la Media Maratón Sevilla-Los Palacios se celebrará finalmente el domingo 20 de diciembre",
    "visto": "2026-11-12"
   },
+  "https://www.muchodeporte.com/hoy-es-noticia/carlos-alcaraz-despeja-las-dudas-fisicas-y-continua-en-las-atp-finals/": {
+   "extracto": "Carlos Alcaraz podrá continuar en las ATP Finals después de que las pruebas médicas realizadas este jueves en Turín hayan descartado una lesión en el isquiotibial de la pierna izquierda. El murciano se sometió a una resonancia magnética tras las molestias que sintió durante su partido contra Daniil Medvedev y, una vez conocidos los resultados, mantiene su planificación para disputar el tercer encuentro de la fase de grupos frente al italiano Flavio Cobolli .",
+   "fecha": "2026-11-20T12:00:00+00:00",
+   "titulo": "Hoy es Noticia",
+   "visto": "2026-11-20"
+  },
   "https://www.muchodeporte.com/hoy-es-noticia/cristiano-ronaldo-anuncia-su-adios-a-la-seleccion-de-portugal-tras-23-anos-de-trayectoria/": {
    "extracto": "El capitán luso pone fin a su carrera internacional después de disputar 234 partidos y marcar 146 goles",
    "fecha": "2026-11-05T12:00:00+00:00",
@@ -197,6 +203,12 @@
    "fecha": "2004-10-27T12:00:00+00:00",
    "titulo": "Disfrutar de un torneo... e intentar ganarlo",
    "visto": "2026-11-18"
+  },
+  "https://www.muchodeporte.com/opinion/el-debate-y-el-derbi-de-las-corbatas/": {
+   "extracto": "Seamos sinceros, la cordialidad vende poco y genera bostezos en la cuenta atrás del derbi. Pero bien está, en la era de los tronados en las redes, que las jerarquías de Sevilla y Betis ofrezcan su posado sonriendo, siquiera ficticiamente, en presencia del alcalde y del presidente de la Diputación .",
+   "fecha": "2004-10-27T12:00:00+00:00",
+   "titulo": "El debate y el derbi de las corbatas",
+   "visto": "2026-11-20"
   },
   "https://www.muchodeporte.com/opinion/indolente-y-con-exceso-de-azucar/": {
    "extracto": "Pues esto, señores, es un petardo en toda regla. Caer así en Getafe tiene poca explicación. Se tienen que dar un montón de factores para que un equipo como el de Bordalás, entregado y sin la menor dosis de calidad, termine volteando el partido de forma contundente. Marcando tres goles en 45 minutos, cuando hasta este domingo había marcado cinco en diez jornadas. Perder 3-1 significa haber hecho la",
@@ -257,6 +269,12 @@
    "fecha": "2026-11-04T12:00:00+00:00",
    "titulo": "El colegio de Bruno Fernández rinde homenaje al campeón del mundo",
    "visto": "2026-11-06"
+  },
+  "https://www.muchodeporte.com/polideportivo/el-contazara-zaragoza-rival-del-cajasol-sevilla-bm-proin-en-la-segunda-ronda-de-la-copa-del-rey/": {
+   "extracto": "El Cajasol Sevilla BM Proin ya conoce definitivamente a su adversario en la segunda eliminatoria de la Copa del Rey. El sorteo celebrado ayer, que tuvo que repetirse este viernes después de que la Real Federación Española de Balonmano anunciara que los emparejamientos iniciales quedaban sin validez, había deparado un enfrentamiento ante el Quireza Events Cisne. Sin embargo, el nuevo sorteo ha emparejado finalmente al conjunto sevillano con el Contazara Zaragoza.",
+   "fecha": "2026-11-20T12:00:00+00:00",
+   "titulo": "El Contazara Zaragoza, rival del Cajasol Sevilla BM Proin en la segunda ronda de la Copa del Rey",
+   "visto": "2026-11-20"
   },
   "https://www.muchodeporte.com/polideportivo/la-rfebm-repetira-manana-el-sorteo-de-la-copa-del-rey/": {
    "extracto": "La Real Federación Española de Balonmano (RFEBM) ha anunciado que el sorteo de la segunda eliminatoria de la Copa del Rey, celebrado este jueves, deberá repetirse mañana viernes. De esta forma, los emparejamientos que se habían determinado en el acto de hoy quedan sin validez.",
@@ -383,6 +401,12 @@
    "fecha": "2026-11-14T12:00:00+00:00",
    "titulo": "Real Betis",
    "visto": "2026-11-14"
+  },
+  "https://www.muchodeporte.com/sevilla-fc/el-derbi-llega-al-mundo-empresarial-con-un-videopodcast-especial-organizado-por-muchodeporte/": {
+   "extracto": "Luis García ha transmitido confianza y fuerza para el partido de este sábado ante el Betis. Aunque habrá que dejar una rendija abierta, parece claro que el Sevilla saldrá con tres mediocentros. Al menos, el entrenador del Sevilla FC lo ha casi confirmado. \"Es gracioso por parte vuestra... ¿Cuántas veces me habéis preguntado que cuándo iba a jugar con dos delanteros? Un partido que no salen bien las cosas y tenemos que volver a los tres... Pues puede ser que sí, pero no por eso. Ya veremos... Con los dos delanteros llevamos uno ganado y uno perdido, y el día del Getafe, con tres en medio, nos remontaron. Jugaremos con tres casi seguro. Casi...\". Éstas fueron otras declaraciones del madrileño:",
+   "fecha": "2026-11-20T12:00:00+00:00",
+   "titulo": "Sevilla FC",
+   "visto": "2026-11-20"
   },
   "https://www.muchodeporte.com/sevilla-fc/la-grave-lesion-de-alfon-abre-algo-de-margen-salarial-para-fichar/": {
    "extracto": "La grave lesión de Alfon abre una posibilidad en los despachos del Sevilla para reforzar el plantel. La normativa de control económico de LALIGA contempla un mecanismo que permite a los clubes liberar parte del salario de un futbolista lesionado durante un periodo prolongado. Una alternativa que la entidad nervionense puede activar tras confirmarse la rotura del ligamento cruzado anterior de la rodilla del atacante manchego.",
